@@ -229,14 +229,14 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: var(--radius-xl);
-  border: 2px solid var(--border-accent);
-  box-shadow: var(--shadow-md), var(--shadow-glow);
+  border-radius: 50%;
+  border: 3px solid var(--accent-cyan);
+  box-shadow: var(--shadow-md), 0 0 25px rgba(56, 189, 248, 0.35);
 }
 
 .status-indicator {
   position: absolute;
-  bottom: -6px;
+  bottom: -8px;
   left: 50%;
   transform: translateX(-50%);
   display: inline-flex;
