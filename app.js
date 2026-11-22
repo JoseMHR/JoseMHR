@@ -27,7 +27,7 @@ const translations = {
     hero: {
       role: "Senior Backend Architect & Java Specialist · Lead Software Engineer",
       status: "En activo · Globant",
-      pillCompany: "🏢 Globant (Actualidad)",
+      pillCompany: "🏢 Globant · Santander (Actualidad)",
       pillLocation: "📍 Madrid / Málaga / Remoto (España)",
       pillEdu: "🎓 Ing. Informática & Máster INFTEL (UMA)",
       pillExp: `⚡ +${expYears} años de experiencia`,
@@ -42,7 +42,7 @@ const translations = {
       title: "Resumen Ejecutivo",
       p1: `<strong>Ingeniero Informático de Sistemas y Máster de Postgrado INFTEL</strong> por la Universidad de Málaga con más de <strong>${expYears} años de experiencia sólida</strong> en el diseño, desarrollo, despliegue y liderazgo de arquitecturas backend empresariales de alta disponibilidad, concurrencia y criticidad operativa.`,
       p2: `Especializado en el <strong>ecosistema Java moderno (Java 8, 17 y 21)</strong>, frameworks <strong>Spring / Spring Boot</strong>, diseño de microservicios resilientes bajo <strong>Arquitectura Hexagonal</strong>, especificación y contratos <strong>ApiFirst</strong>, mensajería reactiva con <strong>Apache Kafka</strong> y entornos de nube híbrida (<strong>Azure, OpenShift, AWS</strong>).`,
-      p3: `Amplio recorrido profesional liderando desarrollos de misión crítica en grandes multinacionales y sectores de alta exigencia: <strong>Banca & Fintech</strong> (ING, BNP Paribas / Cetelem), <strong>Retail global & E-Commerce</strong> (Inditex / Plexus), <strong>Consultoría y Arquitectura Core</strong> (Globant), <strong>Asegurador</strong> (A.M.A. Seguros), <strong>Medios de Comunicación</strong> (RTVE, Atresmedia) y <strong>Sector Público</strong> (Ayuntamiento de Málaga, UMA). Experiencia contrastada como <strong>Scrum Master</strong>, gestionando equipos multidisciplinares, refactorizaciones estratégicas de sistemas legados hacia microservicios y mentoría técnica.`,
+      p3: `Amplio recorrido profesional liderando desarrollos de misión crítica en grandes multinacionales y sectores de alta exigencia: <strong>Banca & Fintech</strong> (Santander con Globant, ING, BNP Paribas / Cetelem), <strong>Retail global & E-Commerce</strong> (Inditex / Plexus), <strong>Consultoría y Arquitectura Core</strong> (Globant), <strong>Asegurador</strong> (A.M.A. Seguros), <strong>Medios de Comunicación</strong> (RTVE, Atresmedia) y <strong>Sector Público</strong> (Ayuntamiento de Málaga, UMA). Experiencia contrastada como <strong>Scrum Master</strong>, gestionando equipos multidisciplinares, refactorizaciones estratégicas de sistemas legados hacia microservicios y mentoría técnica.`,
       metricExp: "Años de Trayectoria",
       metricCore: "Especialidad Core",
       metricArch: "Arquitectura Limpia",
@@ -53,14 +53,14 @@ const translations = {
       title: "Experiencia Laboral",
       filters: {
         all: "Todas",
-        globant: "Globant",
+        globant: "Globant (Santander)",
         inditex: "Inditex",
         banca: "Banca (ING / BNP)",
         medios: "Medios & Seguros"
       },
       globant: {
         role: "Analista y Desarrollo de Aplicaciones — Arquitectura Core",
-        company: "Globant · Jornada completa · Remoto",
+        company: "Globant · Banco Santander · Jornada completa · Remoto",
         date: "Ene. 2025 — Actualidad",
         b1: "<strong>Diseño y desarrollo de arquitectura backend core:</strong> Creación de soluciones base estandarizadas, robustas y altamente escalables para su posterior despliegue, adaptación y extensión en los distintos países del grupo corporativo.",
         b2: "Definición de directrices de desarrollo, gobierno de APIs bajo enfoque ApiFirst y patrones de resiliencia en microservicios cloud.",
@@ -193,7 +193,7 @@ const translations = {
     hero: {
       role: "Senior Backend Architect & Java Specialist · Lead Software Engineer",
       status: "Active · Globant",
-      pillCompany: "🏢 Globant (Present)",
+      pillCompany: "🏢 Globant · Santander (Present)",
       pillLocation: "📍 Madrid / Málaga / Remote (Spain)",
       pillEdu: "🎓 M.Sc. INFTEL & Computer Engineer (UMA)",
       pillExp: `⚡ +${expYears} Years of Experience`,
@@ -208,7 +208,7 @@ const translations = {
       title: "Executive Summary",
       p1: `<strong>Computer Systems Software Engineer and Master of Science INFTEL</strong> graduate from Universidad de Málaga with over <strong>${expYears} years of proven expertise</strong> in designing, building, deploying, and leading high-availability, high-concurrency, mission-critical enterprise backend architectures.`,
       p2: `Specialized in modern <strong>Java ecosystem (Java 8, 17, and 21)</strong>, <strong>Spring / Spring Boot</strong> frameworks, resilient microservices under <strong>Hexagonal Architecture (Ports & Adapters)</strong>, contract-driven <strong>ApiFirst</strong> specifications, reactive messaging with <strong>Apache Kafka</strong>, and hybrid cloud environments (<strong>Azure, OpenShift, AWS</strong>).`,
-      p3: `Extensive background delivering mission-critical projects for tier-1 enterprises across demanding industries: <strong>Banking & Fintech</strong> (ING Bank, BNP Paribas / Cetelem), <strong>Global Retail & E-Commerce</strong> (Inditex / Plexus), <strong>Consulting & Core Architecture</strong> (Globant), <strong>Insurance</strong> (A.M.A. Seguros), <strong>Broadcast Media</strong> (RTVE, Atresmedia), and <strong>Public Sector</strong> (Málaga City Council, UMA). Proven track record as <strong>Scrum Master</strong> leading cross-functional engineering teams, modernizing legacy systems toward distributed microservices, and providing technical mentorship.`,
+      p3: `Extensive background delivering mission-critical projects for tier-1 enterprises across demanding industries: <strong>Banking & Fintech</strong> (Santander with Globant, ING Bank, BNP Paribas / Cetelem), <strong>Global Retail & E-Commerce</strong> (Inditex / Plexus), <strong>Consulting & Core Architecture</strong> (Globant), <strong>Insurance</strong> (A.M.A. Seguros), <strong>Broadcast Media</strong> (RTVE, Atresmedia), and <strong>Public Sector</strong> (Málaga City Council, UMA). Proven track record as <strong>Scrum Master</strong> leading cross-functional engineering teams, modernizing legacy systems toward distributed microservices, and providing technical mentorship.`,
       metricExp: "Years of Experience",
       metricCore: "Core Expertise",
       metricArch: "Clean Architecture",
@@ -219,14 +219,14 @@ const translations = {
       title: "Work Experience",
       filters: {
         all: "All",
-        globant: "Globant",
+        globant: "Globant (Santander)",
         inditex: "Inditex",
         banca: "Banking (ING / BNP)",
         medios: "Media & Insurance"
       },
       globant: {
         role: "Software Application Analyst — Core Backend Architecture",
-        company: "Globant · Full-time · Remote",
+        company: "Globant · Banco Santander · Full-time · Remote",
         date: "Jan. 2025 — Present",
         b1: "<strong>Design and implementation of core backend architecture:</strong> Engineering standardized, resilient, and horizontally scalable foundational solutions for international deployment, localization, and extension across group subsidiaries.",
         b2: "Definition of engineering guidelines, API governance following ApiFirst principles, and cloud-native microservice resilience patterns.",

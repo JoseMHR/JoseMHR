@@ -28,7 +28,7 @@ jobs:
           with open("README.md", "r", encoding="utf-8") as f:
               content = f.read()
 
-          # Replace in header: "**+X Years of Experience**"
+          # Replace in header & table: "**+X Years of Experience**"
           content = re.sub(
               r"\*\*\+\d+\s+Years of Experience\*\*",
               f"**+{exp_years} Years of Experience**",
@@ -39,13 +39,6 @@ jobs:
           content = re.sub(
               r"Experience-\d+%2B_Years",
               f"Experience-{exp_years}%2B_Years",
-              content
-          )
-
-          # Replace in table: "**+X Años de Experiencia**"
-          content = re.sub(
-              r"\*\*\+\d+\s+Años de Experiencia\*\*",
-              f"**+{exp_years} Años de Experiencia**",
               content
           )
 

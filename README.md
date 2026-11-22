@@ -19,27 +19,27 @@
 ---
 
 ### 🌐 Online Interactive CV & Portfolio
-👉 **Visita mi CV interactivo completo en la web:** [**https://josemhr.github.io/JoseMHR/**](https://josemhr.github.io/JoseMHR/)  
-*(Incluye selector bilingüe ES/EN, desglose técnico por empresa, filtrado de experiencia y modo descarga directa en PDF).*
+👉 **Explore my full interactive web CV:** [**https://josemhr.github.io/JoseMHR/**](https://josemhr.github.io/JoseMHR/)  
+*(Features full bilingual switcher ES/EN, company-by-company technical deep-dive, timeline category filtering, and one-click PDF export).*
 
 ---
 
 ### 💼 Executive Profile & Metrics
 
-| Indicador | Detalle Profesional |
+| Metric / Indicator | Professional Detail |
 | :--- | :--- |
-| **Trayectoria** | **+18 Años de Experiencia** en ingeniería del software y arquitectura backend (en activo desde **2008**). |
-| **Posición Actual** | **Analista de Desarrollo de Aplicaciones — Arquitectura Core** en **Globant** (Soluciones base corporativas escalables). |
-| **Clientes y Sectores** | **Retail & E-Commerce:** Inditex / Plexus <br> **Banca & Finanzas:** ING Bank, BNP Paribas / Cetelem, Sopra Steria <br> **Asegurador:** A.M.A. Seguros <br> **Medios de Comunicación:** Corporación RTVE, Atresmedia <br> **Sector Público:** Ayuntamiento de Málaga, Universidad de Málaga (UMA) |
-| **Formación Superior** | **Ingeniería Técnica en Informática de Sistemas** & **Máster de Postgrado INFTEL** (UMA). |
-| **Metodologías Ágiles** | **Scrum Master Certified** (European Scrum, 2017) · Liderazgo técnico de squads multidisciplinares. |
+| **Career Trajectory** | **+18 Years of Experience** in software engineering and core backend architecture (continuously active since **2008**). |
+| **Current Position** | **Software Application Analyst — Core Backend Architecture** at **Globant** (Enterprise scalable foundational frameworks & core services for **Santander**). |
+| **Clients & Industry Sectors** | **Banking & Financial Services:** Santander (with Globant), ING Bank, BNP Paribas / Cetelem, Sopra Steria <br> **Retail & Global E-Commerce:** Inditex / Plexus <br> **Insurance:** A.M.A. Seguros <br> **Broadcast Media:** Corporación RTVE, Atresmedia <br> **Public Sector & Academia:** Málaga City Council, Universidad de Málaga (UMA) |
+| **Higher Education** | **B.S. in Computer Systems Engineering** & **Master of Science INFTEL** (Universidad de Málaga). |
+| **Agile Leadership** | **Scrum Master Certified** (European Scrum, 2017) · Technical leadership of cross-functional engineering squads. |
 
 ---
 
 ### 🛠️ Core Technology Matrix
 
 <p align="left">
-  <strong>Backend & Arquitectura:</strong><br>
+  <strong>Backend & Architecture:</strong><br>
   <img src="https://img.shields.io/badge/Java-8%20%7C%2017%20%7C%2021-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Spring_Boot-2.x%20%7C%203.x-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/Hexagonal_Architecture-Ports_%26_Adapters-0284c7?style=flat-square" alt="Hexagonal Architecture" />
@@ -81,18 +81,18 @@
   <tr>
     <td width="50%" valign="top">
       <h3>⚔️ Taos Game Maker Engine</h3>
-      <p>Framework modular de código abierto y arquitectura avanzada para <strong>Godot Engine 4.3+</strong>. Diseñado para acelerar la creación de videojuegos tácticos 2D/3D con combate ATB desacoplado, inventario, diálogos interactivos y una <strong>Web Studio Suite</strong> con más de 45 herramientas visuales no-code.</p>
+      <p>Modular open-source framework and advanced architectural tooling suite for <strong>Godot Engine 4.3+</strong>. Designed to accelerate 2D/3D Tactical RPG game development with decoupled ATB combat, inventory, branching dialogue systems, and a <strong>Web Studio Suite</strong> featuring 45+ visual no-code tools.</p>
       <p>
-        <a href="https://josemhr.github.io/TaosGameMaker/"><strong>🌐 Ver Documentación & Web ↗</strong></a> &nbsp;|&nbsp; 
-        <a href="https://github.com/JoseMHR/TaosGameMaker"><strong>🐙 Repositorio en GitHub ↗</strong></a>
+        <a href="https://josemhr.github.io/TaosGameMaker/"><strong>🌐 View Documentation & Web ↗</strong></a> &nbsp;|&nbsp; 
+        <a href="https://github.com/JoseMHR/TaosGameMaker"><strong>🐙 GitHub Repository ↗</strong></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>📖 La Saga Lázaro (The Lazarus Saga)</h3>
-      <p>Universo literario transmedia de fantasía oscura y cosmología publicado mundialmente en <strong>Amazon</strong> en español e inglés. Establece los cimientos narrativos y filosóficos que inspiran las producciones interactivas del ecosistema de videojuegos Taos.</p>
+      <h3>📖 The Lazarus Saga (La Saga Lázaro)</h3>
+      <p>Transmedia dark fantasy literary universe and cosmology novels published worldwide on <strong>Amazon</strong> in English and Spanish. Establishes the narrative worldbuilding and philosophical lore inspiring the interactive productions of the Taos game ecosystem.</p>
       <p>
-        <a href="https://sites.google.com/view/the-lazarus-saga/home"><strong>📖 Web Oficial del Universo ↗</strong></a> &nbsp;|&nbsp; 
-        <a href="https://www.amazon.es/dp/B0DNYK6Z28"><strong>📦 Ver en Amazon ↗</strong></a>
+        <a href="https://sites.google.com/view/the-lazarus-saga/home"><strong>📖 Official Universe Website ↗</strong></a> &nbsp;|&nbsp; 
+        <a href="https://www.amazon.es/dp/B0DNYK6Z28"><strong>📦 View on Amazon ↗</strong></a>
       </p>
     </td>
   </tr>
@@ -100,10 +100,10 @@
 
 ---
 
-### 📬 Contacto & Colaboración
+### 📬 Contact & Collaboration
 
-¿Interesado en conversar sobre arquitecturas backend distribuidas, proyectos Java/Spring de alta exigencia o liderazgo técnico?
+Interested in discussing distributed backend architectures, mission-critical Java/Spring systems, or technical squad leadership?
 
-- ✉️ **Email Directo:** [Jose.manuel.reyes.1986@gmail.com](mailto:Jose.manuel.reyes.1986@gmail.com)
+- ✉️ **Direct Email:** [Jose.manuel.reyes.1986@gmail.com](mailto:Jose.manuel.reyes.1986@gmail.com)
 - 💼 **LinkedIn:** [linkedin.com/in/josemhr](https://www.linkedin.com/in/josemhr/)
 - 🌐 **Web CV:** [josemhr.github.io/JoseMHR](https://josemhr.github.io/JoseMHR/)
