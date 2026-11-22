@@ -1,0 +1,69 @@
+name: Auto-update Experience in README
+
+on:
+  schedule:
+    - cron: '0 0 1 1 *' # Runs at 00:00 UTC on January 1st every year
+  workflow_dispatch: # Allows manual trigger anytime from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-experience:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Calculate and Update Experience Years
+        run: |
+          python3 - << 'EOF'
+          from datetime import datetime
+          import re
+
+          start_year = 2008
+          current_year = datetime.now().year
+          exp_years = current_year - start_year
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          # Replace in header: "**+X Years of Experience**"
+          content = re.sub(
+              r"\*\*\+\d+\s+Years of Experience\*\*",
+              f"**+{exp_years} Years of Experience**",
+              content
+          )
+
+          # Replace in badge: "Experience-X%2B_Years"
+          content = re.sub(
+              r"Experience-\d+%2B_Years",
+              f"Experience-{exp_years}%2B_Years",
+              content
+          )
+
+          # Replace in table: "**+X Años de Experiencia**"
+          content = re.sub(
+              r"\*\*\+\d+\s+Años de Experiencia\*\*",
+              f"**+{exp_years} Años de Experiencia**",
+              content
+          )
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(content)
+
+          print(f"Updated README with {exp_years} years of experience.")
+          EOF
+
+      - name: Commit and Push if Changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "chore(readme): auto-update career experience years"
+            git push
+          else
+            echo "No change in experience years. README is already up to date."
+          fi
+

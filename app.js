@@ -98,36 +98,36 @@ const translations = {
       a3media: {
         role: "Analista de Programación en A3Media",
         company: "atSistemas · Atresmedia · Madrid",
-        date: "Nov. 2017 — Oct. 2018 (1 año)",
-        b1: "Desarrollo de diferentes aplicaciones y servicios para la plataforma audiovisual de Atresmedia con Spring Boot y Java GWT.",
-        b2: "Arquitectura basada en microservicios en Amazon Web Services (AWS), Jenkins, bases de datos SQL y MongoDB."
+        date: "Jul. 2018 — Nov. 2018 (5 meses)",
+        b1: "Análisis y desarrollo de microservicios con Spring Boot y Java 8 para plataformas digitales de Atresmedia.",
+        b2: "Implementación de arquitecturas cloud nativas en Amazon Web Services (AWS) integradas con Docker y Kubernetes."
       },
       rtve: {
-        role: "Desarrollador Senior & Scrum Master en RTVE",
-        company: "Everis Spain / 80 Soluciones · RTVE · Madrid",
-        date: "Sept. 2015 — Nov. 2017 (2 años 3 meses)",
-        b1: "Desarrollos evolutivos tanto en NodeJS como en Java Spring (migración de APIs de contenidos informativos, módulos de backend).",
-        b2: "<strong>Desarrollo de múltiples infografías y especiales interactivos de alta concurrencia nacional:</strong> Eurovisión, Lotería de Navidad, Premios Oscar, Mapas de Juegos Olímpicos (JJOO).",
-        b3: "Mantenimiento y gestión de despliegues multiplataforma de todos los proyectos digitales de RTVE.",
-        b4: "Formador técnico y rol de <strong>Scrum Master</strong> para el equipo junior de mantenimiento."
+        role: "Analista Desarrollador Senior — RTVE",
+        company: "Corporación RTVE (vía Grupo ICA) · Pozuelo de Alarcón, Madrid",
+        date: "Ene. 2016 — Jul. 2018 (2 años 7 meses)",
+        b1: "<strong>Scrum Master & Analista Técnico:</strong> Liderazgo técnico y gestión ágil de proyectos clave para RTVE, incluyendo <em>RTVE Play / RTVE a la Carta</em>, Archivo Histórico de RTVE y rediseño de portales web corporativos.",
+        b2: "Migración integral del sistema de persistencia y consultas hacia motor de búsqueda distribuido <strong>ElasticSearch</strong>, acelerando radicalmente la recuperación de contenidos multimedia.",
+        b3: "Desarrollo backend en Java (J2EE), Spring Framework, Hibernate, JMS, Maven y servicios REST/SOAP.",
+        b4: "Implementación de pasarelas con CMS Adobe Day CQ5 (AEM), caching con Squid/Varnish y bases de datos Oracle."
       },
       malaga: {
-        role: "Ingeniero de Software — Obras, Servicios y Sector Público",
-        company: "Ingenia · Ayto. de Málaga · Universidad de Málaga · Intendia",
-        date: "Jun. 2013 — Sept. 2015 (2 años 3 meses)",
-        b1: "<strong>Ingenia (2015):</strong> Desarrollo frontend web con Javascript y Drupal-PHP para entidad bancaria suiza.",
-        b2: "<strong>Ayuntamiento de Málaga (2014-2015):</strong> Scrum Master y coordinación de equipo de 4 personas. Análisis y desarrollo desde cero de plataforma para gestión de licitaciones públicas del Ayuntamiento.",
-        b3: "<strong>Universidad de Málaga (2014):</strong> Desarrollo desde cero de aplicación móvil Android nativa y aplicación web en Java para la gestión académica de profesores y estudiantes.",
-        b4: "<strong>Intendia (2013-2014):</strong> Mantenimiento y evolutivos en Java (GWT, GWTP) para geolocalización de flotas de vehículos en tiempo real. Apps móviles iOS y Android con PhoneGap."
+        role: "Ingeniero de Software",
+        company: "Ayuntamiento de Málaga (CENEC) · Málaga",
+        date: "Ene. 2015 — Ene. 2016 (1 año 1 mes)",
+        b1: "Desarrollo y mantenimiento de aplicaciones web internas y de atención al ciudadano en Java con Spring Framework e Hibernate.",
+        b2: "Creación de componentes ricos de interfaz con Vaadin 7 y maquetación responsive en HTML5/CSS3.",
+        b3: "Modelado de bases de datos relacionales en MySQL y control de versiones con Git/SVN.",
+        b4: "Impartición de formación técnica especializada en desarrollo Java y Spring a personal municipal."
       },
       early: {
-        role: "Primeras Experiencias: Freelance, Becas y Prácticas",
-        company: "NMobe · DK-Innovations · Arrow / RSI · Coritel / Arelance · UMA",
-        date: "2011 — 2014",
-        b1: "Desarrollo frontend web en NMobe (6 meses) y gestión de CMS Drupal en DK-Innovations (6 meses).",
-        b2: "Beca formativa COBOL en Arrow / RSI (2 meses).",
-        b3: "Desarrollo de aplicaciones móviles Android para Gym Kuro-Obi (1 año) y UMA Deportes (6 meses).",
-        b4: "Prácticas de consultoría SAP en Coritel / Arelance (2 meses)."
+        role: "Desarrollador de Software & Analista Técnico Junior",
+        company: "Diversas Entidades · UMA, Pymes y Proyectos Propios · Málaga",
+        date: "2008 — 2014 (~6 años)",
+        b1: "Desarrollo de proyectos de software en C/C++, Java, Android nativo y plataformas web LAMP.",
+        b2: "Participación en proyectos académicos y de investigación en la Universidad de Málaga vinculados al Máster INFTEL.",
+        b3: "Consultoría y desarrollo freelance de soluciones informáticas a medida para empresas andaluzas.",
+        b4: "Bases de datos relacionales, administración de servidores Linux y arquitecturas de red."
       }
     },
     skills: {
@@ -145,33 +145,29 @@ const translations = {
       tag: "Formación Académica",
       title: "Estudios y Certificaciones",
       masterTitle: "Máster de Postgrado INFTEL",
-      masterInst: "Universidad de Málaga (UMA)",
+      masterInst: "Universidad de Málaga (UMA) · 2011 — 2012",
       masterDesc: "Especialidad en <strong>'Informática aplicada a las tecnologías móviles y web'</strong>. Formación avanzada en desarrollo móvil nativo, arquitecturas web distribuidas, patrones de diseño empresarial y computación en la nube.",
-      degreeTitle: "Ingeniería Informática de Sistemas",
-      degreeInst: "Universidad de Málaga (UMA)",
-      degreeDesc: "Grado en Ingeniería Informática. Formación profunda en algoritmia, estructuras de datos, sistemas operativos, arquitectura de computadores, ingeniería del software y bases de datos relacionales.<br><em style='color: var(--text-muted); font-size: 0.85rem; display: block; margin-top: 0.4rem;'>Actividades: Presidente y Tesorero del Consejo de Estudiantes de Ingeniería Informática; Judo, Karate y Kobudo en UMA.</em>",
-      certTitle: "Formación Continua y Certificaciones",
-      certInst: "Entidades Oficiales & Plataformas de Especialización",
-      certP1: "Cursos presenciales y especializados impartidos por: <strong>Sopra Steria</strong>, <strong>atSistemas</strong>, <strong>Arrow</strong>, <strong>RSI</strong>, <strong>Grupo Arelance</strong>, <strong>Universidad de Cambridge</strong> y <strong>Universidad de Málaga</strong>.",
-      certP2: "Certificaciones en plataformas técnicas: <strong>Udemy</strong>, <strong>Coursera</strong>, <strong>MiriadaX</strong>, <strong>Udacity</strong>, <strong>edX</strong> y <strong>OpenWebinars</strong>.",
-      certBtn: "Ver Lista Verificada en LinkedIn ↗"
+      degreeTitle: "Ingeniería Técnica en Informática de Sistemas",
+      degreeInst: "Universidad de Málaga (UMA) · 2004 — 2011",
+      degreeDesc: "Formación universitaria integral en algoritmia avanzada, estructuras de datos, concurrencia de procesos, sistemas operativos, arquitectura de ordenadores, bases de datos y redes telemáticas.<br><em style='color: var(--text-muted); font-size: 0.85rem; display: block; margin-top: 0.4rem;'>Actividades: Presidente y Tesorero del Consejo de Estudiantes de Ingeniería Informática; Judo, Karate y Kobudo en UMA.</em>",
+      certTitle: "Certificación Oficial Scrum Master & Formación Continua",
+      certInst: "European Scrum (2017) & Entidades Oficiales",
+      certP1: "Acreditación profesional oficial en marcos de trabajo ágiles (Scrum, Kanban), facilitación de ceremonias, resolución de impedimentos y optimización de flujos de entrega continua en equipos de ingeniería.",
+      certP2: "<strong>Certificación de Idioma:</strong> Nivel B1/B2 de Inglés acreditado por la Universidad de Cambridge. Formación continua certificada en plataformas técnicas (Udemy, Coursera, edX, OpenWebinars).",
+      certBtn: "Ver Credenciales en LinkedIn ↗"
     },
     projects: {
-      tag: "Proyectos Personales & Transmedia",
-      title: "Ecosistema Tecnológico y Creativo",
-      tgmTitle: "⚔️ Taos Game Maker",
-      tgmSub: "Motor RPG Táctico & Web Studio Suite para Godot 4",
-      tgmDesc: "Framework desacoplado 100% de código abierto para crear RPGs 2D/3D con combate táctico ATB, mazmorras en primera persona, mapamundi y suite web de más de 45 herramientas visuales no-code.",
-      tgmDocBtn: "Documentación Web ↗",
-      lazarusTitle: "📖 La Saga Lázaro (The Lazarus Saga)",
-      lazarusSub: "Universo Literario de Fantasía Oscura publicado en Amazon",
-      lazarusDesc: "Saga de novelas de fantasía y cosmología publicadas mundialmente en Amazon en español e inglés. Universo transmedia que sirve de trasfondo narrativo para desarrollos interactivos.",
-      lazarusWebBtn: "Web Oficial ↗",
-      lazarusAmzBtn: "Ver en Amazon ↗",
-      personalTitle: "🌐 Taos Personal Portal",
-      personalSub: "Hub Central de Proyectos y Aplicaciones",
-      personalDesc: "Plataforma unificada desplegada en GitHub Pages que agrupa herramientas personales, aplicaciones de planificación y diarios de viaje.",
-      personalBtn: "Explorar Portal ↗"
+      tag: "Innovación & Creación Propia",
+      title: "Proyectos Transmedia y Software",
+      tgmTitle: "Taos Game Maker Engine",
+      tgmSub: "Framework Modular para Godot 4 · Creador y Lead Developer",
+      tgmDesc: "Framework de arquitectura avanzada y herramientas de nivel profesional para Godot Engine. Diseñado para acelerar la creación de videojuegos tácticos 2D y 3D con sistemas desacoplados de combate ATB, diálogos, inventario, eventos y una suite web con más de 45 herramientas visuales.",
+      tgmDocBtn: "Ver Documentación & Web ↗",
+      lazarusTitle: "La Saga Lázaro (The Lazarus Saga)",
+      lazarusSub: "Universo Literario de Fantasía Oscura · Autor & Creador de IP",
+      lazarusDesc: "Obra literaria y universo de novelas publicadas mundialmente en Amazon (español e inglés) que establece las bases del universo transmedia Taos, fusionando cosmología, narrativa épica y filosofía con los videojuegos del ecosistema.",
+      lazarusWebBtn: "Web Oficial del Universo ↗",
+      lazarusAmzBtn: "Ver en Amazon ↗"
     },
     contact: {
       tag: "Contacto Directo",
@@ -268,36 +264,36 @@ const translations = {
       a3media: {
         role: "Software Programming Analyst at Atresmedia",
         company: "atSistemas · Atresmedia · Madrid",
-        date: "Nov. 2017 — Oct. 2018 (1 yr)",
-        b1: "Engineered core broadcast and media asset management platforms using Spring Boot and Java GWT hosted on AWS.",
-        b2: "Microservice-oriented architecture running on Amazon Web Services (AWS), Jenkins pipelines, relational SQL databases, and MongoDB."
+        date: "Jul. 2018 — Nov. 2018 (5 mos)",
+        b1: "Analysis and development of microservices with Spring Boot and Java 8 for Atresmedia digital broadcasting platforms.",
+        b2: "Cloud-native architectures on Amazon Web Services (AWS) integrated with Docker and Kubernetes."
       },
       rtve: {
-        role: "Senior Software Engineer & Scrum Master at RTVE",
-        company: "Everis Spain / 80 Soluciones · RTVE · Madrid",
-        date: "Sept. 2015 — Nov. 2017 (2 yrs 3 mos)",
-        b1: "Feature engineering and API migrations across both Java Spring and NodeJS backend services for national broadcasting platforms.",
-        b2: "<strong>Engineered high-concurrency national live interactive specials & infographics:</strong> Eurovision Song Contest, National Christmas Lottery, Academy Awards, Olympic Games interactive maps.",
-        b3: "Multiplatform deployment automation and operational maintenance across RTVE digital digital media services.",
-        b4: "Technical mentor and certified <strong>Scrum Master</strong> guiding the junior operations and maintenance engineering squad."
+        role: "Senior Software Analyst & Scrum Master — RTVE",
+        company: "Corporación RTVE (via Grupo ICA) · Pozuelo de Alarcón, Madrid",
+        date: "Jan. 2016 — Jul. 2018 (2 yrs 7 mos)",
+        b1: "<strong>Scrum Master & Technical Analyst:</strong> Technical leadership and agile management of critical projects for RTVE, including <em>RTVE Play / RTVE a la Carta</em>, RTVE Historical Archive, and corporate digital portal redesigns.",
+        b2: "Complete migration of the persistence and query layer to distributed <strong>ElasticSearch</strong>, dramatically accelerating multimedia content retrieval.",
+        b3: "Backend development in Java (J2EE), Spring Framework, Hibernate, JMS, Maven, and REST/SOAP services.",
+        b4: "Integration gateways with CMS Adobe Day CQ5 (AEM), caching with Squid/Varnish, and Oracle relational databases."
       },
       malaga: {
-        role: "Software Engineer — Public Sector & Enterprise Solutions",
-        company: "Ingenia · Málaga City Hall · Universidad de Málaga · Intendia",
-        date: "Jun. 2013 — Sept. 2015 (2 yrs 3 mos)",
-        b1: "<strong>Ingenia (2015):</strong> Frontend web engineering with JavaScript and Drupal-PHP for Swiss banking client.",
-        b2: "<strong>Málaga City Council (2014-2015):</strong> Scrum Master leading a 4-person engineering squad. Green-field development of municipal public tender management platform.",
-        b3: "<strong>Universidad de Málaga (2014):</strong> From-scratch design of native Android mobile app and Java web platform for faculty and student academic management.",
-        b4: "<strong>Intendia (2013-2014):</strong> Vehicle fleet real-time GPS geolocation platform in Java (GWT/GWTP) and iOS/Android mobile clients with PhoneGap."
+        role: "Software Engineer",
+        company: "Málaga City Council (CENEC) · Málaga",
+        date: "Jan. 2015 — Jan. 2016 (1 yr 1 mo)",
+        b1: "Design and maintenance of internal and citizen-facing enterprise web applications in Java with Spring Framework and Hibernate.",
+        b2: "Rich interactive UI component development with Vaadin 7 and responsive layout in HTML5/CSS3.",
+        b3: "Relational data modeling in MySQL and version control management with Git/SVN.",
+        b4: "Delivery of advanced technical training in Java and Spring ecosystem to municipal engineering staff."
       },
       early: {
-        role: "Early Engineering: Freelance, Grants & Internships",
-        company: "NMobe · DK-Innovations · Arrow / RSI · Coritel / Arelance · UMA",
-        date: "2011 — 2014",
-        b1: "Frontend web development at NMobe (6 mos) and CMS Drupal engineering at DK-Innovations (6 mos).",
-        b2: "COBOL training fellowship at Arrow / RSI (2 mos).",
-        b3: "Native Android application development for Gym Kuro-Obi (1 yr) and UMA Sports Service (6 mos).",
-        b4: "Enterprise SAP consulting internship at Coritel / Arelance (2 mos)."
+        role: "Software Developer & Junior Technical Analyst",
+        company: "Various Entities · UMA, SMBs & Proprietary Initiatives · Málaga",
+        date: "2008 — 2014 (~6 yrs)",
+        b1: "Software engineering projects across C/C++, Java, native Android, and LAMP web platforms.",
+        b2: "Participation in academic and applied research initiatives at Universidad de Málaga linked to the INFTEL Master of Science program.",
+        b3: "Freelance technical consulting and bespoke software engineering for regional enterprises.",
+        b4: "Relational database modeling, Linux server administration, and network architecture configuration."
       }
     },
     skills: {
@@ -315,33 +311,29 @@ const translations = {
       tag: "Academic Background",
       title: "Education & Certifications",
       masterTitle: "Master of Science INFTEL",
-      masterInst: "Universidad de Málaga (UMA)",
+      masterInst: "Universidad de Málaga (UMA) · 2011 — 2012",
       masterDesc: "Specialization in <strong>'Applied Computer Science for Mobile and Web Technologies'</strong>. Advanced coursework in distributed web architectures, enterprise design patterns, cloud computing, and native mobile development.",
       degreeTitle: "B.S. in Computer Systems Engineering",
-      degreeInst: "Universidad de Málaga (UMA)",
+      degreeInst: "Universidad de Málaga (UMA) · 2004 — 2011",
       degreeDesc: "Engineering Degree in Computer Science. Rigorous foundations in algorithms, data structures, operating systems, software engineering, and database management.<br><em style='color: var(--text-muted); font-size: 0.85rem; display: block; margin-top: 0.4rem;'>Activities: President & Treasurer of the Student Council of Computer Engineering; Judo, Karate, and Kobudo at UMA.</em>",
-      certTitle: "Continuous Professional Learning & Certifications",
-      certInst: "Official Entities & Specialized Learning Platforms",
-      certP1: "Classroom and executive training from: <strong>Sopra Steria</strong>, <strong>atSistemas</strong>, <strong>Arrow</strong>, <strong>RSI</strong>, <strong>Grupo Arelance</strong>, <strong>University of Cambridge</strong>, and <strong>Universidad de Málaga</strong>.",
-      certP2: "Verified technical certificates across: <strong>Udemy</strong>, <strong>Coursera</strong>, <strong>MiriadaX</strong>, <strong>Udacity</strong>, <strong>edX</strong>, and <strong>OpenWebinars</strong>.",
+      certTitle: "Official Scrum Master Certification & Continuous Learning",
+      certInst: "European Scrum (2017) & Official Institutions",
+      certP1: "Official professional certification in agile frameworks (Scrum, Kanban), ceremony facilitation, impedance removal, and continuous delivery optimization in engineering squads.",
+      certP2: "<strong>Language Certification:</strong> English B1/B2 verified by Cambridge University. Verified technical certificates across continuous learning platforms (Udemy, Coursera, edX, OpenWebinars).",
       certBtn: "View Verified List on LinkedIn ↗"
     },
     projects: {
-      tag: "Personal & Transmedia Endeavors",
-      title: "Technology & Creative Ecosystem",
-      tgmTitle: "⚔️ Taos Game Maker",
-      tgmSub: "Turnkey Tactical RPG Framework & Web Studio for Godot 4",
-      tgmDesc: "100% free and open-source modular framework for creating hybrid 2D/3D Tactical RPGs with ATB combat, first-person grid dungeons, overworld map, and 45+ visual web studio tools.",
-      tgmDocBtn: "Documentation Hub ↗",
-      lazarusTitle: "📖 The Lazarus Saga (La Saga Lázaro)",
-      lazarusSub: "Dark Fantasy Literary Universe published on Amazon",
-      lazarusDesc: "Epic fantasy novel series published worldwide on Amazon in Spanish and English. A deep transmedia narrative world serving as the lore foundation for interactive game frameworks.",
-      lazarusWebBtn: "Official Website ↗",
-      lazarusAmzBtn: "View on Amazon ↗",
-      personalTitle: "🌐 Taos Personal Portal",
-      personalSub: "Central Hub for Personal Tools & Planners",
-      personalDesc: "Unified web portal hosted on GitHub Pages aggregating personal utilities, physiotherapy planners, interactive puzzle solvers, and travel journals.",
-      personalBtn: "Explore Portal ↗"
+      tag: "Innovation & Personal Creation",
+      title: "Transmedia & Software Projects",
+      tgmTitle: "Taos Game Maker Engine",
+      tgmSub: "Modular Framework for Godot 4 · Creator & Lead Developer",
+      tgmDesc: "Advanced architectural framework and professional tooling suite for Godot Engine. Designed to accelerate hybrid 2D/3D Tactical RPG game development with decoupled ATB combat, dialogues, inventory, events, and a web studio suite with 45+ visual no-code tools.",
+      tgmDocBtn: "View Documentation & Web ↗",
+      lazarusTitle: "The Lazarus Saga (La Saga Lázaro)",
+      lazarusSub: "Dark Fantasy Literary Universe · Author & IP Creator",
+      lazarusDesc: "Published dark fantasy and epic cosmology book series on Amazon (Spanish & English) establishing the lore and narrative foundations for the Taos transmedia game ecosystem.",
+      lazarusWebBtn: "Official Universe Website ↗",
+      lazarusAmzBtn: "View on Amazon ↗"
     },
     contact: {
       tag: "Direct Contact",
@@ -367,6 +359,11 @@ function setLanguage(lang) {
   // Update active button state
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+  });
+
+  // Update dynamic experience years
+  document.querySelectorAll('.dyn-exp').forEach(el => {
+    el.textContent = expYears;
   });
 
   const t = translations[lang];
@@ -526,12 +523,12 @@ function setLanguage(lang) {
   setText('tgm-title', t.projects.tgmTitle);
   setText('tgm-sub', t.projects.tgmSub);
   setText('tgm-desc', t.projects.tgmDesc);
-  setText('tgm-doc-btn', t.projects.tgmDocBtn);
+  setHtml('tgm-doc-btn', `<span>🌐</span> ${t.projects.tgmDocBtn}`);
   setText('lazarus-title', t.projects.lazarusTitle);
   setText('lazarus-sub', t.projects.lazarusSub);
   setText('lazarus-desc', t.projects.lazarusDesc);
-  setText('lazarus-web-btn', t.projects.lazarusWebBtn);
-  setText('lazarus-amz-btn', t.projects.lazarusAmzBtn);
+  setHtml('lazarus-web-btn', `<span>📖</span> ${t.projects.lazarusWebBtn}`);
+  setHtml('lazarus-amz-btn', `<span>📦</span> ${t.projects.lazarusAmzBtn}`);
   setText('personal-title', t.projects.personalTitle);
   setText('personal-sub', t.projects.personalSub);
   setText('personal-desc', t.projects.personalDesc);

@@ -66,7 +66,7 @@
             <span class="hero-pill" id="pill-company">🏢 Globant (Actualidad)</span>
             <span class="hero-pill" id="pill-location">📍 Madrid / Málaga / Remoto (España)</span>
             <span class="hero-pill" id="pill-edu">🎓 Ing. Informática & Máster INFTEL (UMA)</span>
-            <span class="hero-pill" id="pill-exp">⚡ +18 años de experiencia</span>
+            <span class="hero-pill" id="pill-exp">⚡ +<span class="dyn-exp">18</span> años de experiencia</span>
             <span class="hero-pill" id="pill-lang">🌐 Inglés B1/B2 · Español Nativo</span>
           </div>
 
@@ -100,7 +100,7 @@
 
         <div class="summary-card">
           <p id="summary-p1">
-            <strong>Ingeniero Informático de Sistemas y Máster de Postgrado INFTEL</strong> por la Universidad de Málaga con más de <strong>18 años de experiencia sólida</strong> en el diseño, desarrollo, despliegue y liderazgo de arquitecturas backend empresariales de alta disponibilidad, concurrencia y criticidad operativa.
+            <strong>Ingeniero Informático de Sistemas y Máster de Postgrado INFTEL</strong> por la Universidad de Málaga con más de <strong><span class="dyn-exp">18</span> años de experiencia sólida</strong> en el diseño, desarrollo, despliegue y liderazgo de arquitecturas backend empresariales de alta disponibilidad, concurrencia y criticidad operativa.
           </p>
           <p id="summary-p2">
             Especializado en el <strong>ecosistema Java moderno (Java 8, 17 y 21)</strong>, frameworks <strong>Spring / Spring Boot</strong>, diseño de microservicios resilientes bajo <strong>Arquitectura Hexagonal</strong>, especificación y contratos <strong>ApiFirst</strong>, mensajería reactiva con <strong>Apache Kafka</strong> y entornos de nube híbrida (<strong>Azure, OpenShift, AWS</strong>).
@@ -111,7 +111,7 @@
 
           <div class="metrics-grid">
             <div class="metric-card">
-              <span class="metric-number" id="metric-exp-val">+18</span>
+              <span class="metric-number" id="metric-exp-val">+<span class="dyn-exp">18</span></span>
               <span class="metric-label" id="metric-exp-lbl">Años de Trayectoria</span>
             </div>
             <div class="metric-card">
@@ -150,221 +150,245 @@
         <div class="timeline">
           <!-- 1. Globant -->
           <div class="timeline-item" data-category="globant">
-            <div class="timeline-header">
-              <div>
-                <span class="timeline-badge badge-primary">Actualidad</span>
-                <h3 class="role-title" id="globant-role">Analista y Desarrollo de Aplicaciones — Arquitectura Core</h3>
-                <div class="company-name" id="globant-company">Globant · Jornada completa · Remoto</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge badge-primary">Actualidad</span>
+                  <h3 class="role-title" id="globant-role">Analista y Desarrollo de Aplicaciones — Arquitectura Core</h3>
+                  <div class="company-name" id="globant-company">Globant · Jornada completa · Remoto</div>
+                </div>
+                <div class="timeline-date" id="globant-date">Ene. 2025 — Actualidad</div>
               </div>
-              <div class="timeline-date" id="globant-date">Ene. 2025 — Actualidad</div>
-            </div>
-            <ul class="role-bullets">
-              <li id="globant-b1"><strong>Diseño y desarrollo de arquitectura backend core:</strong> Creación de soluciones base estandarizadas, robustas y altamente escalables para su posterior despliegue, adaptación y extensión en los distintos países del grupo corporativo.</li>
-              <li id="globant-b2">Definición de directrices de desarrollo, gobierno de APIs bajo enfoque ApiFirst y patrones de resiliencia en microservicios cloud.</li>
-              <li id="globant-b3">Alineamiento con equipos internacionales para la gobernanza del código y buenas prácticas de ingeniería de software.</li>
-            </ul>
-            <div class="tech-tags">
-              <span class="tech-tag">Java 21</span>
-              <span class="tech-tag">Spring Boot</span>
-              <span class="tech-tag">Microservicios</span>
-              <span class="tech-tag">Arquitectura Core</span>
-              <span class="tech-tag">ApiFirst</span>
-              <span class="tech-tag">Kafka</span>
-              <span class="tech-tag">Cloud Architecture</span>
+              <ul class="role-bullets">
+                <li id="globant-b1"><strong>Diseño y desarrollo de arquitectura backend core:</strong> Creación de soluciones base estandarizadas, robustas y altamente escalables para su posterior despliegue, adaptación y extensión en los distintos países del grupo corporativo.</li>
+                <li id="globant-b2">Definición de directrices de desarrollo, gobierno de APIs bajo enfoque ApiFirst y patrones de resiliencia en microservicios cloud.</li>
+                <li id="globant-b3">Alineamiento con equipos internacionales para la gobernanza del código y buenas prácticas de ingeniería de software.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Java 21</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Microservicios</span>
+                <span class="tech-tag">Arquitectura Core</span>
+                <span class="tech-tag">ApiFirst</span>
+                <span class="tech-tag">Kafka</span>
+                <span class="tech-tag">Cloud Architecture</span>
+              </div>
             </div>
           </div>
 
           <!-- 2. Inditex (Plexus Tech) -->
           <div class="timeline-item" data-category="inditex">
-            <div class="timeline-header">
-              <div>
-                <span class="timeline-badge badge-accent">E-Commerce & Retail Top 1</span>
-                <h3 class="role-title" id="inditex-role">Desarrollador Senior Backend en Inditex</h3>
-                <div class="company-name" id="inditex-company">Plexus Tech · Inditex · Jornada completa · Remoto</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge badge-accent">E-Commerce & Retail Top 1</span>
+                  <h3 class="role-title" id="inditex-role">Desarrollador Senior Backend en Inditex</h3>
+                  <div class="company-name" id="inditex-company">Plexus Tech · Inditex · Jornada completa · Remoto</div>
+                </div>
+                <div class="timeline-date" id="inditex-date">Ene. 2023 — Jul. 2025 (2 años 7 meses)</div>
               </div>
-              <div class="timeline-date" id="inditex-date">Ene. 2023 — Jul. 2025 (2 años 7 meses)</div>
-            </div>
-            <ul class="role-bullets">
-              <li id="inditex-b1">Análisis y desarrollo integral de microservicios backend desde la toma de requisitos hasta su subida a producción en plataformas corporativas de Inditex.</li>
-              <li id="inditex-b2"><strong>Migraciones estratégicas:</strong> Transformación y modernización de servicios legados en NodeJS a Java 17 bajo <strong>Arquitectura Hexagonal</strong> y contratos <strong>ApiFirst</strong>.</li>
-              <li id="inditex-b3">Gestión de guardias críticas de alta disponibilidad y soporte continuo para picos de tráfico en eventos masivos de retail (Rebajas, Black Friday).</li>
-              <li id="inditex-b4">Implementación de pipelines de integración y entrega continua (CI/CD) con SonarQube, GitHub Actions, OpenShift y Azure.</li>
-            </ul>
-            <div class="tech-tags">
-              <span class="tech-tag">Java 17</span>
-              <span class="tech-tag">Spring Boot</span>
-              <span class="tech-tag">Arquitectura Hexagonal</span>
-              <span class="tech-tag">ApiFirst / OpenAPI</span>
-              <span class="tech-tag">Azure</span>
-              <span class="tech-tag">OpenShift</span>
-              <span class="tech-tag">NodeJS Migration</span>
-              <span class="tech-tag">Kafka</span>
-              <span class="tech-tag">Redis</span>
+              <ul class="role-bullets">
+                <li id="inditex-b1">Análisis y desarrollo integral de microservicios backend desde la toma de requisitos hasta su subida a producción en plataformas corporativas de Inditex.</li>
+                <li id="inditex-b2"><strong>Migraciones estratégicas:</strong> Transformación y modernización de servicios legados en NodeJS a Java 17 bajo <strong>Arquitectura Hexagonal</strong> y contratos <strong>ApiFirst</strong>.</li>
+                <li id="inditex-b3">Gestión de guardias críticas de alta disponibilidad y soporte continuo para picos de tráfico en eventos masivos de retail (Rebajas, Black Friday).</li>
+                <li id="inditex-b4">Implementación de pipelines de integración y entrega continua (CI/CD) con SonarQube, GitHub Actions, OpenShift y Azure.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Java 17</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Arquitectura Hexagonal</span>
+                <span class="tech-tag">ApiFirst / OpenAPI</span>
+                <span class="tech-tag">Azure</span>
+                <span class="tech-tag">OpenShift</span>
+                <span class="tech-tag">NodeJS Migration</span>
+                <span class="tech-tag">Kafka</span>
+                <span class="tech-tag">Redis</span>
+              </div>
             </div>
           </div>
 
           <!-- 3. Sopra Steria (BNP Paribas & ING) -->
           <div class="timeline-item" data-category="banca">
-            <div class="timeline-header">
-              <div>
-                <span class="timeline-badge badge-primary">Banca Internacional</span>
-                <h3 class="role-title" id="banca-role">Analista de Desarrollo Senior — Banca & Finanzas</h3>
-                <div class="company-name" id="banca-company">Sopra Steria · Proyectos BNP Paribas / Cetelem e ING · Madrid / Remoto</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge badge-primary">Banca Internacional</span>
+                  <h3 class="role-title" id="banca-role">Analista de Desarrollo Senior — Banca & Finanzas</h3>
+                  <div class="company-name" id="banca-company">Sopra Steria · Proyectos BNP Paribas / Cetelem e ING · Madrid / Remoto</div>
+                </div>
+                <div class="timeline-date" id="banca-date">Ene. 2020 — Ene. 2023 (3 años 1 mes)</div>
               </div>
-              <div class="timeline-date" id="banca-date">Ene. 2020 — Ene. 2023 (3 años 1 mes)</div>
-            </div>
-            <div style="margin-bottom: 0.75rem;">
-              <h4 style="margin: 0.75rem 0 0.25rem; color: #93c5fd; font-size: 0.95rem;" id="bnp-title">BNP Paribas / Cetelem (Sept. 2021 — Ene. 2023 · 1 año 5 meses):</h4>
-              <ul class="role-bullets">
-                <li id="bnp-b1">Análisis, diseño e implementación de aplicaciones middleware y servicios financieros de alta concurrencia.</li>
-                <li id="bnp-b2">Desarrollo de módulos bancarios con Java 8, Spring Boot, bases de datos Oracle SQL y frontends Angular/JS.</li>
-                <li id="bnp-b3">Gestión de despliegues automatizados mediante Jenkins y metodologías GitFlow.</li>
-              </ul>
-              <h4 style="margin: 0.75rem 0 0.25rem; color: #93c5fd; font-size: 0.95rem;" id="ing-title">ING Bank (Ene. 2020 — Sept. 2021 · 1 año 9 meses):</h4>
-              <ul class="role-bullets">
-                <li id="ing-b1">Desarrollo de microservicios middleware en Java bajo <strong>Arquitectura Hexagonal</strong> para sistemas bancarios transaccionales.</li>
-                <li id="ing-b2">Optimización de consultas y persistencia con MyBatis y despliegues en infraestructura Azure.</li>
-              </ul>
-            </div>
-            <div class="tech-tags">
-              <span class="tech-tag">Java 8/11</span>
-              <span class="tech-tag">Spring Boot</span>
-              <span class="tech-tag">Arquitectura Hexagonal</span>
-              <span class="tech-tag">Oracle SQL</span>
-              <span class="tech-tag">MyBatis</span>
-              <span class="tech-tag">Azure</span>
-              <span class="tech-tag">Angular</span>
-              <span class="tech-tag">Jenkins CI/CD</span>
+              <div style="margin-bottom: 0.75rem;">
+                <h4 style="margin: 0.75rem 0 0.25rem; color: #93c5fd; font-size: 0.95rem;" id="bnp-title">BNP Paribas / Cetelem (Sept. 2021 — Ene. 2023 · 1 año 5 meses):</h4>
+                <ul class="role-bullets">
+                  <li id="bnp-b1">Análisis, diseño e implementación de aplicaciones middleware y servicios financieros de alta concurrencia.</li>
+                  <li id="bnp-b2">Desarrollo de módulos bancarios con Java 8, Spring Boot, bases de datos Oracle SQL y frontends Angular/JS.</li>
+                  <li id="bnp-b3">Gestión de despliegues automatizados mediante Jenkins y metodologías GitFlow.</li>
+                </ul>
+                <h4 style="margin: 0.75rem 0 0.25rem; color: #93c5fd; font-size: 0.95rem;" id="ing-title">ING Bank (Ene. 2020 — Sept. 2021 · 1 año 9 meses):</h4>
+                <ul class="role-bullets">
+                  <li id="ing-b1">Desarrollo de microservicios middleware en Java bajo <strong>Arquitectura Hexagonal</strong> para sistemas bancarios transaccionales.</li>
+                  <li id="ing-b2">Optimización de consultas y persistencia con MyBatis y despliegues en infraestructura Azure.</li>
+                </ul>
+              </div>
+              <div class="tech-tags">
+                <span class="tech-tag">Java 8/11</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Arquitectura Hexagonal</span>
+                <span class="tech-tag">Oracle SQL</span>
+                <span class="tech-tag">MyBatis</span>
+                <span class="tech-tag">Azure</span>
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">Jenkins CI/CD</span>
+              </div>
             </div>
           </div>
 
           <!-- 4. A.M.A. Seguros -->
           <div class="timeline-item" data-category="medios">
-            <div class="timeline-header">
-              <div>
-                <span class="timeline-badge badge-secondary">Sector Asegurador</span>
-                <h3 class="role-title" id="ama-role">Analista Desarrollador</h3>
-                <div class="company-name" id="ama-company">A.M.A. Seguros · Madrid</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge badge-secondary">Sector Asegurador</span>
+                  <h3 class="role-title" id="ama-role">Analista Desarrollador</h3>
+                  <div class="company-name" id="ama-company">A.M.A. Seguros · Madrid</div>
+                </div>
+                <div class="timeline-date" id="ama-date">Nov. 2018 — Ene. 2020 (1 año 3 meses)</div>
               </div>
-              <div class="timeline-date" id="ama-date">Nov. 2018 — Ene. 2020 (1 año 3 meses)</div>
-            </div>
-            <ul class="role-bullets">
-              <li id="ama-b1">Análisis y desarrollo integral de aplicaciones corporativas aseguradoras utilizando Vaadin 8, MyBatis, Java 8 y Spring Boot.</li>
-              <li id="ama-b2">Abarcamiento del ciclo de vida del software completo: diseño, desarrollo, pruebas, optimización y puesta en producción.</li>
-              <li id="ama-b3">Optimización y refactorización de rendimiento de aplicaciones existentes sobre JBoss, Tomcat, DB2 y MySQL.</li>
-            </ul>
-            <div class="tech-tags">
-              <span class="tech-tag">Java 8</span>
-              <span class="tech-tag">Spring Boot</span>
-              <span class="tech-tag">Vaadin 8</span>
-              <span class="tech-tag">MyBatis</span>
-              <span class="tech-tag">IBM DB2</span>
-              <span class="tech-tag">MySQL</span>
-              <span class="tech-tag">JBoss / Tomcat</span>
+              <ul class="role-bullets">
+                <li id="ama-b1">Análisis y desarrollo integral de aplicaciones corporativas aseguradoras utilizando Vaadin 8, MyBatis, Java 8 y Spring Boot.</li>
+                <li id="ama-b2">Abarcamiento del ciclo de vida del software completo: diseño, desarrollo, pruebas, optimización y puesta en producción.</li>
+                <li id="ama-b3">Optimización y refactorización de rendimiento de aplicaciones existentes sobre JBoss, Tomcat, DB2 y MySQL.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Java 8</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Vaadin 8</span>
+                <span class="tech-tag">MyBatis</span>
+                <span class="tech-tag">IBM DB2</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">JBoss / Tomcat</span>
+              </div>
             </div>
           </div>
 
           <!-- 5. atSistemas / Atresmedia -->
           <div class="timeline-item" data-category="medios">
-            <div class="timeline-header">
-              <div>
-                <span class="timeline-badge badge-secondary">Medios & Broadcast</span>
-                <h3 class="role-title" id="a3media-role">Analista de Programación en A3Media</h3>
-                <div class="company-name" id="a3media-company">atSistemas · Atresmedia · Madrid</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge badge-secondary">Medios & Broadcast</span>
+                  <h3 class="role-title" id="a3media-role">Analista de Programación en A3Media</h3>
+                  <div class="company-name" id="a3media-company">atSistemas · Atresmedia · Madrid</div>
+                </div>
+                <div class="timeline-date" id="a3media-date">Jul. 2018 — Nov. 2018 (5 meses)</div>
               </div>
-              <div class="timeline-date" id="a3media-date">Jul. 2018 — Nov. 2018 (5 meses)</div>
-            </div>
-            <ul class="role-bullets">
-              <li id="a3media-b1">Análisis y desarrollo de microservicios con Spring Boot y Java 8 para plataformas digitales de Atresmedia.</li>
-              <li id="a3media-b2">Implementación de arquitecturas cloud nativas en Amazon Web Services (AWS) integradas con Docker y Kubernetes.</li>
-            </ul>
-            <div class="tech-tags">
-              <span class="tech-tag">Java 8</span>
-              <span class="tech-tag">Spring Boot</span>
-              <span class="tech-tag">AWS</span>
-              <span class="tech-tag">Docker</span>
-              <span class="tech-tag">Kubernetes</span>
-              <span class="tech-tag">Git</span>
+              <ul class="role-bullets">
+                <li id="a3media-b1">Análisis y desarrollo de microservicios con Spring Boot y Java 8 para plataformas digitales de Atresmedia.</li>
+                <li id="a3media-b2">Implementación de arquitecturas cloud nativas en Amazon Web Services (AWS) integradas con Docker y Kubernetes.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Java 8</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">AWS</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">Kubernetes</span>
+                <span class="tech-tag">Git</span>
+              </div>
             </div>
           </div>
 
           <!-- 6. RTVE (Corporación RTVE vía Grupo ICA) -->
           <div class="timeline-item" data-category="medios">
-            <div class="timeline-header">
-              <div>
-                <span class="timeline-badge badge-accent">Televisión Pública RTVE</span>
-                <h3 class="role-title" id="rtve-role">Analista Desarrollador Senior — RTVE</h3>
-                <div class="company-name" id="rtve-company">Corporación RTVE (vía Grupo ICA) · Pozuelo de Alarcón, Madrid</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge badge-accent">Televisión Pública RTVE</span>
+                  <h3 class="role-title" id="rtve-role">Analista Desarrollador Senior — RTVE</h3>
+                  <div class="company-name" id="rtve-company">Corporación RTVE (vía Grupo ICA) · Pozuelo de Alarcón, Madrid</div>
+                </div>
+                <div class="timeline-date" id="rtve-date">Ene. 2016 — Jul. 2018 (2 años 7 meses)</div>
               </div>
-              <div class="timeline-date" id="rtve-date">Ene. 2016 — Jul. 2018 (2 años 7 meses)</div>
-            </div>
-            <ul class="role-bullets">
-              <li id="rtve-b1"><strong>Scrum Master & Analista Técnico:</strong> Liderazgo técnico y gestión ágil de proyectos clave para RTVE, incluyendo <em>RTVE Play / RTVE a la Carta</em>, Archivo Histórico de RTVE y rediseño de portals web corporativos.</li>
-              <li id="rtve-b2">Migración integral del sistema de persistencia y consultas hacia motor de búsqueda distribuido <strong>ElasticSearch</strong>, acelerando radicalmente la recuperación de contenidos multimedia.</li>
-              <li id="rtve-b3">Desarrollo backend en Java (J2EE), Spring Framework, Hibernate, JMS, Maven y servicios REST/SOAP.</li>
-              <li id="rtve-b4">Implementación de pasarelas con CMS Adobe Day CQ5 (AEM), caching con Squid/Varnish y bases de datos Oracle.</li>
-            </ul>
-            <div class="tech-tags">
-              <span class="tech-tag">Scrum Master</span>
-              <span class="tech-tag">Java J2EE</span>
-              <span class="tech-tag">Spring</span>
-              <span class="tech-tag">ElasticSearch</span>
-              <span class="tech-tag">Hibernate</span>
-              <span class="tech-tag">Adobe Day CQ5</span>
-              <span class="tech-tag">Oracle</span>
-              <span class="tech-tag">JMS</span>
+              <ul class="role-bullets">
+                <li id="rtve-b1"><strong>Scrum Master & Analista Técnico:</strong> Liderazgo técnico y gestión ágil de proyectos clave para RTVE, incluyendo <em>RTVE Play / RTVE a la Carta</em>, Archivo Histórico de RTVE y rediseño de portals web corporativos.</li>
+                <li id="rtve-b2">Migración integral del sistema de persistencia y consultas hacia motor de búsqueda distribuido <strong>ElasticSearch</strong>, acelerando radicalmente la recuperación de contenidos multimedia.</li>
+                <li id="rtve-b3">Desarrollo backend en Java (J2EE), Spring Framework, Hibernate, JMS, Maven y servicios REST/SOAP.</li>
+                <li id="rtve-b4">Implementación de pasarelas con CMS Adobe Day CQ5 (AEM), caching con Squid/Varnish y bases de datos Oracle.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Scrum Master</span>
+                <span class="tech-tag">Java J2EE</span>
+                <span class="tech-tag">Spring</span>
+                <span class="tech-tag">ElasticSearch</span>
+                <span class="tech-tag">Hibernate</span>
+                <span class="tech-tag">Adobe Day CQ5</span>
+                <span class="tech-tag">Oracle</span>
+                <span class="tech-tag">JMS</span>
+              </div>
             </div>
           </div>
 
           <!-- 7. Ayuntamiento de Málaga -->
           <div class="timeline-item" data-category="medios">
-            <div class="timeline-header">
-              <div>
-                <span class="timeline-badge badge-primary">Sector Público</span>
-                <h3 class="role-title" id="malaga-role">Ingeniero de Software</h3>
-                <div class="company-name" id="malaga-company">Ayuntamiento de Málaga (CENEC) · Málaga</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge badge-primary">Sector Público</span>
+                  <h3 class="role-title" id="malaga-role">Ingeniero de Software</h3>
+                  <div class="company-name" id="malaga-company">Ayuntamiento de Málaga (CENEC) · Málaga</div>
+                </div>
+                <div class="timeline-date" id="malaga-date">Ene. 2015 — Ene. 2016 (1 año 1 mes)</div>
               </div>
-              <div class="timeline-date" id="malaga-date">Ene. 2015 — Ene. 2016 (1 año 1 mes)</div>
-            </div>
-            <ul class="role-bullets">
-              <li id="malaga-b1">Desarrollo y mantenimiento de aplicaciones web internas y de atención al ciudadano en Java con Spring Framework e Hibernate.</li>
-              <li id="malaga-b2">Creación de componentes ricos de interfaz con Vaadin 7 y maquetación responsive en HTML5/CSS3.</li>
-              <li id="malaga-b3">Modelado de bases de datos relacionales en MySQL y control de versiones con Git/SVN.</li>
-              <li id="malaga-b4">Impartición de formación técnica especializada en desarrollo Java y Spring a personal municipal.</li>
-            </ul>
-            <div class="tech-tags">
-              <span class="tech-tag">Java</span>
-              <span class="tech-tag">Spring</span>
-              <span class="tech-tag">Hibernate</span>
-              <span class="tech-tag">Vaadin 7</span>
-              <span class="tech-tag">MySQL</span>
-              <span class="tech-tag">Formación Técnica</span>
+              <ul class="role-bullets">
+                <li id="malaga-b1">Desarrollo y mantenimiento de aplicaciones web internas y de atención al ciudadano en Java con Spring Framework e Hibernate.</li>
+                <li id="malaga-b2">Creación de componentes ricos de interfaz con Vaadin 7 y maquetación responsive en HTML5/CSS3.</li>
+                <li id="malaga-b3">Modelado de bases de datos relacionales en MySQL y control de versiones con Git/SVN.</li>
+                <li id="malaga-b4">Impartición de formación técnica especializada en desarrollo Java y Spring a personal municipal.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Spring</span>
+                <span class="tech-tag">Hibernate</span>
+                <span class="tech-tag">Vaadin 7</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Formación Técnica</span>
+              </div>
             </div>
           </div>
 
           <!-- 8. Trayectoria Inicial -->
           <div class="timeline-item" data-category="medios">
-            <div class="timeline-header">
-              <div>
-                <span class="timeline-badge badge-secondary">Trayectoria Inicial</span>
-                <h3 class="role-title" id="early-role">Desarrollador de Software & Analista Técnico Junior</h3>
-                <div class="company-name" id="early-company">Diversas Entidades · UMA, Pymes y Proyectos Propios · Málaga</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge badge-secondary">Trayectoria Inicial</span>
+                  <h3 class="role-title" id="early-role">Desarrollador de Software & Analista Técnico Junior</h3>
+                  <div class="company-name" id="early-company">Diversas Entidades · UMA, Pymes y Proyectos Propios · Málaga</div>
+                </div>
+                <div class="timeline-date" id="early-date">2008 — 2014 (~6 años)</div>
               </div>
-              <div class="timeline-date" id="early-date">2008 — 2014 (~6 años)</div>
-            </div>
-            <ul class="role-bullets">
-              <li id="early-b1">Desarrollo de proyectos de software en C/C++, Java, Android nativo y plataformas web LAMP.</li>
-              <li id="early-b2">Participación en proyectos académicos y de investigación en la Universidad de Málaga vinculados al Máster INFTEL.</li>
-              <li id="early-b3">Consultoría y desarrollo freelance de soluciones informáticas a medida para empresas andaluzas.</li>
-              <li id="early-b4">Bases de datos relacionales, administración de servidores Linux y arquitecturas de red.</li>
-            </ul>
-            <div class="tech-tags">
-              <span class="tech-tag">Java</span>
-              <span class="tech-tag">C / C++</span>
-              <span class="tech-tag">Android</span>
-              <span class="tech-tag">PHP / MySQL</span>
-              <span class="tech-tag">Linux</span>
-              <span class="tech-tag">Redes</span>
+              <ul class="role-bullets">
+                <li id="early-b1">Desarrollo de proyectos de software en C/C++, Java, Android nativo y plataformas web LAMP.</li>
+                <li id="early-b2">Participación en proyectos académicos y de investigación en la Universidad de Málaga vinculados al Máster INFTEL.</li>
+                <li id="early-b3">Consultoría y desarrollo freelance de soluciones informáticas a medida para empresas andaluzas.</li>
+                <li id="early-b4">Bases de datos relacionales, administración de servidores Linux y arquitecturas de red.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">C / C++</span>
+                <span class="tech-tag">Android</span>
+                <span class="tech-tag">PHP / MySQL</span>
+                <span class="tech-tag">Linux</span>
+                <span class="tech-tag">Redes</span>
+              </div>
             </div>
           </div>
         </div>
@@ -518,58 +542,51 @@
         <div class="projects-grid">
           <!-- TaosGameMaker -->
           <div class="project-card">
-            <div class="project-tags">
-              <span class="tech-tag">Godot 4.3+</span>
-              <span class="tech-tag">C# / GDScript</span>
-              <span class="tech-tag">Open Source</span>
-              <span class="tech-tag">Tooling</span>
+            <div>
+              <div class="project-tags">
+                <span class="tech-tag">Godot 4.3+</span>
+                <span class="tech-tag">C# / GDScript</span>
+                <span class="tech-tag">Open Source</span>
+                <span class="tech-tag">Web Studio Suite</span>
+              </div>
+              <h3 class="project-title" id="tgm-title">Taos Game Maker Engine</h3>
+              <div class="project-subtitle" id="tgm-sub">Framework Modular para Godot 4 · Creador y Lead Developer</div>
+              <p class="project-desc" id="tgm-desc">
+                Framework de arquitectura avanzada y herramientas de nivel profesional para Godot Engine. Diseñado para acelerar la creación de videojuegos tácticos 2D y 3D con sistemas desacoplados de combate ATB, diálogos, inventario, eventos y una suite web con más de 45 herramientas visuales.
+              </p>
             </div>
-            <h3 class="project-title" id="tgm-title">TaosGameMaker Engine</h3>
-            <div class="project-subtitle" id="tgm-sub">Framework Modular para Godot 4 · Creador y Lead Developer</div>
-            <p class="project-desc" id="tgm-desc">
-              Framework de arquitectura avanzada y herramientas de nivel profesional para Godot Engine. Diseñado para acelerar la creación de videojuegos 2D y 3D con sistemas desacoplados de diálogos, inventario, eventos y persistencia.
-            </p>
-            <div style="margin-top: 1.25rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-              <a href="https://josemhr.github.io/TaosGameMaker/" target="_blank" rel="noopener" class="btn btn-primary btn-sm" id="tgm-doc-btn">Ver Documentación ↗</a>
-              <a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">GitHub ↗</a>
+            <div style="margin-top: 1.5rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
+              <a href="https://josemhr.github.io/TaosGameMaker/" target="_blank" rel="noopener" class="btn btn-primary btn-sm" id="tgm-doc-btn">
+                <span>🌐</span> Ver Documentación & Web ↗
+              </a>
+              <a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                <span>🐙</span> Repositorio GitHub ↗
+              </a>
             </div>
           </div>
 
           <!-- Novela Lazarus -->
           <div class="project-card">
-            <div class="project-tags">
-              <span class="tech-tag">Novela Fantasía / Sci-Fi</span>
-              <span class="tech-tag">Amazon KDP</span>
-              <span class="tech-tag">Worldbuilding</span>
-              <span class="tech-tag">IP Transmedia</span>
+            <div>
+              <div class="project-tags">
+                <span class="tech-tag">Novela Fantasía / Sci-Fi</span>
+                <span class="tech-tag">Amazon KDP</span>
+                <span class="tech-tag">Worldbuilding</span>
+                <span class="tech-tag">IP Transmedia</span>
+              </div>
+              <h3 class="project-title" id="lazarus-title">La Saga Lázaro (The Lazarus Saga)</h3>
+              <div class="project-subtitle" id="lazarus-sub">Universo Literario de Fantasía Oscura · Autor & Creador de IP</div>
+              <p class="project-desc" id="lazarus-desc">
+                Obra literaria y universo de novelas publicadas mundialmente en Amazon (español e inglés) que establece las bases del universo transmedia Taos, fusionando cosmología, narrativa épica y filosofía con los videojuegos del ecosistema.
+              </p>
             </div>
-            <h3 class="project-title" id="lazarus-title">Lazarus: El Despertar del Alma</h3>
-            <div class="project-subtitle" id="lazarus-sub">Novela de Fantasía Épica · Autor y Creador de Universo</div>
-            <p class="project-desc" id="lazarus-desc">
-              Obra literaria publicada que establece las bases del universo transmedia Taos, entrelazando narrativa épica, filosofía de la existencia y magia con las producciones de videojuegos del ecosistema Taos Games.
-            </p>
-            <div style="margin-top: 1.25rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-              <a href="https://josemhr.github.io/TaosPersonal/lazarus.html" target="_blank" rel="noopener" class="btn btn-primary btn-sm" id="lazarus-web-btn">Web del Universo ↗</a>
-              <a href="https://www.amazon.es/dp/B0DNYK6Z28" target="_blank" rel="noopener" class="btn btn-outline btn-sm" id="lazarus-amz-btn">Ver en Amazon ↗</a>
-            </div>
-          </div>
-
-          <!-- TaosPersonal Portal -->
-          <div class="project-card">
-            <div class="project-tags">
-              <span class="tech-tag">Web Hub</span>
-              <span class="tech-tag">GitHub Pages</span>
-              <span class="tech-tag">Portfolio</span>
-              <span class="tech-tag">Media Kit</span>
-            </div>
-            <h3 class="project-title" id="personal-title">Taos Personal & Creative Hub</h3>
-            <div class="project-subtitle" id="personal-sub">Portal Central de Creación Literaria y Multimedia</div>
-            <p class="project-desc" id="personal-desc">
-              Plataforma personal que agrupa las facetas creativas complementarias al perfil técnico de ingeniería: universo literario, catálogo de videojuegos independientes y enlaces de difusión cultural.
-            </p>
-            <div style="margin-top: 1.25rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-              <a href="https://josemhr.github.io/TaosPersonal/" target="_blank" rel="noopener" class="btn btn-primary btn-sm" id="personal-btn">Explorar Portal ↗</a>
-              <a href="https://github.com/JoseMHR/TaosPersonal" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">GitHub ↗</a>
+            <div style="margin-top: 1.5rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
+              <a href="https://sites.google.com/view/the-lazarus-saga/home" target="_blank" rel="noopener" class="btn btn-primary btn-sm" id="lazarus-web-btn">
+                <span>📖</span> Web Oficial del Universo ↗
+              </a>
+              <a href="https://www.amazon.es/dp/B0DNYK6Z28" target="_blank" rel="noopener" class="btn btn-outline btn-sm" id="lazarus-amz-btn">
+                <span>📦</span> Ver en Amazon ↗
+              </a>
             </div>
           </div>
         </div>
