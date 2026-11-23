@@ -28,8 +28,9 @@ const translations = {
       role: "Senior Backend Architect & Java Specialist · Lead Software Engineer",
       status: "En activo · Globant",
       pillCompany: "🏢 Globant · Santander (Actualidad)",
+      pillAi: "🤖 AI Vanguard · Devin & Claude Agents",
       pillLocation: "📍 Madrid / Málaga / Remoto (España)",
-      pillEdu: "🎓 Ing. Informática & Máster INFTEL (UMA)",
+      pillEdu: "🎓 Ing. de Software & Máster INFTEL (UMA)",
       pillExp: `⚡ +${expYears} años de experiencia`,
       pillLang: "🌐 Inglés B1/B2 · Español Nativo",
       btnEmail: "Contactar por Email",
@@ -40,9 +41,9 @@ const translations = {
     summary: {
       tag: "Perfil Profesional",
       title: "Resumen Ejecutivo",
-      p1: `<strong>Ingeniero Informático de Sistemas y Máster de Postgrado INFTEL</strong> por la Universidad de Málaga con más de <strong>${expYears} años de experiencia sólida</strong> en el diseño, desarrollo, despliegue y liderazgo de arquitecturas backend empresariales de alta disponibilidad, concurrencia y criticidad operativa.`,
-      p2: `Especializado en el <strong>ecosistema Java moderno (Java 8, 17 y 21)</strong>, frameworks <strong>Spring / Spring Boot</strong>, diseño de microservicios resilientes bajo <strong>Arquitectura Hexagonal</strong>, especificación y contratos <strong>ApiFirst</strong>, mensajería reactiva con <strong>Apache Kafka</strong> y entornos de nube híbrida (<strong>Azure, OpenShift, AWS</strong>).`,
-      p3: `Amplio recorrido profesional liderando desarrollos de misión crítica en grandes multinacionales y sectores de alta exigencia: <strong>Banca & Fintech</strong> (Santander con Globant, ING, BNP Paribas / Cetelem), <strong>Retail global & E-Commerce</strong> (Inditex / Plexus), <strong>Consultoría y Arquitectura Core</strong> (Globant), <strong>Asegurador</strong> (A.M.A. Seguros), <strong>Medios de Comunicación</strong> (RTVE, Atresmedia) y <strong>Sector Público</strong> (Ayuntamiento de Málaga, UMA). Experiencia contrastada como <strong>Scrum Master</strong>, gestionando equipos multidisciplinares, refactorizaciones estratégicas de sistemas legados hacia microservicios y mentoría técnica.`,
+      p1: `<strong>Ingeniero de Software y Máster de Postgrado INFTEL</strong> por la Universidad de Málaga con más de <strong>${expYears} años de trayectoria continuada</strong> (en activo desde 2008), forjada sobre una base sólida en desarrollo fullstack (tecnologías mobile nativas, web frontend y backend) y una profunda experiencia práctica modernizando y refactorizando sistemas legados hacia arquitecturas empresariales de vanguardia.`,
+      p2: `Especializado en el <strong>ecosistema Java moderno (Java 8, 17 y 21)</strong>, frameworks <strong>Spring / Spring Boot</strong>, microservicios resilientes bajo <strong>Arquitectura Hexagonal</strong>, especificación y contratos <strong>ApiFirst</strong>, mensajería reactiva con <strong>Apache Kafka</strong> y entornos de nube híbrida (<strong>Azure, OpenShift, AWS</strong>).`,
+      p3: `Posicionado a la <strong>vanguardia de la ingeniería de software aumentada por Inteligencia Artificial</strong>, integrando agentes autónomos como <strong>Devin AI</strong> y <strong>Claude</strong> mediante <em>workflows</em>, <em>skills</em> especializadas y pipelines agénticos para acelerar el desarrollo con máxima velocidad y excelencia técnica. Amplio recorrido liderando desarrollos de misión crítica en grandes multinacionales: <strong>Banca & Fintech</strong> (Santander con Globant, ING con Sopra Steria, BNP Paribas / Cetelem con Sopra Steria), <strong>Retail global & E-Commerce</strong> (Inditex con Plexus), <strong>Asegurador</strong> (A.M.A. Seguros), <strong>Medios de Comunicación</strong> (RTVE con Everis, Atresmedia con atSistemas) y <strong>Sector Público</strong> (Ayuntamiento de Málaga, UMA). Certificado como <strong>Scrum Master</strong>.`,
       metricExp: "Años de Trayectoria",
       metricCore: "Especialidad Core",
       metricArch: "Arquitectura Limpia",
@@ -59,16 +60,16 @@ const translations = {
         medios: "Medios & Seguros"
       },
       globant: {
-        role: "Analista y Desarrollo de Aplicaciones — Arquitectura Core",
+        role: "Software Application Analyst — Core Backend Architecture & AI Vanguard",
         company: "Globant · Banco Santander · Jornada completa · Remoto",
         date: "Ene. 2025 — Actualidad",
-        b1: "<strong>Diseño y desarrollo de arquitectura backend core:</strong> Creación de soluciones base estandarizadas, robustas y altamente escalables para su posterior despliegue, adaptación y extensión en los distintos países del grupo corporativo.",
-        b2: "Definición de directrices de desarrollo, gobierno de APIs bajo enfoque ApiFirst y patrones de resiliencia en microservicios cloud.",
-        b3: "Alineamiento con equipos internacionales para la gobernanza del código y buenas prácticas de ingeniería de software."
+        b1: "<strong>Arquitectura Core Backend:</strong> Diseño e ingeniería de soluciones base estandarizadas, robustas y altamente escalables para su posterior despliegue, adaptación y extensión en los distintos países del grupo corporativo Santander.",
+        b2: "<strong>Vanguardia en Ingeniería Aumentada por IA (AI-Driven Development):</strong> Adopción pionera y liderazgo en la integración de flujos de desarrollo con agentes autónomos de IA (<strong>Devin AI, Claude</strong>), diseñando <em>workflows</em> personalizados, <em>skills</em> modulares y pipelines agénticos para acelerar el desarrollo, refactorización y entrega de software con máxima eficiencia.",
+        b3: "<strong>Gobernanza enterprise y patrones de resiliencia:</strong> Definición de directrices de desarrollo, especificación y gobierno de contratos bajo enfoque <strong>ApiFirst</strong>, patrones de resiliencia en microservicios cloud y alineamiento con equipos internacionales para la gobernanza del código y buenas prácticas de ingeniería de software."
       },
       inditex: {
         role: "Desarrollador Senior Backend en Inditex",
-        company: "Plexus Tech · Inditex · Jornada completa · Remoto",
+        company: "Plexus Tech (para Inditex) · Jornada completa · Remoto",
         date: "Ene. 2023 — Jul. 2025 (2 años 7 meses)",
         b1: "Análisis y desarrollo integral de microservicios backend desde la toma de requisitos hasta su subida a producción en plataformas corporativas de Inditex.",
         b2: "<strong>Migraciones estratégicas:</strong> Transformación y modernización de servicios legados en NodeJS a Java 17 bajo <strong>Arquitectura Hexagonal</strong> y contratos <strong>ApiFirst</strong>.",
@@ -77,7 +78,7 @@ const translations = {
       },
       banca: {
         role: "Analista de Desarrollo Senior — Banca & Finanzas",
-        company: "Sopra Steria · Proyectos BNP Paribas / Cetelem e ING · Madrid / Remoto",
+        company: "Sopra Steria · Proyectos ING Bank y BNP Paribas / Cetelem (con Sopra Steria) · Madrid / Remoto",
         date: "Ene. 2020 — Ene. 2023 (3 años 1 mes)",
         pBnpTitle: "BNP Paribas / Cetelem (Sept. 2021 — Ene. 2023 · 1 año 5 meses):",
         bBnp1: "Análisis, diseño e implementación de aplicaciones middleware y servicios financieros de alta concurrencia.",
@@ -97,14 +98,14 @@ const translations = {
       },
       a3media: {
         role: "Analista de Programación en A3Media",
-        company: "atSistemas · Atresmedia · Madrid",
+        company: "atSistemas (para Atresmedia) · Madrid",
         date: "Jul. 2018 — Nov. 2018 (5 meses)",
         b1: "Análisis y desarrollo de microservicios con Spring Boot y Java 8 para plataformas digitales de Atresmedia.",
         b2: "Implementación de arquitecturas cloud nativas en Amazon Web Services (AWS) integradas con Docker y Kubernetes."
       },
       rtve: {
         role: "Analista Desarrollador Senior — RTVE",
-        company: "Corporación RTVE (vía Grupo ICA) · Pozuelo de Alarcón, Madrid",
+        company: "Corporación RTVE (con 80 Soluciones / Everis Spain) · Pozuelo de Alarcón, Madrid",
         date: "Ene. 2016 — Jul. 2018 (2 años 7 meses)",
         b1: "<strong>Scrum Master & Analista Técnico:</strong> Liderazgo técnico y gestión ágil de proyectos clave para RTVE, incluyendo <em>RTVE Play / RTVE a la Carta</em>, Archivo Histórico de RTVE y rediseño de portales web corporativos.",
         b2: "Migración integral del sistema de persistencia y consultas hacia motor de búsqueda distribuido <strong>ElasticSearch</strong>, acelerando radicalmente la recuperación de contenidos multimedia.",
@@ -133,11 +134,12 @@ const translations = {
     skills: {
       tag: "Competencias Técnicas",
       title: "Habilidades y Stack Tecnológico",
+      catAi: "🤖 AI-Driven Engineering & Vanguardia Tecnológica",
       catBackend: "Backend & Arquitectura Java",
       catCloud: "Cloud, DevOps & Contenedores",
       catData: "Bases de Datos & Mensajería",
       catMethod: "Metodologías & Control de Versiones",
-      catFrontend: "Frontend, Móvil & Otros Lenguajes",
+      catFrontend: "Fullstack, Móvil & Modernización Legacy",
       catLanguages: "Idiomas",
       langDesc: "<strong>Español:</strong> Nativo.<br><strong>Inglés:</strong> Nivel Intermedio Profesional (B1/B2).<br><span style='color: var(--text-muted); font-size: 0.85rem;'>Avanzado en lectura técnica, documentación y especificación de requisitos / Fluido en comunicación profesional y técnica.</span>"
     },
@@ -147,9 +149,9 @@ const translations = {
       masterTitle: "Máster de Postgrado INFTEL",
       masterInst: "Universidad de Málaga (UMA) · 2011 — 2012",
       masterDesc: "Especialidad en <strong>'Informática aplicada a las tecnologías móviles y web'</strong>. Formación avanzada en desarrollo móvil nativo, arquitecturas web distribuidas, patrones de diseño empresarial y computación en la nube.",
-      degreeTitle: "Ingeniería Técnica en Informática de Sistemas",
+      degreeTitle: "Ingeniería de Software / Informática de Sistemas",
       degreeInst: "Universidad de Málaga (UMA) · 2004 — 2011",
-      degreeDesc: "Formación universitaria integral en algoritmia avanzada, estructuras de datos, concurrencia de procesos, sistemas operativos, arquitectura de ordenadores, bases de datos y redes telemáticas.<br><em style='color: var(--text-muted); font-size: 0.85rem; display: block; margin-top: 0.4rem;'>Actividades: Presidente y Tesorero del Consejo de Estudiantes de Ingeniería Informática; Judo, Karate y Kobudo en UMA.</em>",
+      degreeDesc: "Formación universitaria integral en ingeniería del software, diseño y arquitectura de sistemas, algoritmia avanzada, estructuras de datos, concurrencia, sistemas operativos y redes telemáticas.<br><em style='color: var(--text-muted); font-size: 0.85rem; display: block; margin-top: 0.4rem;'>Actividades: Presidente y Tesorero del Consejo de Estudiantes de Ingeniería Informática; Judo, Karate y Kobudo en UMA.</em>",
       certTitle: "Certificación Oficial Scrum Master & Formación Continua",
       certInst: "European Scrum (2017) & Entidades Oficiales",
       certP1: "Acreditación profesional oficial en marcos de trabajo ágiles (Scrum, Kanban), facilitación de ceremonias, resolución de impedimentos y optimización de flujos de entrega continua en equipos de ingeniería.",
@@ -165,9 +167,10 @@ const translations = {
       tgmDocBtn: "Ver Documentación & Web ↗",
       lazarusTitle: "La Saga Lázaro (The Lazarus Saga)",
       lazarusSub: "Universo Literario de Fantasía Oscura · Autor & Creador de IP",
-      lazarusDesc: "Obra literaria y universo de novelas publicadas mundialmente en Amazon (español e inglés) que establece las bases del universo transmedia Taos, fusionando cosmología, narrativa épica y filosofía con los videojuegos del ecosistema.",
+      lazarusDesc: "Obra literaria y universo de novelas publicadas en España a través de Editorial Adarve ('La Leyenda de las Esferas') y mundialmente en Amazon (español e inglés), estableciendo las bases del universo transmedia Taos, fusionando cosmología, narrativa épica y filosofía con los videojuegos del ecosistema.",
       lazarusWebBtn: "Web Oficial del Universo ↗",
-      lazarusAmzBtn: "Ver en Amazon ↗"
+      lazarusAmzBtn: "Ver en Amazon ↗",
+      lazarusInterviewBtn: "Entrevista Editorial Adarve ↗"
     },
     contact: {
       tag: "Contacto Directo",
@@ -194,8 +197,9 @@ const translations = {
       role: "Senior Backend Architect & Java Specialist · Lead Software Engineer",
       status: "Active · Globant",
       pillCompany: "🏢 Globant · Santander (Present)",
+      pillAi: "🤖 AI Vanguard · Devin & Claude Agents",
       pillLocation: "📍 Madrid / Málaga / Remote (Spain)",
-      pillEdu: "🎓 M.Sc. INFTEL & Computer Engineer (UMA)",
+      pillEdu: "🎓 Software Engineer & Master INFTEL (UMA)",
       pillExp: `⚡ +${expYears} Years of Experience`,
       pillLang: "🌐 English B1/B2 · Native Spanish",
       btnEmail: "Email Me",
@@ -206,9 +210,9 @@ const translations = {
     summary: {
       tag: "Professional Profile",
       title: "Executive Summary",
-      p1: `<strong>Computer Systems Software Engineer and Master of Science INFTEL</strong> graduate from Universidad de Málaga with over <strong>${expYears} years of proven expertise</strong> in designing, building, deploying, and leading high-availability, high-concurrency, mission-critical enterprise backend architectures.`,
-      p2: `Specialized in modern <strong>Java ecosystem (Java 8, 17, and 21)</strong>, <strong>Spring / Spring Boot</strong> frameworks, resilient microservices under <strong>Hexagonal Architecture (Ports & Adapters)</strong>, contract-driven <strong>ApiFirst</strong> specifications, reactive messaging with <strong>Apache Kafka</strong>, and hybrid cloud environments (<strong>Azure, OpenShift, AWS</strong>).`,
-      p3: `Extensive background delivering mission-critical projects for tier-1 enterprises across demanding industries: <strong>Banking & Fintech</strong> (Santander with Globant, ING Bank, BNP Paribas / Cetelem), <strong>Global Retail & E-Commerce</strong> (Inditex / Plexus), <strong>Consulting & Core Architecture</strong> (Globant), <strong>Insurance</strong> (A.M.A. Seguros), <strong>Broadcast Media</strong> (RTVE, Atresmedia), and <strong>Public Sector</strong> (Málaga City Council, UMA). Proven track record as <strong>Scrum Master</strong> leading cross-functional engineering teams, modernizing legacy systems toward distributed microservices, and providing technical mentorship.`,
+      p1: `<strong>Software Engineer and Master of Science INFTEL</strong> graduate from Universidad de Málaga with over <strong>${expYears} years of continuous professional trajectory</strong> (active since 2008), grounded in versatile fullstack foundations (native mobile, web frontend, and backend engineering) with extensive experience modernizing and refactoring legacy systems into modern high-scale architectures.`,
+      p2: `Specialized in modern <strong>Java ecosystem (Java 8, 17, and 21)</strong>, <strong>Spring / Spring Boot</strong> frameworks, resilient microservices under <strong>Hexagonal Architecture (Ports & Adapters)</strong>, contract-driven <strong>ApiFirst</strong> specifications, reactive streaming with <strong>Apache Kafka</strong>, and hybrid cloud environments (<strong>Azure, OpenShift, AWS</strong>).`,
+      p3: `Positioned at the <strong>vanguard of AI-augmented software engineering</strong>, integrating next-generation autonomous agents like <strong>Devin AI</strong> and <strong>Claude</strong> through specialized <em>workflows</em>, domain <em>skills</em>, and agentic pipelines to accelerate mission-critical delivery with peak architectural velocity and rigor. Extensive background leading tier-1 distributed projects: <strong>Banking & Fintech</strong> (Santander with Globant, ING with Sopra Steria, BNP Paribas / Cetelem with Sopra Steria), <strong>Global Retail & E-Commerce</strong> (Inditex with Plexus), <strong>Insurance</strong> (A.M.A. Seguros), <strong>Broadcast Media</strong> (RTVE with Everis, Atresmedia with atSistemas), and <strong>Public Sector</strong> (Málaga City Council, UMA). Certified <strong>Scrum Master</strong>.`,
       metricExp: "Years of Experience",
       metricCore: "Core Expertise",
       metricArch: "Clean Architecture",
@@ -225,16 +229,16 @@ const translations = {
         medios: "Media & Insurance"
       },
       globant: {
-        role: "Software Application Analyst — Core Backend Architecture",
+        role: "Software Application Analyst — Core Backend Architecture & AI Vanguard",
         company: "Globant · Banco Santander · Full-time · Remote",
         date: "Jan. 2025 — Present",
-        b1: "<strong>Design and implementation of core backend architecture:</strong> Engineering standardized, resilient, and horizontally scalable foundational solutions for international deployment, localization, and extension across group subsidiaries.",
-        b2: "Definition of engineering guidelines, API governance following ApiFirst principles, and cloud-native microservice resilience patterns.",
-        b3: "Cross-collaboration with distributed global engineering teams ensuring architectural governance and code quality standards."
+        b1: "<strong>Core Backend Architecture:</strong> Architecture and engineering of standardized, robust, and highly scalable foundational solutions for international deployment, localization, and extension across Banco Santander's global entities.",
+        b2: "<strong>Vanguard in AI-Augmented Engineering (AI-Driven Development):</strong> Pioneering the adoption and integration of next-generation autonomous AI agents (<strong>Devin AI, Claude</strong>), architecting customized <em>workflows</em>, modular domain <em>skills</em>, and multi-agent pipelines to accelerate feature delivery, modernizations, and mission-critical code generation with peak velocity.",
+        b3: "<strong>Enterprise Governance & Resilience Patterns:</strong> Defining development guidelines, <strong>ApiFirst</strong> contract governance and specifications, cloud microservices resilience patterns, and aligning global engineering squads under software craftsmanship best practices."
       },
       inditex: {
         role: "Senior Backend Engineer at Inditex",
-        company: "Plexus Tech · Inditex · Full-time · Remote",
+        company: "Plexus Tech (for Inditex) · Full-time · Remote",
         date: "Jan. 2023 — Jul. 2025 (2 yrs 7 mos)",
         b1: "End-to-end backend microservice analysis and development from technical discovery to production release across Inditex corporate platforms.",
         b2: "<strong>Strategic Migrations:</strong> Re-architecting and modernizing legacy NodeJS backend services into Java 17 under <strong>Hexagonal Architecture</strong> and <strong>ApiFirst</strong> contracts.",
@@ -243,7 +247,7 @@ const translations = {
       },
       banca: {
         role: "Senior Software Analyst — Banking & Financial Services",
-        company: "Sopra Steria · BNP Paribas / Cetelem & ING Projects · Madrid / Remote",
+        company: "Sopra Steria · Projects for ING Bank & BNP Paribas / Cetelem (with Sopra Steria) · Madrid / Remote",
         date: "Jan. 2020 — Jan. 2023 (3 yrs 1 mo)",
         pBnpTitle: "BNP Paribas / Cetelem (Sept. 2021 — Jan. 2023 · 1 yr 5 mos):",
         bBnp1: "Architecture, design, and implementation of high-throughput financial middleware and core credit management services.",
@@ -263,14 +267,14 @@ const translations = {
       },
       a3media: {
         role: "Software Programming Analyst at Atresmedia",
-        company: "atSistemas · Atresmedia · Madrid",
+        company: "atSistemas (for Atresmedia) · Madrid",
         date: "Jul. 2018 — Nov. 2018 (5 mos)",
         b1: "Analysis and development of microservices with Spring Boot and Java 8 for Atresmedia digital broadcasting platforms.",
         b2: "Cloud-native architectures on Amazon Web Services (AWS) integrated with Docker and Kubernetes."
       },
       rtve: {
         role: "Senior Software Analyst & Scrum Master — RTVE",
-        company: "Corporación RTVE (via Grupo ICA) · Pozuelo de Alarcón, Madrid",
+        company: "Corporación RTVE (with 80 Soluciones / Everis Spain) · Pozuelo de Alarcón, Madrid",
         date: "Jan. 2016 — Jul. 2018 (2 yrs 7 mos)",
         b1: "<strong>Scrum Master & Technical Analyst:</strong> Technical leadership and agile management of critical projects for RTVE, including <em>RTVE Play / RTVE a la Carta</em>, RTVE Historical Archive, and corporate digital portal redesigns.",
         b2: "Complete migration of the persistence and query layer to distributed <strong>ElasticSearch</strong>, dramatically accelerating multimedia content retrieval.",
@@ -299,11 +303,12 @@ const translations = {
     skills: {
       tag: "Technical Stack",
       title: "Core Skills & Technology Matrix",
+      catAi: "🤖 AI-Driven Engineering & Autonomous Agents",
       catBackend: "Backend & Java Architecture",
       catCloud: "Cloud, DevOps & Containers",
       catData: "Databases & Messaging",
       catMethod: "Methodologies & Version Control",
-      catFrontend: "Frontend, Mobile & Polyglot Languages",
+      catFrontend: "Fullstack, Mobile & Legacy Modernization",
       catLanguages: "Languages",
       langDesc: "<strong>Spanish:</strong> Native.<br><strong>English:</strong> Professional Working Proficiency (B1/B2).<br><span style='color: var(--text-muted); font-size: 0.85rem;'>Advanced technical reading, documentation & API specifications / Fluent professional communication.</span>"
     },
@@ -313,9 +318,9 @@ const translations = {
       masterTitle: "Master of Science INFTEL",
       masterInst: "Universidad de Málaga (UMA) · 2011 — 2012",
       masterDesc: "Specialization in <strong>'Applied Computer Science for Mobile and Web Technologies'</strong>. Advanced coursework in distributed web architectures, enterprise design patterns, cloud computing, and native mobile development.",
-      degreeTitle: "B.S. in Computer Systems Engineering",
+      degreeTitle: "Software Engineer",
       degreeInst: "Universidad de Málaga (UMA) · 2004 — 2011",
-      degreeDesc: "Engineering Degree in Computer Science. Rigorous foundations in algorithms, data structures, operating systems, software engineering, and database management.<br><em style='color: var(--text-muted); font-size: 0.85rem; display: block; margin-top: 0.4rem;'>Activities: President & Treasurer of the Student Council of Computer Engineering; Judo, Karate, and Kobudo at UMA.</em>",
+      degreeDesc: "Comprehensive university degree in software engineering, system architecture, advanced algorithms, concurrent programming, distributed systems, operating systems, and computer networks.<br><em style='color: var(--text-muted); font-size: 0.85rem; display: block; margin-top: 0.4rem;'>Activities: President & Treasurer of the Student Council of Computer Engineering; Judo, Karate, and Kobudo at UMA.</em>",
       certTitle: "Official Scrum Master Certification & Continuous Learning",
       certInst: "European Scrum (2017) & Official Institutions",
       certP1: "Official professional certification in agile frameworks (Scrum, Kanban), ceremony facilitation, impedance removal, and continuous delivery optimization in engineering squads.",
@@ -331,9 +336,10 @@ const translations = {
       tgmDocBtn: "View Documentation & Web ↗",
       lazarusTitle: "The Lazarus Saga (La Saga Lázaro)",
       lazarusSub: "Dark Fantasy Literary Universe · Author & IP Creator",
-      lazarusDesc: "Published dark fantasy and epic cosmology book series on Amazon (Spanish & English) establishing the lore and narrative foundations for the Taos transmedia game ecosystem.",
+      lazarusDesc: "Dark fantasy literary universe and cosmology novels published in Spain through Editorial Adarve ('La Leyenda de las Esferas') and globally on Amazon (Spanish & English), establishing the narrative worldbuilding and philosophical lore inspiring the Taos game ecosystem.",
       lazarusWebBtn: "Official Universe Website ↗",
-      lazarusAmzBtn: "View on Amazon ↗"
+      lazarusAmzBtn: "View on Amazon ↗",
+      lazarusInterviewBtn: "Editorial Adarve Interview ↗"
     },
     contact: {
       tag: "Direct Contact",
@@ -391,6 +397,7 @@ function setLanguage(lang) {
   setText('hero-role', t.hero.role);
   setText('hero-status', t.hero.status);
   setText('pill-company', t.hero.pillCompany);
+  setText('pill-ai', t.hero.pillAi);
   setText('pill-location', t.hero.pillLocation);
   setText('pill-edu', t.hero.pillEdu);
   setText('pill-exp', t.hero.pillExp);
@@ -494,6 +501,7 @@ function setLanguage(lang) {
   // 5. Skills
   setText('skills-tag', t.skills.tag);
   setText('skills-title', t.skills.title);
+  setText('skill-cat-ai', t.skills.catAi);
   setText('skill-cat-backend', t.skills.catBackend);
   setText('skill-cat-cloud', t.skills.catCloud);
   setText('skill-cat-data', t.skills.catData);
@@ -529,6 +537,7 @@ function setLanguage(lang) {
   setText('lazarus-desc', t.projects.lazarusDesc);
   setHtml('lazarus-web-btn', `<span>📖</span> ${t.projects.lazarusWebBtn}`);
   setHtml('lazarus-amz-btn', `<span>📦</span> ${t.projects.lazarusAmzBtn}`);
+  setHtml('lazarus-interview-btn', `<span>🎙️</span> ${t.projects.lazarusInterviewBtn}`);
   setText('personal-title', t.projects.personalTitle);
   setText('personal-sub', t.projects.personalSub);
   setText('personal-desc', t.projects.personalDesc);
