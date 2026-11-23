@@ -169,7 +169,8 @@ const translations = {
       lazarusSub: "Universo Literario de Fantasía Oscura · Autor & Creador de IP",
       lazarusDesc: "Obra literaria y universo de novelas publicadas en España a través de Editorial Adarve ('La Leyenda de las Esferas') y mundialmente en Amazon (español e inglés), estableciendo las bases del universo transmedia Taos, fusionando cosmología, narrativa épica y filosofía con los videojuegos del ecosistema.",
       lazarusWebBtn: "Web Oficial del Universo ↗",
-      lazarusAmzBtn: "Ver en Amazon ↗",
+      lazarusAmzEsBtn: "Amazon (ES) ↗",
+      lazarusAmzEnBtn: "Amazon (EN) ↗",
       lazarusInterviewBtn: "Entrevista Editorial Adarve ↗"
     },
     contact: {
@@ -338,7 +339,8 @@ const translations = {
       lazarusSub: "Dark Fantasy Literary Universe · Author & IP Creator",
       lazarusDesc: "Dark fantasy literary universe and cosmology novels published in Spain through Editorial Adarve ('La Leyenda de las Esferas') and globally on Amazon (Spanish & English), establishing the narrative worldbuilding and philosophical lore inspiring the Taos game ecosystem.",
       lazarusWebBtn: "Official Universe Website ↗",
-      lazarusAmzBtn: "View on Amazon ↗",
+      lazarusAmzEsBtn: "Amazon (Spanish Ed.) ↗",
+      lazarusAmzEnBtn: "Amazon (English Ed.) ↗",
       lazarusInterviewBtn: "Editorial Adarve Interview ↗"
     },
     contact: {
@@ -536,7 +538,8 @@ function setLanguage(lang) {
   setText('lazarus-sub', t.projects.lazarusSub);
   setText('lazarus-desc', t.projects.lazarusDesc);
   setHtml('lazarus-web-btn', `<span>📖</span> ${t.projects.lazarusWebBtn}`);
-  setHtml('lazarus-amz-btn', `<span>📦</span> ${t.projects.lazarusAmzBtn}`);
+  setHtml('lazarus-amz-es-btn', `<span>📦</span> ${t.projects.lazarusAmzEsBtn}`);
+  setHtml('lazarus-amz-en-btn', `<span>📦</span> ${t.projects.lazarusAmzEnBtn}`);
   setHtml('lazarus-interview-btn', `<span>🎙️</span> ${t.projects.lazarusInterviewBtn}`);
   setText('personal-title', t.projects.personalTitle);
   setText('personal-sub', t.projects.personalSub);

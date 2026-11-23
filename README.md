@@ -138,8 +138,12 @@
           <img src="https://img.shields.io/badge/Universe-Official_Site-6366f1?style=flat-square&logo=googleearth&logoColor=white" alt="Official Web" />
         </a>
         &nbsp;
-        <a href="https://www.amazon.es/dp/B0DNYK6Z28">
-          <img src="https://img.shields.io/badge/Amazon-Read_Novels-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon" />
+        <a href="https://www.amazon.es/dp/B0HLSQKMR1">
+          <img src="https://img.shields.io/badge/Amazon-Novela_(ES)-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon Español" />
+        </a>
+        &nbsp;
+        <a href="https://www.amazon.es/dp/B0HMFQVSF2">
+          <img src="https://img.shields.io/badge/Amazon-Novel_(EN)-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon English" />
         </a>
         &nbsp;
         <a href="https://editorial-adarve.com/entrevista-a-jose-manuel-heredia-autor-del-libro-la-leyenda-de-las-esferas/">
