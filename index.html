@@ -11,15 +11,22 @@
 </head>
 <body>
 
+  <!-- Ambient Moving Aurora Glows -->
+  <div class="ambient-glow-wrapper" aria-hidden="true">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+  </div>
+
   <!-- Dynamic Constellation Canvas -->
   <canvas id="bg-canvas"></canvas>
 
   <!-- Header / Navigation -->
   <header class="header">
     <div class="container nav-container">
-      <a href="#inicio" class="brand">
+      <a href="#inicio" class="brand" title="José Manuel Heredia Reyes — Volver al inicio">
         <span>José Manuel Heredia Reyes</span>
-        <span class="brand-badge">CV Online</span>
+        <span class="brand-badge">Lead Architect</span>
       </a>
 
       <ul class="nav-menu">
@@ -36,9 +43,9 @@
           <button class="lang-btn active" data-lang="es" onclick="setLanguage('es')">🇪🇸 ES</button>
           <button class="lang-btn" data-lang="en" onclick="setLanguage('en')">🇬🇧 EN</button>
         </div>
-        <button onclick="window.print()" class="btn btn-secondary btn-sm" title="Imprimir o guardar como PDF">
+        <a href="assets/docs/CV_Jose_Manuel_Heredia_Reyes.pdf" download="CV_Jose_Manuel_Heredia_Reyes.pdf" target="_blank" class="btn btn-secondary btn-sm" title="Descargar CV auténtico en PDF" id="nav-btn-pdf">
           <span>📥</span> PDF
-        </button>
+        </a>
         <a href="https://www.linkedin.com/in/josemhr/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
           <span>💼</span> LinkedIn
         </a>
@@ -81,9 +88,9 @@
             <a href="https://github.com/JoseMHR" target="_blank" rel="noopener" class="btn btn-outline" id="btn-hero-github">
               <span>🐙</span> GitHub (@JoseMHR)
             </a>
-            <button onclick="window.print()" class="btn btn-outline" id="btn-hero-print">
-              <span>🖨️</span> Imprimir / Descargar CV
-            </button>
+            <a href="assets/docs/CV_Jose_Manuel_Heredia_Reyes.pdf" download="CV_Jose_Manuel_Heredia_Reyes.pdf" target="_blank" class="btn btn-outline" id="btn-hero-print">
+              <span>📥</span> Descargar CV (PDF)
+            </a>
           </div>
         </div>
       </div>

@@ -36,7 +36,7 @@ const translations = {
       btnEmail: "Contactar por Email",
       btnLinkedIn: "Perfil de LinkedIn",
       btnGitHub: "GitHub (@JoseMHR)",
-      btnPrint: "Imprimir / Descargar CV"
+      btnPrint: "Descargar CV (PDF)"
     },
     summary: {
       tag: "Perfil Profesional",
@@ -206,7 +206,7 @@ const translations = {
       btnEmail: "Email Me",
       btnLinkedIn: "LinkedIn Profile",
       btnGitHub: "GitHub (@JoseMHR)",
-      btnPrint: "Print / Save CV as PDF"
+      btnPrint: "Download CV (PDF)"
     },
     summary: {
       tag: "Professional Profile",
@@ -406,7 +406,7 @@ function setLanguage(lang) {
   setText('pill-lang', t.hero.pillLang);
   setText('btn-hero-email', t.hero.btnEmail);
   setText('btn-hero-linkedin', t.hero.btnLinkedIn);
-  setText('btn-hero-print', t.hero.btnPrint);
+  setHtml('btn-hero-print', `<span>📥</span> ${t.hero.btnPrint}`);
 
   // 3. Summary
   setText('summary-tag', t.summary.tag);
@@ -572,7 +572,7 @@ function filterTimeline(category, button) {
   });
 }
 
-// 4. Interactive Constellation Canvas Background
+// 4. Interactive Constellation Canvas Background with Parallax & Glow
 function initConstellationBackground() {
   const canvas = document.getElementById('bg-canvas');
   if (!canvas) return;
@@ -586,18 +586,22 @@ function initConstellationBackground() {
     height = canvas.height = window.innerHeight;
   });
 
-  const numParticles = Math.min(Math.floor((width * height) / 16000), 75);
+  const numParticles = Math.min(Math.floor((width * height) / 13000), 85);
   const particles = [];
-  const maxDistance = 140;
+  const maxDistance = 145;
 
   for (let i = 0; i < numParticles; i++) {
+    const isSpecial = Math.random() > 0.82;
     particles.push({
       x: Math.random() * width,
       y: Math.random() * height,
-      vx: (Math.random() - 0.5) * 0.45,
-      vy: (Math.random() - 0.5) * 0.45,
-      radius: Math.random() * 1.8 + 1,
-      color: Math.random() > 0.4 ? 'rgba(56, 189, 248, ' : 'rgba(99, 102, 241, '
+      vx: (Math.random() - 0.5) * 0.55,
+      vy: (Math.random() - 0.5) * 0.55,
+      radius: isSpecial ? Math.random() * 2 + 2.4 : Math.random() * 1.5 + 1.2,
+      baseRadius: isSpecial ? 3 : 1.5,
+      isSpecial: isSpecial,
+      pulse: Math.random() * Math.PI,
+      color: Math.random() > 0.45 ? 'rgba(56, 189, 248, ' : 'rgba(168, 85, 247, '
     });
   }
 
@@ -619,29 +623,43 @@ function initConstellationBackground() {
       p.x += p.vx;
       p.y += p.vy;
 
-      if (p.x < 0) p.x = width;
-      else if (p.x > width) p.x = 0;
-      if (p.y < 0) p.y = height;
-      else if (p.y > height) p.y = 0;
+      if (p.x < -10) p.x = width + 10;
+      else if (p.x > width + 10) p.x = -10;
+      if (p.y < -10) p.y = height + 10;
+      else if (p.y > height + 10) p.y = -10;
 
-      // Draw particle
+      p.pulse += 0.03;
+      const currentRadius = p.radius + Math.sin(p.pulse) * 0.35;
+
+      // Draw particle with glow
       ctx.beginPath();
-      ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-      ctx.fillStyle = p.color + '0.7)';
+      ctx.arc(p.x, p.y, Math.max(currentRadius, 0.8), 0, Math.PI * 2);
+      ctx.fillStyle = p.color + (p.isSpecial ? '0.92)' : '0.65)');
+      if (p.isSpecial) {
+        ctx.shadowBlur = 10;
+        ctx.shadowColor = '#38bdf8';
+      } else {
+        ctx.shadowBlur = 0;
+      }
       ctx.fill();
 
-      // Connect to mouse
+      // Connect to mouse with interactive glow beam
       if (mouse.x !== null && mouse.y !== null) {
         const dx = mouse.x - p.x;
         const dy = mouse.y - p.y;
         const dist = Math.sqrt(dx * dx + dy * dy);
-        if (dist < 180) {
+        if (dist < 190) {
           ctx.beginPath();
           ctx.moveTo(p.x, p.y);
           ctx.lineTo(mouse.x, mouse.y);
-          ctx.strokeStyle = `rgba(56, 189, 248, ${0.35 * (1 - dist / 180)})`;
-          ctx.lineWidth = 1;
+          const alpha = 0.42 * (1 - dist / 190);
+          ctx.strokeStyle = `rgba(56, 189, 248, ${alpha})`;
+          ctx.lineWidth = 1.1;
           ctx.stroke();
+
+          // Gentle mouse magnetic repulsion
+          p.x -= (dx / dist) * 0.35;
+          p.y -= (dy / dist) * 0.35;
         }
       }
 
@@ -656,9 +674,10 @@ function initConstellationBackground() {
           ctx.beginPath();
           ctx.moveTo(p.x, p.y);
           ctx.lineTo(p2.x, p2.y);
-          const alpha = 0.22 * (1 - dist / maxDistance);
+          const alpha = 0.25 * (1 - dist / maxDistance);
           ctx.strokeStyle = p.color + alpha + ')';
-          ctx.lineWidth = 0.8;
+          ctx.lineWidth = 0.85;
+          ctx.shadowBlur = 0;
           ctx.stroke();
         }
       }
@@ -670,8 +689,62 @@ function initConstellationBackground() {
   animate();
 }
 
+// 5. Dynamic Navbar Scroll Spy & Active State Tracking
+function initScrollSpy() {
+  const navLinks = document.querySelectorAll('.nav-link');
+  const sections = [
+    document.getElementById('resumen'),
+    document.getElementById('experiencia'),
+    document.getElementById('habilidades'),
+    document.getElementById('educacion'),
+    document.getElementById('proyectos'),
+    document.getElementById('contacto')
+  ].filter(Boolean);
+
+  function updateActiveNav() {
+    const scrollPos = window.scrollY + 140;
+
+    let currentSectionId = '';
+    
+    // If at top in hero area, don't force section active
+    if (window.scrollY < 260) {
+      currentSectionId = '';
+    } else if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 80) {
+      currentSectionId = 'contacto';
+    } else {
+      sections.forEach(section => {
+        const top = section.offsetTop;
+        const height = section.offsetHeight;
+        if (scrollPos >= top && scrollPos < top + height) {
+          currentSectionId = section.getAttribute('id');
+        }
+      });
+    }
+
+    navLinks.forEach(link => {
+      const href = link.getAttribute('href');
+      if (currentSectionId && href === `#${currentSectionId}`) {
+        link.classList.add('active');
+      } else {
+        link.classList.remove('active');
+      }
+    });
+  }
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.forEach(l => l.classList.remove('active'));
+      link.classList.add('active');
+    });
+  });
+
+  window.addEventListener('scroll', updateActiveNav, { passive: true });
+  updateActiveNav();
+}
+
 // Initialize on DOM load
 document.addEventListener('DOMContentLoaded', () => {
   setLanguage(currentLang);
   initConstellationBackground();
+  initScrollSpy();
 });
