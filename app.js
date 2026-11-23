@@ -50,7 +50,7 @@ const translations = {
       metricArchVal: "Hexagonal / Microservicios",
       metricArchLbl: "Arquitectura Limpia & DDD",
       metricAiVal: "Devin & Claude",
-      metricAiLbl: "Workflows & Agentes IA"
+      metricAiLbl: "Workflows & Skills"
     },
     timeline: {
       tag: "Carrera Profesional",
@@ -223,7 +223,7 @@ const translations = {
       metricArchVal: "Hexagonal / Microservices",
       metricArchLbl: "Clean Architecture & DDD",
       metricAiVal: "Devin & Claude",
-      metricAiLbl: "AI Agentic Workflows"
+      metricAiLbl: "Workflows & Skills"
     },
     timeline: {
       tag: "Career Trajectory",
