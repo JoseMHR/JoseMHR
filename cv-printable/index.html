@@ -48,18 +48,26 @@
       min-width: 66mm;
       max-width: 66mm;
       height: 297mm;
-      background: #091325;
+      background-color: #070c18;
+      background-image: 
+        radial-gradient(circle at 15% 12%, rgba(56, 189, 248, 0.22) 0%, transparent 48%),
+        radial-gradient(circle at 85% 42%, rgba(168, 85, 247, 0.18) 0%, transparent 42%),
+        radial-gradient(circle at 25% 78%, rgba(14, 165, 233, 0.20) 0%, transparent 46%),
+        radial-gradient(rgba(56, 189, 248, 0.12) 1px, transparent 1px),
+        linear-gradient(180deg, #091224 0%, #050912 100%);
+      background-size: 100% 100%, 100% 100%, 100% 100%, 14px 14px, 100% 100%;
       color: #e2e8f0;
-      padding: 7mm 5.5mm 5mm 5.5mm;
+      padding: 7.5mm 5.5mm 5.5mm 5.5mm;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      border-right: 1.5px solid #1e3a8a;
+      border-right: 1.5px solid rgba(56, 189, 248, 0.3);
+      position: relative;
     }
 
     .avatar-wrapper {
       text-align: center;
-      margin-bottom: 4mm;
+      margin-bottom: 5mm;
     }
 
     .avatar-img {
@@ -68,12 +76,12 @@
       border-radius: 50%;
       object-fit: cover;
       border: 2.5px solid #38bdf8;
-      box-shadow: 0 0 14px rgba(56, 189, 248, 0.35);
+      box-shadow: 0 0 16px rgba(56, 189, 248, 0.45);
       display: inline-block;
     }
 
     .side-section {
-      margin-bottom: 3.5mm;
+      margin-bottom: 5mm;
     }
 
     .side-title {
@@ -82,9 +90,9 @@
       text-transform: uppercase;
       letter-spacing: 0.08em;
       color: #38bdf8;
-      border-bottom: 1px solid rgba(56, 189, 248, 0.3);
+      border-bottom: 1px solid rgba(56, 189, 248, 0.35);
       padding-bottom: 1mm;
-      margin-bottom: 2mm;
+      margin-bottom: 2.2mm;
       display: flex;
       align-items: center;
       gap: 1.5mm;
@@ -159,38 +167,33 @@
       border: 1px solid rgba(168, 85, 247, 0.4);
     }
 
-    .qr-box {
-      background: rgba(15, 23, 42, 0.7);
-      border: 1px solid rgba(56, 189, 248, 0.25);
-      border-radius: 4px;
-      padding: 2mm;
+    .qr-container {
+      background: rgba(11, 20, 38, 0.85);
+      border: 1px solid rgba(56, 189, 248, 0.45);
+      border-radius: 6px;
+      padding: 2.8mm 3mm 2.2mm 3mm;
       text-align: center;
-      display: flex;
-      align-items: center;
-      gap: 2.5mm;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
     }
 
-    .qr-img {
-      width: 18mm;
-      height: 18mm;
-      background: #ffffff;
-      padding: 1mm;
-      border-radius: 3px;
-      flex-shrink: 0;
-    }
-
-    .qr-text {
-      font-size: 6.8pt;
-      color: #94a3b8;
-      text-align: left;
-      line-height: 1.25;
-    }
-
-    .qr-text strong {
+    .qr-title {
+      font-size: 7.5pt;
+      font-weight: 800;
       color: #38bdf8;
-      display: block;
-      font-size: 7.2pt;
-      margin-bottom: 0.5mm;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 2mm;
+      text-align: center;
+    }
+
+    .qr-img-large {
+      width: 27mm;
+      height: 27mm;
+      background: #ffffff;
+      padding: 1.2mm;
+      border-radius: 4px;
+      display: inline-block;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     }
 
     /* ==========================================================================
@@ -210,31 +213,35 @@
 
     /* Header */
     .cv-header {
-      margin-bottom: 2.5mm;
+      margin-bottom: 3mm;
       border-bottom: 1.5px solid #e2e8f0;
-      padding-bottom: 2mm;
+      padding-bottom: 2.5mm;
+      text-align: center;
     }
 
     .header-name {
-      font-size: 17.5pt;
+      font-size: 20.5pt;
       font-weight: 800;
       color: #091325;
-      letter-spacing: -0.02em;
+      letter-spacing: -0.025em;
       line-height: 1.1;
-      margin-bottom: 1mm;
+      margin-bottom: 1.2mm;
+      text-align: center;
     }
 
     .header-role {
-      font-size: 9pt;
+      font-size: 9.6pt;
       font-weight: 700;
       color: #0284c7;
-      margin-bottom: 1.5mm;
+      margin-bottom: 2.2mm;
+      text-align: center;
+      letter-spacing: -0.01em;
     }
 
     .header-summary {
-      font-size: 7.5pt;
+      font-size: 7.4pt;
       color: #475569;
-      line-height: 1.35;
+      line-height: 1.36;
       text-align: justify;
     }
 
@@ -352,9 +359,28 @@
       font-weight: 600;
     }
 
+    .job-client-blue {
+      color: #0284c7;
+      font-weight: 800;
+      font-size: 8.4pt;
+    }
+
+    .job-sep {
+      color: #94a3b8;
+      margin: 0 0.8mm;
+      font-weight: 600;
+    }
+
+    .job-company-tag {
+      font-size: 7.5pt;
+      font-weight: 600;
+      color: #64748b;
+      margin-left: 0.8mm;
+    }
+
     /* Compact 3-line Jobs */
     .job-compact {
-      margin-bottom: 2.6mm;
+      margin-bottom: 2.5mm;
       page-break-inside: avoid;
     }
 
@@ -365,21 +391,29 @@
       line-height: 1.25;
     }
 
+    .job-compact-client {
+      font-size: 8.2pt;
+      font-weight: 800;
+      color: #0284c7;
+    }
+
+    .job-compact-sep {
+      color: #94a3b8;
+      margin: 0 0.8mm;
+      font-weight: 600;
+    }
+
     .job-compact-title {
-      font-size: 7.9pt;
+      font-size: 7.8pt;
       font-weight: 700;
       color: #0f172a;
     }
 
-    .job-compact-client {
-      color: #0284c7;
-    }
-
     .job-compact-company {
-      font-size: 7.4pt;
+      font-size: 7.3pt;
       font-weight: 600;
       color: #64748b;
-      margin-left: 1mm;
+      margin-left: 0.8mm;
     }
 
     .job-compact-date {
@@ -424,28 +458,44 @@
       color: #ffffff;
     }
 
-    /* Skills Grid */
-    .skills-matrix {
+    /* Skills Section & Cards */
+    .skills-section {
+      margin-top: 2.2mm;
+    }
+
+    .skills-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 1.5mm 3mm;
+      gap: 2mm 3.5mm;
+    }
+
+    .skill-card {
       background: #f8fafc;
-      border: 1px solid #e2e8f0;
+      border: 1px solid #cbd5e1;
+      border-left: 2.8px solid #0284c7;
       border-radius: 4px;
-      padding: 1.8mm 2.5mm;
+      padding: 1.8mm 2.6mm;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
     }
 
-    .skill-cat {
-      font-size: 6.9pt;
-      line-height: 1.28;
-      color: #334155;
-    }
-
-    .skill-cat strong {
+    .skill-card-title {
+      font-size: 7.6pt;
+      font-weight: 800;
       color: #0f172a;
-      display: block;
+      margin-bottom: 0.6mm;
+      display: flex;
+      align-items: center;
+      gap: 1.2mm;
+    }
+
+    .skill-card-title span.icon {
+      font-size: 7.8pt;
+    }
+
+    .skill-card-body {
       font-size: 7.1pt;
-      margin-bottom: 0.3mm;
+      line-height: 1.32;
+      color: #334155;
     }
   </style>
 </head>
@@ -532,12 +582,9 @@
       </div>
 
       <!-- QR Code interactivo -->
-      <div class="qr-box">
-        <img src="assets/qr-portfolio.png" alt="QR Web CV" class="qr-img">
-        <div class="qr-text">
-          <strong>CV Interactivo Online</strong>
-          Escanea para ver proyectos, filtros y demo en tiempo real.
-        </div>
+      <div class="qr-container">
+        <div class="qr-title">CV Interactivo Online</div>
+        <img src="assets/qr-portfolio.png" alt="QR Web CV" class="qr-img-large">
       </div>
     </aside>
 
@@ -562,9 +609,11 @@
           </div>
 
           <!-- 1. Globant (Santander) -->
-          <article class="job-item" style="border-bottom: 1px dashed #cbd5e1; padding-bottom: 1.6mm; margin-bottom: 1.8mm;">
+          <article class="job-item" style="border-bottom: 1px dashed #cbd5e1; padding-bottom: 1.6mm; margin-bottom: 2mm;">
             <div class="job-header">
-              <div class="job-role">Software Application Analyst <span class="client-tag">en Banco Santander</span> [Globant]</div>
+              <div class="job-role">
+                <span class="job-client-blue">Banco Santander</span> <span class="job-sep">—</span> Software Application Analyst <span class="job-company-tag">[Globant]</span>
+              </div>
               <div class="job-date">Ene. 2025 — Actualidad</div>
             </div>
             <div class="job-company">Globant · Core Backend Architecture & AI Vanguard · Remoto</div>
@@ -588,8 +637,7 @@
           <article class="job-compact">
             <div class="job-compact-header">
               <div>
-                <span class="job-compact-title">Desarrollador Senior Backend <span class="job-compact-client">en Inditex</span></span>
-                <span class="job-compact-company">[Plexus Tech]</span>
+                <span class="job-compact-client">Inditex</span> <span class="job-compact-sep">—</span> <span class="job-compact-title">Desarrollador Senior Backend</span> <span class="job-compact-company">[Plexus Tech]</span>
               </div>
               <span class="job-compact-date">Ene. 2023 — Ene. 2025 (2 años)</span>
             </div>
@@ -601,8 +649,7 @@
           <article class="job-compact">
             <div class="job-compact-header">
               <div>
-                <span class="job-compact-title">Analista de Desarrollo Senior <span class="job-compact-client">en BNP Paribas e ING</span></span>
-                <span class="job-compact-company">[Sopra Steria]</span>
+                <span class="job-compact-client">BNP Paribas e ING</span> <span class="job-compact-sep">—</span> <span class="job-compact-title">Analista de Desarrollo Senior</span> <span class="job-compact-company">[Sopra Steria]</span>
               </div>
               <span class="job-compact-date">Ene. 2020 — Ene. 2023 (3 años)</span>
             </div>
@@ -614,7 +661,7 @@
           <article class="job-compact">
             <div class="job-compact-header">
               <div>
-                <span class="job-compact-title">Analista Desarrollador Backend <span class="job-compact-client">en A.M.A. Seguros</span></span>
+                <span class="job-compact-client">A.M.A. Seguros</span> <span class="job-compact-sep">—</span> <span class="job-compact-title">Analista Desarrollador Backend</span>
               </div>
               <span class="job-compact-date">Nov. 2018 — Ene. 2020 (1 año 3 m)</span>
             </div>
@@ -626,8 +673,7 @@
           <article class="job-compact">
             <div class="job-compact-header">
               <div>
-                <span class="job-compact-title">Analista de Programación <span class="job-compact-client">en Atresmedia</span></span>
-                <span class="job-compact-company">[atSistemas]</span>
+                <span class="job-compact-client">Atresmedia</span> <span class="job-compact-sep">—</span> <span class="job-compact-title">Analista de Programación</span> <span class="job-compact-company">[atSistemas]</span>
               </div>
               <span class="job-compact-date">Nov. 2017 — Nov. 2018 (1 año)</span>
             </div>
@@ -639,8 +685,7 @@
           <article class="job-compact">
             <div class="job-compact-header">
               <div>
-                <span class="job-compact-title">Analista Desarrollador & Scrum Master <span class="job-compact-client">en RTVE</span></span>
-                <span class="job-compact-company">[Everis Spain]</span>
+                <span class="job-compact-client">RTVE</span> <span class="job-compact-sep">—</span> <span class="job-compact-title">Analista Desarrollador & Scrum Master</span> <span class="job-compact-company">[Everis]</span>
               </div>
               <span class="job-compact-date">Sept. 2015 — Nov. 2017 (2 años 3 m)</span>
             </div>
@@ -652,8 +697,7 @@
           <article class="job-compact">
             <div class="job-compact-header">
               <div>
-                <span class="job-compact-title">Ingeniero de Software <span class="job-compact-client">en Sector Público</span></span>
-                <span class="job-compact-company">[Ayto. Málaga / UMA]</span>
+                <span class="job-compact-client">Sector Público</span> <span class="job-compact-sep">—</span> <span class="job-compact-title">Ingeniero de Software</span> <span class="job-compact-company">[Ayto. Málaga / UMA]</span>
               </div>
               <span class="job-compact-date">Jun. 2013 — Sept. 2015 (2 años 4 m)</span>
             </div>
@@ -665,8 +709,7 @@
           <article class="job-compact">
             <div class="job-compact-header">
               <div>
-                <span class="job-compact-title">Desarrollador de Software & Analista Junior</span>
-                <span class="job-compact-company">[Pymes y Proyectos]</span>
+                <span class="job-compact-client">Trayectoria Inicial</span> <span class="job-compact-sep">—</span> <span class="job-compact-title">Desarrollador Software Junior</span> <span class="job-compact-company">[Pymes y Proyectos]</span>
               </div>
               <span class="job-compact-date">2008 — Jun. 2013 (~5 años)</span>
             </div>
@@ -676,27 +719,35 @@
         </section>
       </div>
 
-      <!-- Matriz de Habilidades Principales -->
-      <section style="margin-top: 1.5mm;">
+      <!-- Stack Tecnológico & Especialización Técnica -->
+      <section class="skills-section">
         <div class="main-section-title">
-          <span>🛠️</span> Matriz de Habilidades & Stack Core
+          <span>🛠️</span> Stack Tecnológico & Especialización Técnica
         </div>
-        <div class="skills-matrix">
-          <div class="skill-cat">
-            <strong>Arquitectura Backend & Core:</strong>
-            Java (6 a 21), Spring / Spring Boot 3, Arquitectura Hexagonal, ApiFirst (OpenAPI), Microservicios DDD, Hibernate / JPA, MyBatis.
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-card-title"><span class="icon">☕</span> Arquitectura Backend & Core</div>
+            <div class="skill-card-body">
+              Java (6 a 21), Spring Boot 3, Arquitectura Hexagonal, ApiFirst (OpenAPI), Microservicios DDD, Hibernate / JPA, MyBatis.
+            </div>
           </div>
-          <div class="skill-cat">
-            <strong>IA & Desarrollo de Vanguardia:</strong>
-            Devin AI, Claude Agents, Workflows agénticos, Skills personalizadas, Prompt Engineering, automatización de entrega.
+          <div class="skill-card">
+            <div class="skill-card-title"><span class="icon">🤖</span> IA & Agentes Autónomos</div>
+            <div class="skill-card-body">
+              Devin AI, Claude, Workflows agénticos, Skills modulares, Prompt Engineering, automatización integral de desarrollo.
+            </div>
           </div>
-          <div class="skill-cat">
-            <strong>Cloud, Streaming & DevOps:</strong>
-            Microsoft Azure, AWS, RedHat OpenShift, Apache Kafka (Event-Driven), Docker, Kubernetes, CI/CD (Jenkins, GitHub Actions).
+          <div class="skill-card">
+            <div class="skill-card-title"><span class="icon">☁️</span> Cloud, Streaming & DevOps</div>
+            <div class="skill-card-body">
+              Microsoft Azure, AWS, RedHat OpenShift, Apache Kafka (Event-Driven), Docker, Kubernetes, CI/CD (GitHub Actions, Jenkins).
+            </div>
           </div>
-          <div class="skill-cat">
-            <strong>Bases de Datos & Caché:</strong>
-            Oracle SQL, PostgreSQL, MySQL, IBM DB2, MongoDB (NoSQL), Redis, ElasticSearch.
+          <div class="skill-card">
+            <div class="skill-card-title"><span class="icon">🗄️</span> Bases de Datos & Caché</div>
+            <div class="skill-card-body">
+              Oracle SQL, PostgreSQL, MySQL, IBM DB2, MongoDB (NoSQL), Redis, ElasticSearch.
+            </div>
           </div>
         </div>
       </section>
