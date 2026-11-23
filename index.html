@@ -518,40 +518,83 @@
           <h2 class="section-title" id="edu-title">Formación y Certificaciones</h2>
         </div>
 
-        <div class="edu-grid">
+        <!-- 1. Títulos Universitarios Superiores -->
+        <div class="edu-grid edu-grid-degrees">
           <!-- Master INFTEL -->
           <div class="edu-card">
-            <span class="edu-badge">Postgrado Máster</span>
-            <h3 class="edu-title" id="master-title">Máster INFTEL en Ingeniería de Telecomunicación y Software</h3>
-            <div class="edu-institution" id="master-inst">Universidad de Málaga (UMA) · 2011 — 2012</div>
-            <p class="edu-desc" id="master-desc">
-              Máster de postgrado de alta especialización enfocado en arquitecturas de telecomunicación avanzadas, ingeniería del software de alto rendimiento, redes distribuidas y desarrollo de servicios empresariales.
-            </p>
+            <div>
+              <span class="edu-badge">Postgrado Máster</span>
+              <h3 class="edu-title" id="master-title">Máster INFTEL en Ingeniería de Telecomunicación y Software</h3>
+              <div class="edu-institution" id="master-inst">Universidad de Málaga (UMA) · 2011 — 2012</div>
+              <p class="edu-desc" id="master-desc">
+                Máster de postgrado de alta especialización enfocado en arquitecturas de telecomunicación avanzadas, ingeniería del software de alto rendimiento, redes distribuidas y desarrollo de servicios empresariales.
+              </p>
+            </div>
           </div>
 
           <!-- Grado / Ingeniería de Software -->
           <div class="edu-card">
-            <span class="edu-badge">Título Universitario Superior</span>
-            <h3 class="edu-title" id="degree-title">Ingeniería de Software</h3>
-            <div class="edu-institution" id="degree-inst">Universidad de Málaga (UMA) · 2004 — 2011</div>
-            <p class="edu-desc" id="degree-desc">
-              Formación universitaria integral en ingeniería del software, diseño y arquitectura de sistemas, algoritmia avanzada, estructuras de datos, concurrencia, sistemas operativos y redes telemáticas.
-            </p>
+            <div>
+              <span class="edu-badge">Título Universitario Superior</span>
+              <h3 class="edu-title" id="degree-title">Ingeniería de Software</h3>
+              <div class="edu-institution" id="degree-inst">Universidad de Málaga (UMA) · 2004 — 2011</div>
+              <p class="edu-desc" id="degree-desc">
+                Formación universitaria integral en ingeniería del software, diseño y arquitectura de sistemas, algoritmia avanzada, estructuras de datos, concurrencia, sistemas operativos y redes telemáticas.
+              </p>
+            </div>
           </div>
+        </div>
 
-          <!-- Certificación Scrum Master -->
-          <div class="edu-card">
-            <span class="edu-badge" style="background: rgba(16, 185, 129, 0.15); color: #34d399; border-color: rgba(16, 185, 129, 0.3);">Certificación Oficial</span>
-            <h3 class="edu-title" id="cert-title">Certificación Oficial Scrum Master</h3>
-            <div class="edu-institution" id="cert-inst">European Scrum · 2017</div>
-            <p class="edu-desc" id="cert-p1">
-              Acreditación profesional oficial en marcos de trabajo ágiles (Scrum, Kanban), facilitación de ceremonias, resolución de impedimentos y optimización de flujos de entrega continua en equipos de ingeniería.
-            </p>
-            <p class="edu-desc" style="margin-top: 0.5rem;" id="cert-p2">
-              <strong>Certificación de Idioma:</strong> Nivel B1/B2 de Inglés acreditado por la Universidad de Cambridge.
-            </p>
-            <div style="margin-top: 1rem;">
-              <a href="https://www.linkedin.com/in/josemhr/" target="_blank" rel="noopener" class="btn btn-outline btn-sm" id="cert-btn">Ver Credenciales en LinkedIn ↗</a>
+        <!-- 2. Certificaciones y Formación Continua (3 Cajitas Independientes) -->
+        <div class="edu-certs-wrapper">
+          <h3 class="edu-certs-header">
+            <span>📜</span> <span id="certs-heading-text">Certificaciones & Formación Continua</span>
+          </h3>
+
+          <div class="edu-grid edu-grid-certs">
+            <!-- Cert 1: Scrum Master -->
+            <div class="edu-card">
+              <div>
+                <span class="edu-badge" style="background: rgba(16, 185, 129, 0.15); color: #34d399; border-color: rgba(16, 185, 129, 0.3);" id="scrum-badge">Metodologías Ágiles</span>
+                <h3 class="edu-title" id="scrum-title">Certificación Oficial Scrum Master</h3>
+                <div class="edu-institution" id="scrum-inst">European Scrum · 2017</div>
+                <p class="edu-desc" id="scrum-desc">
+                  Acreditación profesional oficial en gestión ágil de proyectos (Scrum, Kanban), facilitación de ceremonias, resolución de impedimentos y optimización del flujo de entrega continua en equipos de ingeniería.
+                </p>
+              </div>
+              <div style="margin-top: 1.25rem;">
+                <a href="https://www.linkedin.com/in/josemhr/" target="_blank" rel="noopener" class="btn btn-outline btn-sm" id="scrum-btn">Ver Credencial en LinkedIn ↗</a>
+              </div>
+            </div>
+
+            <!-- Cert 2: Certificación de Inglés -->
+            <div class="edu-card">
+              <div>
+                <span class="edu-badge" style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border-color: rgba(56, 189, 248, 0.3);" id="cambridge-badge">Competencia Lingüística</span>
+                <h3 class="edu-title" id="cambridge-title">Certificación de Inglés (B1/B2)</h3>
+                <div class="edu-institution" id="cambridge-inst">University of Cambridge · ESOL Examinations</div>
+                <p class="edu-desc" id="cambridge-desc">
+                  Acreditación oficial internacional de nivel profesional y técnico en lengua inglesa: lectura avanzada de documentación, especificaciones de arquitectura y comunicación fluida en equipos multiculturales.
+                </p>
+              </div>
+              <div style="margin-top: 1.25rem;">
+                <a href="https://www.linkedin.com/in/josemhr/" target="_blank" rel="noopener" class="btn btn-outline btn-sm" id="cambridge-btn">Ver Credencial en LinkedIn ↗</a>
+              </div>
+            </div>
+
+            <!-- Cert 3: +80 Cursos Técnicos -->
+            <div class="edu-card">
+              <div>
+                <span class="edu-badge" style="background: rgba(168, 85, 247, 0.15); color: #c084fc; border-color: rgba(168, 85, 247, 0.35);" id="courses-badge">Aprendizaje Continuo</span>
+                <h3 class="edu-title" id="courses-title">+80 Cursos Técnicos Certificados</h3>
+                <div class="edu-institution" id="courses-inst">Udemy · Coursera · edX · OpenWebinars</div>
+                <p class="edu-desc" id="courses-desc">
+                  Historial continuado de más de 80 especializaciones técnicas acreditadas: microservicios avanzados, cloud (AWS, Azure), mensajería reactiva con Kafka, Java moderno (17/21) y herramientas de Inteligencia Artificial.
+                </p>
+              </div>
+              <div style="margin-top: 1.25rem;">
+                <a href="https://www.linkedin.com/in/josemhr/" target="_blank" rel="noopener" class="btn btn-outline btn-sm" id="courses-btn">Ver Todas en LinkedIn ↗</a>
+              </div>
             </div>
           </div>
         </div>

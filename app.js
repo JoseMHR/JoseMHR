@@ -147,7 +147,7 @@ const translations = {
       langDesc: "<strong>Español:</strong> Nativo.<br><strong>Inglés:</strong> Nivel Intermedio Profesional (B1/B2).<br><span style='color: var(--text-muted); font-size: 0.85rem;'>Avanzado en lectura técnica, documentación y especificación de requisitos / Fluido en comunicación profesional y técnica.</span>"
     },
     education: {
-      tag: "Formación Académica",
+      tag: "Formación Académica & Acreditaciones",
       title: "Estudios y Certificaciones",
       masterTitle: "Máster de Postgrado INFTEL",
       masterInst: "Universidad de Málaga (UMA) · 2011 — 2012",
@@ -155,11 +155,22 @@ const translations = {
       degreeTitle: "Ingeniería de Software",
       degreeInst: "Universidad de Málaga (UMA) · 2004 — 2011",
       degreeDesc: "Formación universitaria integral en ingeniería del software, diseño y arquitectura de sistemas, algoritmia avanzada, estructuras de datos, concurrencia, sistemas operativos y redes telemáticas.",
-      certTitle: "Certificación Oficial Scrum Master & Formación Continua",
-      certInst: "European Scrum (2017) & Entidades Oficiales",
-      certP1: "Acreditación profesional oficial en marcos de trabajo ágiles (Scrum, Kanban), facilitación de ceremonias, resolución de impedimentos y optimización de flujos de entrega continua en equipos de ingeniería.",
-      certP2: "<strong>Certificación de Idioma:</strong> Nivel B1/B2 de Inglés acreditado por la Universidad de Cambridge. Formación continua certificada en plataformas técnicas (Udemy, Coursera, edX, OpenWebinars).",
-      certBtn: "Ver Credenciales en LinkedIn ↗"
+      certsHeading: "Certificaciones & Formación Continua",
+      scrumBadge: "Metodologías Ágiles",
+      scrumTitle: "Certificación Oficial Scrum Master",
+      scrumInst: "European Scrum · 2017",
+      scrumDesc: "Acreditación profesional oficial en gestión ágil de proyectos (Scrum, Kanban), facilitación de ceremonias, resolución de impedimentos y optimización del flujo de entrega continua en equipos de ingeniería.",
+      scrumBtn: "Ver Credencial en LinkedIn ↗",
+      langBadge: "Competencia Lingüística",
+      langTitle: "Certificación de Inglés (B1/B2)",
+      langInst: "University of Cambridge · ESOL Examinations",
+      langDesc: "Acreditación oficial internacional de nivel profesional y técnico en lengua inglesa: lectura avanzada de documentación, especificaciones de arquitectura y comunicación fluida en equipos multiculturales.",
+      langBtn: "Ver Credencial en LinkedIn ↗",
+      coursesBadge: "Aprendizaje Continuo",
+      coursesTitle: "+80 Cursos Técnicos Certificados",
+      coursesInst: "Udemy · Coursera · edX · OpenWebinars",
+      coursesDesc: "Historial continuado de más de 80 especializaciones técnicas acreditadas: microservicios avanzados, cloud (AWS, Azure), mensajería reactiva con Kafka, Java moderno (17/21) y herramientas de Inteligencia Artificial.",
+      coursesBtn: "Ver Todas en LinkedIn ↗"
     },
     projects: {
       tag: "Innovación & Creación Propia",
@@ -320,7 +331,7 @@ const translations = {
       langDesc: "<strong>Spanish:</strong> Native.<br><strong>English:</strong> Professional Working Proficiency (B1/B2).<br><span style='color: var(--text-muted); font-size: 0.85rem;'>Advanced technical reading, documentation & API specifications / Fluent professional communication.</span>"
     },
     education: {
-      tag: "Academic Background",
+      tag: "Academic Background & Accreditations",
       title: "Education & Certifications",
       masterTitle: "Master of Science INFTEL",
       masterInst: "Universidad de Málaga (UMA) · 2011 — 2012",
@@ -328,11 +339,22 @@ const translations = {
       degreeTitle: "Software Engineer",
       degreeInst: "Universidad de Málaga (UMA) · 2004 — 2011",
       degreeDesc: "Comprehensive university degree in software engineering, system architecture, advanced algorithms, concurrent programming, distributed systems, operating systems, and computer networks.",
-      certTitle: "Official Scrum Master Certification & Continuous Learning",
-      certInst: "European Scrum (2017) & Official Institutions",
-      certP1: "Official professional certification in agile frameworks (Scrum, Kanban), ceremony facilitation, impedance removal, and continuous delivery optimization in engineering squads.",
-      certP2: "<strong>Language Certification:</strong> English B1/B2 verified by Cambridge University. Verified technical certificates across continuous learning platforms (Udemy, Coursera, edX, OpenWebinars).",
-      certBtn: "View Verified List on LinkedIn ↗"
+      certsHeading: "Certifications & Continuous Learning",
+      scrumBadge: "Agile Frameworks",
+      scrumTitle: "Official Scrum Master Certification",
+      scrumInst: "European Scrum · 2017",
+      scrumDesc: "Official professional credential in agile frameworks (Scrum, Kanban), ceremony facilitation, impedance removal, and continuous delivery optimization across engineering squads.",
+      scrumBtn: "View Credential on LinkedIn ↗",
+      langBadge: "Language Proficiency",
+      langTitle: "Official English Certification (B1/B2)",
+      langInst: "University of Cambridge · ESOL Examinations",
+      langDesc: "Official international credential verifying professional working proficiency in English: advanced technical documentation, API specifications, and fluent cross-border team collaboration.",
+      langBtn: "View Credential on LinkedIn ↗",
+      coursesBadge: "Lifelong Learning",
+      coursesTitle: "+80 Verified Technical Courses",
+      coursesInst: "Udemy · Coursera · edX · OpenWebinars",
+      coursesDesc: "Continuous learning track with over 80 verified technical courses: cloud architectures (AWS, Azure), resilient microservices, reactive streaming with Kafka, modern Java (17/21), and AI-driven development.",
+      coursesBtn: "View All on LinkedIn ↗"
     },
     projects: {
       tag: "Innovation & Personal Creation",
@@ -530,11 +552,22 @@ function setLanguage(lang) {
   setText('degree-title', t.education.degreeTitle);
   setText('degree-inst', t.education.degreeInst);
   setHtml('degree-desc', t.education.degreeDesc);
-  setText('cert-title', t.education.certTitle);
-  setText('cert-inst', t.education.certInst);
-  setHtml('cert-p1', t.education.certP1);
-  setHtml('cert-p2', t.education.certP2);
-  setText('cert-btn', t.education.certBtn);
+  setText('certs-heading-text', t.education.certsHeading);
+  setText('scrum-badge', t.education.scrumBadge);
+  setText('scrum-title', t.education.scrumTitle);
+  setText('scrum-inst', t.education.scrumInst);
+  setHtml('scrum-desc', t.education.scrumDesc);
+  setText('scrum-btn', t.education.scrumBtn);
+  setText('cambridge-badge', t.education.langBadge);
+  setText('cambridge-title', t.education.langTitle);
+  setText('cambridge-inst', t.education.langInst);
+  setHtml('cambridge-desc', t.education.langDesc);
+  setText('cambridge-btn', t.education.langBtn);
+  setText('courses-badge', t.education.coursesBadge);
+  setText('courses-title', t.education.coursesTitle);
+  setText('courses-inst', t.education.coursesInst);
+  setHtml('courses-desc', t.education.coursesDesc);
+  setText('courses-btn', t.education.coursesBtn);
 
   // 7. Projects
   setText('projects-tag', t.projects.tag);

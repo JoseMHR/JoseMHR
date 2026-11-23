@@ -819,8 +819,36 @@ a:hover {
 /* Education & Certs */
 .edu-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1.5rem;
+}
+
+.edu-grid-degrees {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.edu-certs-wrapper {
+  margin-top: 2.25rem;
+}
+
+.edu-certs-header {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-white);
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.edu-grid-certs {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 992px) {
+  .edu-grid-certs {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
 }
 
 .edu-card {
@@ -999,6 +1027,8 @@ a:hover {
   }
   .skills-grid,
   .edu-grid,
+  .edu-grid-degrees,
+  .edu-grid-certs,
   .projects-grid {
     grid-template-columns: 1fr;
   }
