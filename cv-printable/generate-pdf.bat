@@ -6,7 +6,7 @@ echo ========================================================
 
 set SCRIPT_DIR=%~dp0
 set HTML_PATH=%SCRIPT_DIR%index.html
-set PDF_PATH=%SCRIPT_DIR%CV_Jose_Manuel_Heredia_Reyes_2026_Draft.pdf
+set PDF_PATH=%SCRIPT_DIR%CV_Jose_Manuel_Heredia_Reyes.pdf
 
 set CHROME_PATH="C:\Program Files\Google\Chrome\Application\chrome.exe"
 set EDGE_PATH="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
@@ -29,4 +29,7 @@ exit /b 1
 
 :done
 echo [EXITO] PDF generado en 1 pagina: %PDF_PATH%
+if not exist "%SCRIPT_DIR%..\assets\docs" mkdir "%SCRIPT_DIR%..\assets\docs"
+copy /Y "%PDF_PATH%" "%SCRIPT_DIR%..\assets\docs\CV_Jose_Manuel_Heredia_Reyes.pdf" >nul
+echo [OK] Sincronizado en assets/docs/ para descarga web oficial.
 echo ========================================================

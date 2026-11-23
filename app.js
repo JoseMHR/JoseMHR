@@ -194,7 +194,7 @@ const translations = {
       btnLinkedIn: "Conectar en LinkedIn"
     },
     footer: {
-      rights: `© ${currentYear} José Manuel Heredia Reyes · Valdemoro (Madrid) / Málaga, España`,
+      rights: `© ${currentYear} José Manuel Heredia Reyes · Madrid / Málaga, España`,
       toTop: "↑ Volver arriba"
     }
   },
@@ -378,7 +378,7 @@ const translations = {
       btnLinkedIn: "Connect on LinkedIn"
     },
     footer: {
-      rights: `© ${currentYear} José Manuel Heredia Reyes · Valdemoro (Madrid) / Málaga, Spain`,
+      rights: `© ${currentYear} José Manuel Heredia Reyes · Madrid / Málaga, Spain`,
       toTop: "↑ Back to top"
     }
   }
