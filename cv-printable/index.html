@@ -352,6 +352,78 @@
       font-weight: 600;
     }
 
+    /* Compact 3-line Jobs */
+    .job-compact {
+      margin-bottom: 2.6mm;
+      page-break-inside: avoid;
+    }
+
+    .job-compact-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      line-height: 1.25;
+    }
+
+    .job-compact-title {
+      font-size: 7.9pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .job-compact-client {
+      color: #0284c7;
+    }
+
+    .job-compact-company {
+      font-size: 7.4pt;
+      font-weight: 600;
+      color: #64748b;
+      margin-left: 1mm;
+    }
+
+    .job-compact-date {
+      font-size: 7.0pt;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      color: #b45309;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .job-compact-desc {
+      font-size: 7.2pt;
+      color: #334155;
+      line-height: 1.28;
+      margin-top: 0.4mm;
+    }
+
+    .job-compact-tech {
+      font-size: 6.8pt;
+      color: #475569;
+      line-height: 1.22;
+      margin-top: 0.4mm;
+    }
+
+    .job-compact-tech strong {
+      color: #0369a1;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 6.7pt;
+    }
+
+    .lang-row {
+      display: flex;
+      align-items: baseline;
+      gap: 2mm;
+      font-size: 7.3pt;
+      color: #cbd5e1;
+      margin-top: 0.8mm;
+    }
+
+    .lang-row span strong {
+      display: inline !important;
+      color: #ffffff;
+    }
+
     /* Skills Grid */
     .skills-matrix {
       display: grid;
@@ -437,29 +509,24 @@
           <div class="side-item">
             <strong>Scrum Master Oficial</strong>
             <em>European Scrum (2017)</em>
-            <span class="side-badge badge-green">Metodologías Ágiles</span>
           </div>
-          <div class="side-item" style="margin-top: 1.2mm;">
-            <strong>Certificación de Inglés (B1/B2)</strong>
+          <div class="side-item" style="margin-top: 1.5mm;">
+            <strong>Certificación de Inglés (B2)</strong>
             <em>University of Cambridge</em>
-            <span class="side-badge badge-blue">Cambridge ESOL</span>
           </div>
-          <div class="side-item" style="margin-top: 1.2mm;">
+          <div class="side-item" style="margin-top: 1.5mm;">
             <strong>+80 Cursos Técnicos Acreditados</strong>
             <em>Udemy · Coursera · edX · OpenWebinars</em>
-            <span class="side-badge badge-purple">Formación Continua</span>
           </div>
         </div>
 
         <!-- Idiomas -->
         <div class="side-section">
           <div class="side-title"><span>🌐</span> Idiomas</div>
-          <div class="side-item">
-            <strong>Español:</strong> Nativo
-          </div>
-          <div class="side-item">
-            <strong>Inglés:</strong> B1 / B2 (Competencia Profesional)
-            <em>Lectura técnica avanzada y comunicación fluida.</em>
+          <div class="lang-row">
+            <span><strong>Español:</strong> Nativo</span>
+            <span style="color: #64748b;">·</span>
+            <span><strong>Inglés:</strong> B2</span>
           </div>
         </div>
       </div>
@@ -495,161 +562,116 @@
           </div>
 
           <!-- 1. Globant (Santander) -->
-          <article class="job-item">
+          <article class="job-item" style="border-bottom: 1px dashed #cbd5e1; padding-bottom: 1.6mm; margin-bottom: 1.8mm;">
             <div class="job-header">
-              <div class="job-role">Software Application Analyst <span class="client-tag">en Santander</span> — Core Backend & AI Vanguard</div>
+              <div class="job-role">Software Application Analyst <span class="client-tag">en Banco Santander</span> [Globant]</div>
               <div class="job-date">Ene. 2025 — Actualidad</div>
             </div>
-            <div class="job-company">Globant · Jornada completa · Remoto</div>
+            <div class="job-company">Globant · Core Backend Architecture & AI Vanguard · Remoto</div>
             <ul class="job-bullets">
-              <li class="job-bullet"><strong>Arquitectura Core Backend:</strong> Diseño de soluciones foundational altamente escalables para despliegue y extensión global en Santander.</li>
-              <li class="job-bullet"><strong>Vanguardia en Desarrollo con IA:</strong> Integración pionera de flujos con agentes autónomos (<strong>Devin AI, Claude</strong>), workflows y pipelines agénticos.</li>
+              <li class="job-bullet"><strong>Arquitectura Core Backend:</strong> Soluciones base estandarizadas, robustas y altamente escalables para despliegue y extensión global en Santander.</li>
+              <li class="job-bullet"><strong>Vanguardia con Agentes IA:</strong> Integración de flujos con agentes autónomos (<strong>Devin AI, Claude</strong>), diseñando workflows y pipelines agénticos para máxima aceleración y gobernanza.</li>
+              <li class="job-bullet"><strong>Gobernanza & Resiliencia:</strong> Definición de directrices bajo contratos <strong>ApiFirst</strong> y microservicios cloud resilientes.</li>
             </ul>
             <div class="job-tags">
               <span class="job-tag tag-ai">Devin AI</span>
-              <span class="job-tag tag-ai">Claude Agents</span>
+              <span class="job-tag tag-ai">Claude</span>
               <span class="job-tag">Java 21</span>
               <span class="job-tag">Spring Boot</span>
-              <span class="job-tag">Arquitectura Hexagonal</span>
+              <span class="job-tag">Hexagonal</span>
               <span class="job-tag">ApiFirst</span>
               <span class="job-tag">Apache Kafka</span>
             </div>
           </article>
 
           <!-- 2. Inditex (Plexus Tech) -->
-          <article class="job-item">
-            <div class="job-header">
-              <div class="job-role">Desarrollador Senior Backend <span class="client-tag">en Inditex</span></div>
-              <div class="job-date">Ene. 2023 — Ene. 2025 (2 años)</div>
+          <article class="job-compact">
+            <div class="job-compact-header">
+              <div>
+                <span class="job-compact-title">Desarrollador Senior Backend <span class="job-compact-client">en Inditex</span></span>
+                <span class="job-compact-company">[Plexus Tech]</span>
+              </div>
+              <span class="job-compact-date">Ene. 2023 — Ene. 2025 (2 años)</span>
             </div>
-            <div class="job-company">Plexus Tech · Jornada completa · Remoto</div>
-            <ul class="job-bullets">
-              <li class="job-bullet"><strong>Migraciones estratégicas:</strong> Transformación y modernización de servicios legados NodeJS a <strong>Java 17</strong> bajo <strong>Arquitectura Hexagonal</strong> y contratos ApiFirst.</li>
-              <li class="job-bullet">Gestión de guardias críticas de alta disponibilidad y soporte en picos masivos de retail (Rebajas, Black Friday) en Azure y OpenShift.</li>
-            </ul>
-            <div class="job-tags">
-              <span class="job-tag">Java 17</span>
-              <span class="job-tag">Spring Boot</span>
-              <span class="job-tag">Hexagonal</span>
-              <span class="job-tag">ApiFirst / OpenAPI</span>
-              <span class="job-tag">Microsoft Azure</span>
-              <span class="job-tag">OpenShift</span>
-              <span class="job-tag">NodeJS Migration</span>
-            </div>
+            <div class="job-compact-desc">Desarrollos bajo arquitectura hexagonal y contratos ApiFirst. Gestión de guardias críticas de alta disponibilidad y soporte en picos masivos de retail.</div>
+            <div class="job-compact-tech"><strong>Stack:</strong> Java 17, Spring Boot, Arquitectura Hexagonal, ApiFirst (OpenAPI), Azure, OpenShift, Kafka, Redis, CI/CD.</div>
           </article>
 
-          <!-- 3. Sopra Steria (BNP Paribas & ING) -->
-          <article class="job-item">
-            <div class="job-header">
-              <div class="job-role">Analista de Desarrollo Senior <span class="client-tag">en BNP Paribas e ING Bank</span></div>
-              <div class="job-date">Ene. 2020 — Ene. 2023 (3 años)</div>
+          <!-- 3. BNP Paribas e ING Bank (Sopra Steria) -->
+          <article class="job-compact">
+            <div class="job-compact-header">
+              <div>
+                <span class="job-compact-title">Analista de Desarrollo Senior <span class="job-compact-client">en BNP Paribas e ING</span></span>
+                <span class="job-compact-company">[Sopra Steria]</span>
+              </div>
+              <span class="job-compact-date">Ene. 2020 — Ene. 2023 (3 años)</span>
             </div>
-            <div class="job-company">Sopra Steria · Madrid / Remoto</div>
-            <ul class="job-bullets">
-              <li class="job-bullet"><strong>BNP Paribas / Cetelem:</strong> Análisis, diseño e implementación de middleware financiero de alta concurrencia en Java 8, Spring Boot y Oracle SQL.</li>
-              <li class="job-bullet"><strong>ING Bank:</strong> Microservicios transaccionales en Java bajo Arquitectura Hexagonal, persistencia MyBatis y despliegues en Azure.</li>
-            </ul>
-            <div class="job-tags">
-              <span class="job-tag">Java 8/11</span>
-              <span class="job-tag">Spring Boot</span>
-              <span class="job-tag">Hexagonal</span>
-              <span class="job-tag">Oracle SQL</span>
-              <span class="job-tag">MyBatis</span>
-              <span class="job-tag">Azure</span>
-              <span class="job-tag">Jenkins CI/CD</span>
-            </div>
+            <div class="job-compact-desc">Middleware financiero y core de créditos en BNP Paribas / Cetelem, y microservicios transaccionales bajo Arquitectura Hexagonal en ING Bank.</div>
+            <div class="job-compact-tech"><strong>Stack:</strong> Java 8/11, Spring Boot, Arquitectura Hexagonal, MyBatis, Oracle SQL, Microsoft Azure, Jenkins CI/CD.</div>
           </article>
 
           <!-- 4. A.M.A. Seguros -->
-          <article class="job-item">
-            <div class="job-header">
-              <div class="job-role">Analista Desarrollador <span class="client-tag">en A.M.A. Seguros</span></div>
-              <div class="job-date">Nov. 2018 — Ene. 2020 (1 año 3 m)</div>
+          <article class="job-compact">
+            <div class="job-compact-header">
+              <div>
+                <span class="job-compact-title">Analista Desarrollador Backend <span class="job-compact-client">en A.M.A. Seguros</span></span>
+              </div>
+              <span class="job-compact-date">Nov. 2018 — Ene. 2020 (1 año 3 m)</span>
             </div>
-            <div class="job-company">A.M.A. Seguros · Madrid</div>
-            <ul class="job-bullets">
-              <li class="job-bullet">Ciclo de vida completo de aplicaciones aseguradoras con <strong>Vaadin 8, MyBatis, Java 8 y Spring Boot</strong> sobre JBoss, Tomcat e IBM DB2.</li>
-            </ul>
-            <div class="job-tags">
-              <span class="job-tag">Java 8</span>
-              <span class="job-tag">Spring Boot</span>
-              <span class="job-tag">Vaadin 8</span>
-              <span class="job-tag">MyBatis</span>
-              <span class="job-tag">IBM DB2</span>
-              <span class="job-tag">MySQL</span>
-            </div>
+            <div class="job-compact-desc">Ciclo de vida completo y modernización de aplicaciones corporativas del sector asegurador con persistencia transaccional y servicios de negocio.</div>
+            <div class="job-compact-tech"><strong>Stack:</strong> Java 8, Spring Boot, Vaadin 8, MyBatis, IBM DB2, MySQL, Tomcat, JBoss.</div>
           </article>
 
-          <!-- 5. atSistemas (Atresmedia) -->
-          <article class="job-item">
-            <div class="job-header">
-              <div class="job-role">Analista de Programación <span class="client-tag">en Atresmedia</span></div>
-              <div class="job-date">Nov. 2017 — Nov. 2018 (1 año)</div>
+          <!-- 5. Atresmedia (atSistemas) -->
+          <article class="job-compact">
+            <div class="job-compact-header">
+              <div>
+                <span class="job-compact-title">Analista de Programación <span class="job-compact-client">en Atresmedia</span></span>
+                <span class="job-compact-company">[atSistemas]</span>
+              </div>
+              <span class="job-compact-date">Nov. 2017 — Nov. 2018 (1 año)</span>
             </div>
-            <div class="job-company">atSistemas · Madrid</div>
-            <ul class="job-bullets">
-              <li class="job-bullet">Desarrollo integral de microservicios y aplicaciones con <strong>Spring Boot y Java GWT</strong> en AWS, con MongoDB, Hibernate y WebLogic.</li>
-            </ul>
-            <div class="job-tags">
-              <span class="job-tag">Java 7/8</span>
-              <span class="job-tag">Spring Boot</span>
-              <span class="job-tag">GWT</span>
-              <span class="job-tag">AWS Cloud</span>
-              <span class="job-tag">MongoDB</span>
-              <span class="job-tag">Jenkins</span>
-            </div>
+            <div class="job-compact-desc">Desarrollo integral de microservicios y aplicaciones corporativas en AWS, modelado documental NoSQL y automatización de despliegues.</div>
+            <div class="job-compact-tech"><strong>Stack:</strong> Java 7/8, Spring Boot, Java GWT, AWS Cloud, MongoDB, Hibernate, Jenkins, WebLogic.</div>
           </article>
 
           <!-- 6. RTVE (Everis Spain / 80 Soluciones) -->
-          <article class="job-item">
-            <div class="job-header">
-              <div class="job-role">Analista Desarrollador & Scrum Master <span class="client-tag">en RTVE</span></div>
-              <div class="job-date">Sept. 2015 — Nov. 2017 (2 años 3 m)</div>
+          <article class="job-compact">
+            <div class="job-compact-header">
+              <div>
+                <span class="job-compact-title">Analista Desarrollador & Scrum Master <span class="job-compact-client">en RTVE</span></span>
+                <span class="job-compact-company">[Everis Spain]</span>
+              </div>
+              <span class="job-compact-date">Sept. 2015 — Nov. 2017 (2 años 3 m)</span>
             </div>
-            <div class="job-company">Everis Spain / 80 Soluciones · Pozuelo de Alarcón, Madrid</div>
-            <ul class="job-bullets">
-              <li class="job-bullet">Evolutivos Java Spring y NodeJS, migración de consultas hacia <strong>ElasticSearch</strong>, infografías de máxima audiencia y rol <strong>Scrum Master</strong>.</li>
-            </ul>
-            <div class="job-tags">
-              <span class="job-tag">Scrum Master</span>
-              <span class="job-tag">Java 6/7</span>
-              <span class="job-tag">Spring</span>
-              <span class="job-tag">NodeJS</span>
-              <span class="job-tag">ElasticSearch</span>
-              <span class="job-tag">Oracle SQL</span>
-            </div>
+            <div class="job-compact-desc">Evolutivos backend Java Spring y NodeJS, migración de consultas a ElasticSearch, infografías electorales de máxima audiencia y rol de Scrum Master.</div>
+            <div class="job-compact-tech"><strong>Stack:</strong> Java 6/7, Spring Framework, NodeJS, ElasticSearch, Oracle SQL, Metodologías Ágiles (Scrum).</div>
           </article>
 
           <!-- 7. Sector Público Málaga -->
-          <article class="job-item">
-            <div class="job-header">
-              <div class="job-role">Ingeniero de Software <span class="client-tag">en Sector Público y Consultoría</span></div>
-              <div class="job-date">Jun. 2013 — Sept. 2015 (2 años 4 m)</div>
+          <article class="job-compact">
+            <div class="job-compact-header">
+              <div>
+                <span class="job-compact-title">Ingeniero de Software <span class="job-compact-client">en Sector Público</span></span>
+                <span class="job-compact-company">[Ayto. Málaga / UMA]</span>
+              </div>
+              <span class="job-compact-date">Jun. 2013 — Sept. 2015 (2 años 4 m)</span>
             </div>
-            <div class="job-company">Ayto. de Málaga, UMA, Ingenia e Intendia · Málaga</div>
-            <ul class="job-bullets">
-              <li class="job-bullet">Licitaciones municipales en Java/Spring (Scrum Master 4 devs), app Android nativa en UMA, banca suiza en Ingenia y geolocalización en Intendia.</li>
-            </ul>
-            <div class="job-tags">
-              <span class="job-tag">Java</span>
-              <span class="job-tag">Spring</span>
-              <span class="job-tag">Android Nativo</span>
-              <span class="job-tag">GWT / GWTP</span>
-              <span class="job-tag">Drupal / PHP</span>
-              <span class="job-tag">MySQL</span>
-            </div>
+            <div class="job-compact-desc">Licitaciones municipales en Java/Spring (Scrum Master 4 devs), desarrollo Android nativo en UMA y web corporativa bancaria suiza en Ingenia.</div>
+            <div class="job-compact-tech"><strong>Stack:</strong> Java, Spring, Android SDK Nativo, GWT / GWTP, Drupal / PHP, MySQL.</div>
           </article>
 
           <!-- 8. Trayectoria Inicial -->
-          <article class="job-item">
-            <div class="job-header">
-              <div class="job-role">Desarrollador de Software & Analista Junior <span class="client-tag">(Trayectoria Inicial)</span></div>
-              <div class="job-date">2008 — Jun. 2013 (~5 años)</div>
+          <article class="job-compact">
+            <div class="job-compact-header">
+              <div>
+                <span class="job-compact-title">Desarrollador de Software & Analista Junior</span>
+                <span class="job-compact-company">[Pymes y Proyectos]</span>
+              </div>
+              <span class="job-compact-date">2008 — Jun. 2013 (~5 años)</span>
             </div>
-            <div class="job-company">Pymes, Becas y Proyectos de Software · Málaga</div>
-            <ul class="job-bullets">
-              <li class="job-bullet">Frontend en NMobe, CMS Drupal en DK-Innovations, apps Android para centros deportivos (Gym Kuro-Obi, UMA) y beca COBOL bancaria (Arrow/RSI).</li>
-            </ul>
+            <div class="job-compact-desc">Frontend en NMobe, CMS Drupal en DK-Innovations, apps Android nativas para centros deportivos (Gym Kuro-Obi, UMA) y beca bancaria en COBOL (Arrow/RSI).</div>
+            <div class="job-compact-tech"><strong>Stack:</strong> Android Nativo, Java, PHP / Drupal, JavaScript, HTML5/CSS, COBOL / CICS.</div>
           </article>
         </section>
       </div>

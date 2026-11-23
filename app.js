@@ -32,7 +32,7 @@ const translations = {
       pillLocation: "📍 Madrid / Málaga / Remoto (España)",
       pillEdu: "🎓 Ing. de Software & Máster INFTEL (UMA)",
       pillExp: `⚡ +${expYears} años de experiencia`,
-      pillLang: "🌐 Inglés B1/B2 · Español Nativo",
+      pillLang: "🌐 Inglés B2 · Español Nativo",
       btnEmail: "Contactar por Email",
       btnLinkedIn: "Perfil de LinkedIn",
       btnGitHub: "GitHub (@JoseMHR)",
@@ -75,7 +75,7 @@ const translations = {
         company: "Plexus Tech · Jornada completa · Remoto",
         date: "Ene. 2023 — Ene. 2025 (2 años)",
         b1: "Análisis y desarrollo integral de microservicios backend desde la toma de requisitos hasta su subida a producción en plataformas corporativas de Inditex.",
-        b2: "<strong>Migraciones estratégicas:</strong> Transformación y modernización de servicios legados en NodeJS a Java 17 bajo <strong>Arquitectura Hexagonal</strong> y contratos <strong>ApiFirst</strong>.",
+        b2: "<strong>Arquitectura Hexagonal & ApiFirst:</strong> Desarrollo y modernización de servicios backend en Java 17 bajo principios DDD, contratos OpenAPI y alta disponibilidad.",
         b3: "Gestión de guardias críticas de alta disponibilidad y soporte continuo para picos de tráfico en eventos masivos de retail (Rebajas, Black Friday).",
         b4: "Implementación de pipelines de integración y entrega continua (CI/CD) con SonarQube, GitHub Actions, OpenShift y Azure."
       },
@@ -144,7 +144,7 @@ const translations = {
       catMethod: "Metodologías & Control de Versiones",
       catFrontend: "Fullstack, Móvil & Modernización Legacy",
       catLanguages: "Idiomas",
-      langDesc: "<strong>Español:</strong> Nativo.<br><strong>Inglés:</strong> Nivel Intermedio Profesional (B1/B2).<br><span style='color: var(--text-muted); font-size: 0.85rem;'>Avanzado en lectura técnica, documentación y especificación de requisitos / Fluido en comunicación profesional y técnica.</span>"
+      langDesc: "<strong>Español:</strong> Nativo.<br><strong>Inglés:</strong> Nivel Profesional (B2).<br><span style='color: var(--text-muted); font-size: 0.85rem;'>Avanzado en lectura técnica, documentación y especificación de requisitos / Fluido en comunicación profesional y técnica.</span>"
     },
     education: {
       tag: "Formación Académica & Acreditaciones",
@@ -162,7 +162,7 @@ const translations = {
       scrumDesc: "Acreditación profesional oficial en gestión ágil de proyectos (Scrum, Kanban), facilitación de ceremonias, resolución de impedimentos y optimización del flujo de entrega continua en equipos de ingeniería.",
       scrumBtn: "Ver Credencial en LinkedIn ↗",
       langBadge: "Competencia Lingüística",
-      langTitle: "Certificación de Inglés (B1/B2)",
+      langTitle: "Certificación de Inglés (B2)",
       langInst: "University of Cambridge · ESOL Examinations",
       langDesc: "Acreditación oficial internacional de nivel profesional y técnico en lengua inglesa: lectura avanzada de documentación, especificaciones de arquitectura y comunicación fluida en equipos multiculturales.",
       langBtn: "Ver Credencial en LinkedIn ↗",
@@ -216,7 +216,7 @@ const translations = {
       pillLocation: "📍 Madrid / Málaga / Remote (Spain)",
       pillEdu: "🎓 Software Engineer & Master INFTEL (UMA)",
       pillExp: `⚡ +${expYears} Years of Experience`,
-      pillLang: "🌐 English B1/B2 · Native Spanish",
+      pillLang: "🌐 English B2 · Native Spanish",
       btnEmail: "Email Me",
       btnLinkedIn: "LinkedIn Profile",
       btnGitHub: "GitHub (@JoseMHR)",
@@ -259,7 +259,7 @@ const translations = {
         company: "Plexus Tech · Full-time · Remote",
         date: "Jan. 2023 — Jan. 2025 (2 yrs)",
         b1: "End-to-end backend microservice analysis and development from technical discovery to production release across Inditex corporate platforms.",
-        b2: "<strong>Strategic Migrations:</strong> Re-architecting and modernizing legacy NodeJS backend services into Java 17 under <strong>Hexagonal Architecture</strong> and <strong>ApiFirst</strong> contracts.",
+        b2: "<strong>Hexagonal Architecture & ApiFirst:</strong> Modernizing and developing backend microservices in Java 17 under DDD principles, OpenAPI contracts, and high availability.",
         b3: "High-availability on-call incident resolution and continuous operational support during massive global retail flash-sales (Black Friday, seasonal sales).",
         b4: "Continuous Integration & Deployment (CI/CD) pipelines using SonarQube, GitHub Actions, OpenShift, and Microsoft Azure."
       },
@@ -328,7 +328,7 @@ const translations = {
       catMethod: "Methodologies & Version Control",
       catFrontend: "Fullstack, Mobile & Legacy Modernization",
       catLanguages: "Languages",
-      langDesc: "<strong>Spanish:</strong> Native.<br><strong>English:</strong> Professional Working Proficiency (B1/B2).<br><span style='color: var(--text-muted); font-size: 0.85rem;'>Advanced technical reading, documentation & API specifications / Fluent professional communication.</span>"
+      langDesc: "<strong>Spanish:</strong> Native.<br><strong>English:</strong> Professional Level (B2).<br><span style='color: var(--text-muted); font-size: 0.85rem;'>Advanced technical reading, documentation & API specifications / Fluent professional communication.</span>"
     },
     education: {
       tag: "Academic Background & Accreditations",
@@ -346,7 +346,7 @@ const translations = {
       scrumDesc: "Official professional credential in agile frameworks (Scrum, Kanban), ceremony facilitation, impedance removal, and continuous delivery optimization across engineering squads.",
       scrumBtn: "View Credential on LinkedIn ↗",
       langBadge: "Language Proficiency",
-      langTitle: "Official English Certification (B1/B2)",
+      langTitle: "Official English Certification (B2)",
       langInst: "University of Cambridge · ESOL Examinations",
       langDesc: "Official international credential verifying professional working proficiency in English: advanced technical documentation, API specifications, and fluent cross-border team collaboration.",
       langBtn: "View Credential on LinkedIn ↗",

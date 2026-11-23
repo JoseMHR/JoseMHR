@@ -35,6 +35,7 @@
 | **Clients & Industry Sectors** | **Banking & Financial Services:** Santander (with Globant), ING Bank (with Sopra Steria), BNP Paribas / Cetelem (with Sopra Steria) <br> **Retail & Global E-Commerce:** Inditex (with Plexus) <br> **Insurance:** A.M.A. Seguros <br> **Broadcast Media:** Corporación RTVE (with Everis), Atresmedia (with atSistemas) <br> **Public Sector & Academia:** Málaga City Council, Universidad de Málaga (UMA) |
 | **Higher Education** | **Software Engineer** & **Master INFTEL** (Universidad de Málaga). |
 | **Agile Leadership** | **Scrum Master Certified** (European Scrum, 2017) · Technical leadership of cross-functional engineering squads. |
+| **Languages** | **Spanish:** Native · **English:** B2 (Cambridge Certified). |
 
 ---
 
