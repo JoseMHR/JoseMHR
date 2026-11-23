@@ -63,8 +63,8 @@ const translations = {
         medios: "Medios & Seguros"
       },
       globant: {
-        role: "Software Application Analyst — Core Backend Architecture & AI Vanguard",
-        company: "Globant · Banco Santander · Jornada completa · Remoto",
+        role: "Software Application Analyst en Santander — Core Backend Architecture & AI Vanguard",
+        company: "Globant · Jornada completa · Remoto",
         date: "Ene. 2025 — Actualidad",
         b1: "<strong>Arquitectura Core Backend:</strong> Diseño e ingeniería de soluciones base estandarizadas, robustas y altamente escalables para su posterior despliegue, adaptación y extensión en los distintos países del grupo corporativo Santander.",
         b2: "<strong>Vanguardia en Desarrollo con IA (AI-Driven Development):</strong> Adopción pionera y liderazgo en la integración de flujos de desarrollo con agentes autónomos de IA (<strong>Devin AI, Claude</strong>), diseñando <em>workflows</em> personalizados, <em>skills</em> modulares y pipelines agénticos para acelerar el desarrollo, refactorización y entrega de software con máxima eficiencia.",
@@ -72,7 +72,7 @@ const translations = {
       },
       inditex: {
         role: "Desarrollador Senior Backend en Inditex",
-        company: "Plexus Tech (para Inditex) · Jornada completa · Remoto",
+        company: "Plexus Tech · Jornada completa · Remoto",
         date: "Ene. 2023 — Ene. 2025 (2 años)",
         b1: "Análisis y desarrollo integral de microservicios backend desde la toma de requisitos hasta su subida a producción en plataformas corporativas de Inditex.",
         b2: "<strong>Migraciones estratégicas:</strong> Transformación y modernización de servicios legados en NodeJS a Java 17 bajo <strong>Arquitectura Hexagonal</strong> y contratos <strong>ApiFirst</strong>.",
@@ -80,8 +80,8 @@ const translations = {
         b4: "Implementación de pipelines de integración y entrega continua (CI/CD) con SonarQube, GitHub Actions, OpenShift y Azure."
       },
       banca: {
-        role: "Analista de Desarrollo Senior — Banca & Finanzas",
-        company: "Sopra Steria · Proyectos ING Bank y BNP Paribas / Cetelem (con Sopra Steria) · Madrid / Remoto",
+        role: "Analista de Desarrollo Senior en BNP Paribas e ING Bank",
+        company: "Sopra Steria · Madrid / Remoto",
         date: "Ene. 2020 — Ene. 2023 (3 años)",
         pBnpTitle: "BNP Paribas / Cetelem (Sept. 2021 — Ene. 2023 · 1 año 5 meses):",
         bBnp1: "Análisis, diseño e implementación de aplicaciones middleware y servicios financieros de alta concurrencia.",
@@ -92,7 +92,7 @@ const translations = {
         bIng2: "Optimización de consultas y persistencia con MyBatis y despliegues en infraestructura Azure."
       },
       ama: {
-        role: "Analista Desarrollador",
+        role: "Analista Desarrollador en A.M.A. Seguros",
         company: "A.M.A. Seguros · Madrid",
         date: "Nov. 2018 — Ene. 2020 (1 año 3 meses)",
         b1: "Análisis y desarrollo integral de aplicaciones corporativas aseguradoras utilizando Vaadin 8, MyBatis, Java 8 y Spring Boot.",
@@ -100,15 +100,15 @@ const translations = {
         b3: "Optimización y refactorización de rendimiento de aplicaciones existentes sobre JBoss, Tomcat, DB2 y MySQL."
       },
       a3media: {
-        role: "Analista de Programación en A3Media",
-        company: "atSistemas (para Atresmedia) · Madrid",
+        role: "Analista de Programación en Atresmedia",
+        company: "atSistemas · Madrid",
         date: "Nov. 2017 — Nov. 2018 (1 año)",
         b1: "Análisis y desarrollo integral de aplicaciones y microservicios con Spring Boot y Java GWT, abarcando todo el ciclo de vida del proyecto.",
         b2: "Implementación de arquitecturas cloud en Amazon Web Services (AWS), despliegues con Jenkins, servidores WebLogic y persistencia con MongoDB, Hibernate y SQL."
       },
       rtve: {
-        role: "Analista Desarrollador & Scrum Master — RTVE",
-        company: "Corporación RTVE (con 80 Soluciones / Everis Spain) · Pozuelo de Alarcón, Madrid",
+        role: "Analista Desarrollador & Scrum Master en RTVE",
+        company: "Everis Spain / 80 Soluciones · Pozuelo de Alarcón, Madrid",
         date: "Sept. 2015 — Nov. 2017 (2 años 3 meses)",
         b1: "Desarrollos backend y evolutivos en Java Spring y NodeJS (migración de APIs y nuevos módulos para portales y servicios de RTVE).",
         b2: "Desarrollo de múltiples infografías interactivas y mapas de datos de gran cobertura nacional e internacional (Eurovisión, Lotería de Navidad, Premios Óscar, Juegos Olímpicos).",
@@ -116,8 +116,8 @@ const translations = {
         b4: "Formador técnico y rol de Scrum Master para el nuevo equipo junior de desarrollo y mantenimiento."
       },
       malaga: {
-        role: "Ingeniero de Software — Obras y Servicios",
-        company: "Sector Público & Consultoría Tecnológica (Ayto. Málaga, UMA, Ingenia, Intendia) · Málaga",
+        role: "Ingeniero de Software en Sector Público y Consultoría",
+        company: "Ayto. de Málaga, UMA, Ingenia e Intendia · Málaga",
         date: "Jun. 2013 — Sept. 2015 (2 años 4 meses)",
         b1: "<strong>Ingenia (Jun. 2015 — Sept. 2015):</strong> Desarrollo frontend de aplicación web corporativa con JavaScript y Drupal-PHP para entidad bancaria suiza.",
         b2: "<strong>Ayuntamiento de Málaga (Nov. 2014 — Jun. 2015):</strong> Scrum Master coordinando equipo de 4 personas. Análisis de requisitos y desarrollo desde cero de aplicaciones en Java y Spring para la gestión de licitaciones municipales.",
@@ -126,7 +126,7 @@ const translations = {
       },
       early: {
         role: "Desarrollador de Software & Analista Técnico Junior",
-        company: "Diversas Entidades · UMA, Pymes y Proyectos Propios · Málaga",
+        company: "Pymes, Becas y Proyectos de Software · Málaga",
         date: "2008 — Jun. 2013 (~5 años)",
         b1: "Desarrollos frontend y web: NMobe (Frontend, 6 meses) y DK-Innovations (Drupal CMS, 6 meses).",
         b2: "Desarrollo de aplicaciones móviles Android nativas para centros deportivos (Gym Kuro-Obi, UMA Deportes) e iniciativas independientes.",
@@ -247,8 +247,8 @@ const translations = {
         medios: "Media & Insurance"
       },
       globant: {
-        role: "Software Application Analyst — Core Backend Architecture & AI Vanguard",
-        company: "Globant · Banco Santander · Full-time · Remote",
+        role: "Software Application Analyst at Santander — Core Backend Architecture & AI Vanguard",
+        company: "Globant · Full-time · Remote",
         date: "Jan. 2025 — Present",
         b1: "<strong>Core Backend Architecture:</strong> Architecture and engineering of standardized, robust, and highly scalable foundational solutions for international deployment, localization, and extension across Banco Santander's global entities.",
         b2: "<strong>Vanguard in AI-Driven Development:</strong> Pioneering the adoption and integration of next-generation autonomous AI agents (<strong>Devin AI, Claude</strong>), architecting customized <em>workflows</em>, modular domain <em>skills</em>, and multi-agent pipelines to accelerate feature delivery, modernizations, and mission-critical code generation with peak velocity.",
@@ -256,7 +256,7 @@ const translations = {
       },
       inditex: {
         role: "Senior Backend Engineer at Inditex",
-        company: "Plexus Tech (for Inditex) · Full-time · Remote",
+        company: "Plexus Tech · Full-time · Remote",
         date: "Jan. 2023 — Jan. 2025 (2 yrs)",
         b1: "End-to-end backend microservice analysis and development from technical discovery to production release across Inditex corporate platforms.",
         b2: "<strong>Strategic Migrations:</strong> Re-architecting and modernizing legacy NodeJS backend services into Java 17 under <strong>Hexagonal Architecture</strong> and <strong>ApiFirst</strong> contracts.",
@@ -264,8 +264,8 @@ const translations = {
         b4: "Continuous Integration & Deployment (CI/CD) pipelines using SonarQube, GitHub Actions, OpenShift, and Microsoft Azure."
       },
       banca: {
-        role: "Senior Software Analyst — Banking & Financial Services",
-        company: "Sopra Steria · Projects for ING Bank & BNP Paribas / Cetelem (with Sopra Steria) · Madrid / Remote",
+        role: "Senior Software Analyst at BNP Paribas & ING Bank",
+        company: "Sopra Steria · Madrid / Remote",
         date: "Jan. 2020 — Jan. 2023 (3 yrs)",
         pBnpTitle: "BNP Paribas / Cetelem (Sept. 2021 — Jan. 2023 · 1 yr 5 mos):",
         bBnp1: "Architecture, design, and implementation of high-throughput financial middleware and core credit management services.",
@@ -276,7 +276,7 @@ const translations = {
         bIng2: "Database persistence optimization with MyBatis and scalable deployments within Microsoft Azure infrastructure."
       },
       ama: {
-        role: "Analyst Developer",
+        role: "Software Analyst & Developer at A.M.A. Seguros",
         company: "A.M.A. Seguros · Madrid",
         date: "Nov. 2018 — Jan. 2020 (1 yr 3 mos)",
         b1: "Full lifecycle design and development of insurance enterprise applications utilizing Vaadin 8, MyBatis, Java 8, and Spring Boot.",
@@ -285,14 +285,14 @@ const translations = {
       },
       a3media: {
         role: "Software Programming Analyst at Atresmedia",
-        company: "atSistemas (for Atresmedia) · Madrid",
+        company: "atSistemas · Madrid",
         date: "Nov. 2017 — Nov. 2018 (1 yr)",
         b1: "End-to-end analysis and development of applications and microservices with Spring Boot and Java GWT, spanning the entire project lifecycle.",
         b2: "Cloud architecture implementation on Amazon Web Services (AWS), CI/CD deployments with Jenkins, WebLogic application servers, and persistence using MongoDB, Hibernate, and SQL."
       },
       rtve: {
-        role: "Software Analyst & Scrum Master — RTVE",
-        company: "Corporación RTVE (with 80 Soluciones / Everis Spain) · Pozuelo de Alarcón, Madrid",
+        role: "Software Analyst & Scrum Master at RTVE",
+        company: "Everis Spain / 80 Soluciones · Pozuelo de Alarcón, Madrid",
         date: "Sep. 2015 — Nov. 2017 (2 yrs 3 mos)",
         b1: "Backend engineering and evolutive development in Java Spring and NodeJS (API migration and new modules for RTVE digital platforms and web services).",
         b2: "Design and development of multiple high-visibility interactive infographics and national data maps (Eurovision Song Contest, Spanish Christmas Lottery, Academy Awards / Oscars, Olympic Games).",
@@ -300,8 +300,8 @@ const translations = {
         b4: "Technical trainer and Scrum Master for the incoming junior software development and maintenance team."
       },
       malaga: {
-        role: "Software Engineer — Projects & Consulting",
-        company: "Public Sector & Tech Consulting (Málaga City Council, UMA, Ingenia, Intendia) · Málaga",
+        role: "Software Engineer at Public Sector & Tech Consulting",
+        company: "Málaga City Council, UMA, Ingenia & Intendia · Málaga",
         date: "Jun. 2013 — Sep. 2015 (2 yrs 4 mos)",
         b1: "<strong>Ingenia (Jun. 2015 — Sep. 2015):</strong> Frontend engineering of corporate web applications utilizing JavaScript and Drupal-PHP for a Swiss private banking entity.",
         b2: "<strong>Málaga City Council (Nov. 2014 — Jun. 2015):</strong> Scrum Master coordinating a 4-developer engineering team. Requirements analysis and greenfield development of Java / Spring applications for municipal public procurement management.",
@@ -310,7 +310,7 @@ const translations = {
       },
       early: {
         role: "Software Developer & Junior Technical Analyst",
-        company: "Various Entities · UMA, SMBs & Independent Initiatives · Málaga",
+        company: "SMBs, Fellowships & Software Projects · Málaga",
         date: "2008 — Jun. 2013 (~5 yrs)",
         b1: "Frontend and web engineering: NMobe (Frontend developer, 6 mos) and DK-Innovations (Drupal CMS developer, 6 mos).",
         b2: "Native Android mobile applications for sports centers (Gym Kuro-Obi, UMA Sports) and independent mobile initiatives.",
