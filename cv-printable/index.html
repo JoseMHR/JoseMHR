@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CV — José Manuel Heredia Reyes (1 Página)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 0;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      width: 210mm;
+      height: 297mm;
+      max-height: 297mm;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #1e293b;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 8.5pt;
+      line-height: 1.35;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+      overflow: hidden;
+    }
+
+    .cv-container {
+      display: flex;
+      width: 210mm;
+      height: 297mm;
+      max-height: 297mm;
+      overflow: hidden;
+    }
+
+    /* ==========================================================================
+       SIDEBAR (Columna Izquierda ~66mm)
+       ========================================================================== */
+    .cv-sidebar {
+      width: 66mm;
+      min-width: 66mm;
+      max-width: 66mm;
+      height: 297mm;
+      background: #091325;
+      color: #e2e8f0;
+      padding: 7mm 5.5mm 5mm 5.5mm;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-right: 1.5px solid #1e3a8a;
+    }
+
+    .avatar-wrapper {
+      text-align: center;
+      margin-bottom: 4mm;
+    }
+
+    .avatar-img {
+      width: 32mm;
+      height: 32mm;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2.5px solid #38bdf8;
+      box-shadow: 0 0 14px rgba(56, 189, 248, 0.35);
+      display: inline-block;
+    }
+
+    .side-section {
+      margin-bottom: 3.5mm;
+    }
+
+    .side-title {
+      font-size: 8pt;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #38bdf8;
+      border-bottom: 1px solid rgba(56, 189, 248, 0.3);
+      padding-bottom: 1mm;
+      margin-bottom: 2mm;
+      display: flex;
+      align-items: center;
+      gap: 1.5mm;
+    }
+
+    .side-item {
+      font-size: 7.6pt;
+      color: #cbd5e1;
+      margin-bottom: 1.6mm;
+      line-height: 1.3;
+    }
+
+    .side-item strong {
+      color: #ffffff;
+      display: block;
+      font-size: 7.8pt;
+    }
+
+    .side-item em {
+      font-style: normal;
+      color: #94a3b8;
+      font-size: 7.2pt;
+      display: block;
+    }
+
+    .contact-row {
+      display: flex;
+      align-items: center;
+      gap: 2mm;
+      font-size: 7.4pt;
+      color: #e2e8f0;
+      margin-bottom: 1.4mm;
+      word-break: break-all;
+    }
+
+    .contact-row a {
+      color: #e2e8f0;
+      text-decoration: none;
+    }
+
+    .contact-icon {
+      color: #38bdf8;
+      font-size: 8pt;
+      min-width: 3.5mm;
+      text-align: center;
+    }
+
+    .side-badge {
+      display: inline-block;
+      font-size: 6.8pt;
+      font-weight: 700;
+      padding: 0.5mm 1.5mm;
+      border-radius: 2px;
+      margin-top: 0.5mm;
+    }
+
+    .badge-green {
+      background: rgba(16, 185, 129, 0.2);
+      color: #6ee7b7;
+      border: 1px solid rgba(16, 185, 129, 0.4);
+    }
+
+    .badge-blue {
+      background: rgba(56, 189, 248, 0.18);
+      color: #7dd3fc;
+      border: 1px solid rgba(56, 189, 248, 0.4);
+    }
+
+    .badge-purple {
+      background: rgba(168, 85, 247, 0.2);
+      color: #d8b4fe;
+      border: 1px solid rgba(168, 85, 247, 0.4);
+    }
+
+    .qr-box {
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      border-radius: 4px;
+      padding: 2mm;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      gap: 2.5mm;
+    }
+
+    .qr-img {
+      width: 18mm;
+      height: 18mm;
+      background: #ffffff;
+      padding: 1mm;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+
+    .qr-text {
+      font-size: 6.8pt;
+      color: #94a3b8;
+      text-align: left;
+      line-height: 1.25;
+    }
+
+    .qr-text strong {
+      color: #38bdf8;
+      display: block;
+      font-size: 7.2pt;
+      margin-bottom: 0.5mm;
+    }
+
+    /* ==========================================================================
+       MAIN CONTENT (Columna Derecha ~144mm)
+       ========================================================================== */
+    .cv-main {
+      width: 144mm;
+      min-width: 144mm;
+      max-width: 144mm;
+      height: 297mm;
+      padding: 6.5mm 7.5mm 4.5mm 7.5mm;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+
+    /* Header */
+    .cv-header {
+      margin-bottom: 2.5mm;
+      border-bottom: 1.5px solid #e2e8f0;
+      padding-bottom: 2mm;
+    }
+
+    .header-name {
+      font-size: 17.5pt;
+      font-weight: 800;
+      color: #091325;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      margin-bottom: 1mm;
+    }
+
+    .header-role {
+      font-size: 9pt;
+      font-weight: 700;
+      color: #0284c7;
+      margin-bottom: 1.5mm;
+    }
+
+    .header-summary {
+      font-size: 7.5pt;
+      color: #475569;
+      line-height: 1.35;
+      text-align: justify;
+    }
+
+    .header-summary strong {
+      color: #0f172a;
+    }
+
+    /* Sections */
+    .main-section-title {
+      font-size: 8.5pt;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #0c4a6e;
+      background: #f0f9ff;
+      border-left: 3px solid #0284c7;
+      padding: 1mm 2mm;
+      margin-bottom: 2mm;
+      display: flex;
+      align-items: center;
+      gap: 1.5mm;
+    }
+
+    /* Jobs */
+    .job-item {
+      margin-bottom: 1.9mm;
+      page-break-inside: avoid;
+    }
+
+    .job-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.5mm;
+    }
+
+    .job-role {
+      font-size: 8.2pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .job-role span.client-tag {
+      color: #0369a1;
+    }
+
+    .job-company {
+      font-size: 7.4pt;
+      font-weight: 600;
+      color: #64748b;
+      margin-bottom: 0.6mm;
+    }
+
+    .job-date {
+      font-size: 7.2pt;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      color: #b45309;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .job-bullets {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .job-bullet {
+      font-size: 7.2pt;
+      color: #334155;
+      line-height: 1.25;
+      position: relative;
+      padding-left: 3mm;
+      margin-bottom: 0.5mm;
+    }
+
+    .job-bullet::before {
+      content: "▪";
+      position: absolute;
+      left: 0.5mm;
+      color: #0284c7;
+      font-size: 7pt;
+      top: -0.2mm;
+    }
+
+    .job-bullet strong {
+      color: #0f172a;
+    }
+
+    .job-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1mm;
+      margin-top: 0.8mm;
+    }
+
+    .job-tag {
+      font-size: 6.4pt;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      background: #f1f5f9;
+      color: #334155;
+      border: 1px solid #cbd5e1;
+      padding: 0.2mm 1.2mm;
+      border-radius: 2px;
+      line-height: 1.2;
+    }
+
+    .tag-ai {
+      background: #faf5ff;
+      color: #7e22ce;
+      border-color: #d8b4fe;
+      font-weight: 600;
+    }
+
+    /* Skills Grid */
+    .skills-matrix {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5mm 3mm;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 4px;
+      padding: 1.8mm 2.5mm;
+    }
+
+    .skill-cat {
+      font-size: 6.9pt;
+      line-height: 1.28;
+      color: #334155;
+    }
+
+    .skill-cat strong {
+      color: #0f172a;
+      display: block;
+      font-size: 7.1pt;
+      margin-bottom: 0.3mm;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv-container">
+    
+    <!-- ==========================================
+         COLUMNA LATERAL (Sidebar ~66mm)
+         ========================================== -->
+    <aside class="cv-sidebar">
+      <div>
+        <!-- Foto -->
+        <div class="avatar-wrapper">
+          <img src="assets/avatar.jpg" alt="José Manuel Heredia Reyes" class="avatar-img">
+        </div>
+
+        <!-- Contacto -->
+        <div class="side-section">
+          <div class="side-title"><span>📞</span> Contacto</div>
+          <div class="contact-row">
+            <span class="contact-icon">📱</span>
+            <span>+34 603 82 7777</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-icon">✉️</span>
+            <span>Jose.manuel.reyes.1986@gmail.com</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-icon">💼</span>
+            <span>linkedin.com/in/josemhr</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-icon">🐙</span>
+            <span>github.com/JoseMHR</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-icon">🌐</span>
+            <span>josemhr.github.io/JoseMHR</span>
+          </div>
+        </div>
+
+        <!-- Formación Académica -->
+        <div class="side-section">
+          <div class="side-title"><span>🎓</span> Formación</div>
+          <div class="side-item">
+            <strong>Máster INFTEL (Telecomunicación y Software)</strong>
+            <em>Univ. de Málaga (UMA) · 2012 — 2014</em>
+            <span>Redes, telemática y tecnologías web/móviles.</span>
+          </div>
+          <div class="side-item">
+            <strong>Ingeniería de Software</strong>
+            <em>Univ. de Málaga (UMA) · 2004 — 2011</em>
+            <span>Arquitectura, sistemas distribuidos y algoritmia.</span>
+          </div>
+        </div>
+
+        <!-- Certificaciones Oficiales -->
+        <div class="side-section">
+          <div class="side-title"><span>📜</span> Certificaciones</div>
+          <div class="side-item">
+            <strong>Scrum Master Oficial</strong>
+            <em>European Scrum (2017)</em>
+            <span class="side-badge badge-green">Metodologías Ágiles</span>
+          </div>
+          <div class="side-item" style="margin-top: 1.2mm;">
+            <strong>Certificación de Inglés (B1/B2)</strong>
+            <em>University of Cambridge</em>
+            <span class="side-badge badge-blue">Cambridge ESOL</span>
+          </div>
+          <div class="side-item" style="margin-top: 1.2mm;">
+            <strong>+80 Cursos Técnicos Acreditados</strong>
+            <em>Udemy · Coursera · edX · OpenWebinars</em>
+            <span class="side-badge badge-purple">Formación Continua</span>
+          </div>
+        </div>
+
+        <!-- Idiomas -->
+        <div class="side-section">
+          <div class="side-title"><span>🌐</span> Idiomas</div>
+          <div class="side-item">
+            <strong>Español:</strong> Nativo
+          </div>
+          <div class="side-item">
+            <strong>Inglés:</strong> B1 / B2 (Competencia Profesional)
+            <em>Lectura técnica avanzada y comunicación fluida.</em>
+          </div>
+        </div>
+      </div>
+
+      <!-- QR Code interactivo -->
+      <div class="qr-box">
+        <img src="assets/qr-portfolio.png" alt="QR Web CV" class="qr-img">
+        <div class="qr-text">
+          <strong>CV Interactivo Online</strong>
+          Escanea para ver proyectos, filtros y demo en tiempo real.
+        </div>
+      </div>
+    </aside>
+
+    <!-- ==========================================
+         COLUMNA PRINCIPAL (Cuerpo ~144mm)
+         ========================================== -->
+    <main class="cv-main">
+      <div>
+        <!-- Cabecera Personal -->
+        <header class="cv-header">
+          <h1 class="header-name">José Manuel Heredia Reyes</h1>
+          <div class="header-role">Senior Backend Architect & Java Specialist · Software Engineer en Globant</div>
+          <p class="header-summary">
+            <strong>Ingeniero de Software y Máster INFTEL</strong> con <strong>+18 años de trayectoria profesional ininterrumpida</strong> (en activo desde 2008). Especializado en arquitectura core backend distribuida, microservicios resilientes bajo <strong>Arquitectura Hexagonal</strong> y contratos <strong>ApiFirst</strong>, ecosistema Java empresarial (desde Java legacy 6 y 7 hasta Java 8, 17 y 21), streaming reactivo con <strong>Apache Kafka</strong> y <strong>vanguardia en desarrollo con agentes autónomos de Inteligencia Artificial (Devin AI y Claude)</strong>.
+          </p>
+        </header>
+
+        <!-- Experiencia Laboral -->
+        <section>
+          <div class="main-section-title">
+            <span>💼</span> Experiencia Laboral Principal (2008 — Actualidad)
+          </div>
+
+          <!-- 1. Globant (Santander) -->
+          <article class="job-item">
+            <div class="job-header">
+              <div class="job-role">Software Application Analyst <span class="client-tag">en Santander</span> — Core Backend & AI Vanguard</div>
+              <div class="job-date">Ene. 2025 — Actualidad</div>
+            </div>
+            <div class="job-company">Globant · Jornada completa · Remoto</div>
+            <ul class="job-bullets">
+              <li class="job-bullet"><strong>Arquitectura Core Backend:</strong> Diseño de soluciones foundational altamente escalables para despliegue y extensión global en Santander.</li>
+              <li class="job-bullet"><strong>Vanguardia en Desarrollo con IA:</strong> Integración pionera de flujos con agentes autónomos (<strong>Devin AI, Claude</strong>), workflows y pipelines agénticos.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="job-tag tag-ai">Devin AI</span>
+              <span class="job-tag tag-ai">Claude Agents</span>
+              <span class="job-tag">Java 21</span>
+              <span class="job-tag">Spring Boot</span>
+              <span class="job-tag">Arquitectura Hexagonal</span>
+              <span class="job-tag">ApiFirst</span>
+              <span class="job-tag">Apache Kafka</span>
+            </div>
+          </article>
+
+          <!-- 2. Inditex (Plexus Tech) -->
+          <article class="job-item">
+            <div class="job-header">
+              <div class="job-role">Desarrollador Senior Backend <span class="client-tag">en Inditex</span></div>
+              <div class="job-date">Ene. 2023 — Ene. 2025 (2 años)</div>
+            </div>
+            <div class="job-company">Plexus Tech · Jornada completa · Remoto</div>
+            <ul class="job-bullets">
+              <li class="job-bullet"><strong>Migraciones estratégicas:</strong> Transformación y modernización de servicios legados NodeJS a <strong>Java 17</strong> bajo <strong>Arquitectura Hexagonal</strong> y contratos ApiFirst.</li>
+              <li class="job-bullet">Gestión de guardias críticas de alta disponibilidad y soporte en picos masivos de retail (Rebajas, Black Friday) en Azure y OpenShift.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="job-tag">Java 17</span>
+              <span class="job-tag">Spring Boot</span>
+              <span class="job-tag">Hexagonal</span>
+              <span class="job-tag">ApiFirst / OpenAPI</span>
+              <span class="job-tag">Microsoft Azure</span>
+              <span class="job-tag">OpenShift</span>
+              <span class="job-tag">NodeJS Migration</span>
+            </div>
+          </article>
+
+          <!-- 3. Sopra Steria (BNP Paribas & ING) -->
+          <article class="job-item">
+            <div class="job-header">
+              <div class="job-role">Analista de Desarrollo Senior <span class="client-tag">en BNP Paribas e ING Bank</span></div>
+              <div class="job-date">Ene. 2020 — Ene. 2023 (3 años)</div>
+            </div>
+            <div class="job-company">Sopra Steria · Madrid / Remoto</div>
+            <ul class="job-bullets">
+              <li class="job-bullet"><strong>BNP Paribas / Cetelem:</strong> Análisis, diseño e implementación de middleware financiero de alta concurrencia en Java 8, Spring Boot y Oracle SQL.</li>
+              <li class="job-bullet"><strong>ING Bank:</strong> Microservicios transaccionales en Java bajo Arquitectura Hexagonal, persistencia MyBatis y despliegues en Azure.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="job-tag">Java 8/11</span>
+              <span class="job-tag">Spring Boot</span>
+              <span class="job-tag">Hexagonal</span>
+              <span class="job-tag">Oracle SQL</span>
+              <span class="job-tag">MyBatis</span>
+              <span class="job-tag">Azure</span>
+              <span class="job-tag">Jenkins CI/CD</span>
+            </div>
+          </article>
+
+          <!-- 4. A.M.A. Seguros -->
+          <article class="job-item">
+            <div class="job-header">
+              <div class="job-role">Analista Desarrollador <span class="client-tag">en A.M.A. Seguros</span></div>
+              <div class="job-date">Nov. 2018 — Ene. 2020 (1 año 3 m)</div>
+            </div>
+            <div class="job-company">A.M.A. Seguros · Madrid</div>
+            <ul class="job-bullets">
+              <li class="job-bullet">Ciclo de vida completo de aplicaciones aseguradoras con <strong>Vaadin 8, MyBatis, Java 8 y Spring Boot</strong> sobre JBoss, Tomcat e IBM DB2.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="job-tag">Java 8</span>
+              <span class="job-tag">Spring Boot</span>
+              <span class="job-tag">Vaadin 8</span>
+              <span class="job-tag">MyBatis</span>
+              <span class="job-tag">IBM DB2</span>
+              <span class="job-tag">MySQL</span>
+            </div>
+          </article>
+
+          <!-- 5. atSistemas (Atresmedia) -->
+          <article class="job-item">
+            <div class="job-header">
+              <div class="job-role">Analista de Programación <span class="client-tag">en Atresmedia</span></div>
+              <div class="job-date">Nov. 2017 — Nov. 2018 (1 año)</div>
+            </div>
+            <div class="job-company">atSistemas · Madrid</div>
+            <ul class="job-bullets">
+              <li class="job-bullet">Desarrollo integral de microservicios y aplicaciones con <strong>Spring Boot y Java GWT</strong> en AWS, con MongoDB, Hibernate y WebLogic.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="job-tag">Java 7/8</span>
+              <span class="job-tag">Spring Boot</span>
+              <span class="job-tag">GWT</span>
+              <span class="job-tag">AWS Cloud</span>
+              <span class="job-tag">MongoDB</span>
+              <span class="job-tag">Jenkins</span>
+            </div>
+          </article>
+
+          <!-- 6. RTVE (Everis Spain / 80 Soluciones) -->
+          <article class="job-item">
+            <div class="job-header">
+              <div class="job-role">Analista Desarrollador & Scrum Master <span class="client-tag">en RTVE</span></div>
+              <div class="job-date">Sept. 2015 — Nov. 2017 (2 años 3 m)</div>
+            </div>
+            <div class="job-company">Everis Spain / 80 Soluciones · Pozuelo de Alarcón, Madrid</div>
+            <ul class="job-bullets">
+              <li class="job-bullet">Evolutivos Java Spring y NodeJS, migración de consultas hacia <strong>ElasticSearch</strong>, infografías de máxima audiencia y rol <strong>Scrum Master</strong>.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="job-tag">Scrum Master</span>
+              <span class="job-tag">Java 6/7</span>
+              <span class="job-tag">Spring</span>
+              <span class="job-tag">NodeJS</span>
+              <span class="job-tag">ElasticSearch</span>
+              <span class="job-tag">Oracle SQL</span>
+            </div>
+          </article>
+
+          <!-- 7. Sector Público Málaga -->
+          <article class="job-item">
+            <div class="job-header">
+              <div class="job-role">Ingeniero de Software <span class="client-tag">en Sector Público y Consultoría</span></div>
+              <div class="job-date">Jun. 2013 — Sept. 2015 (2 años 4 m)</div>
+            </div>
+            <div class="job-company">Ayto. de Málaga, UMA, Ingenia e Intendia · Málaga</div>
+            <ul class="job-bullets">
+              <li class="job-bullet">Licitaciones municipales en Java/Spring (Scrum Master 4 devs), app Android nativa en UMA, banca suiza en Ingenia y geolocalización en Intendia.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="job-tag">Java</span>
+              <span class="job-tag">Spring</span>
+              <span class="job-tag">Android Nativo</span>
+              <span class="job-tag">GWT / GWTP</span>
+              <span class="job-tag">Drupal / PHP</span>
+              <span class="job-tag">MySQL</span>
+            </div>
+          </article>
+
+          <!-- 8. Trayectoria Inicial -->
+          <article class="job-item">
+            <div class="job-header">
+              <div class="job-role">Desarrollador de Software & Analista Junior <span class="client-tag">(Trayectoria Inicial)</span></div>
+              <div class="job-date">2008 — Jun. 2013 (~5 años)</div>
+            </div>
+            <div class="job-company">Pymes, Becas y Proyectos de Software · Málaga</div>
+            <ul class="job-bullets">
+              <li class="job-bullet">Frontend en NMobe, CMS Drupal en DK-Innovations, apps Android para centros deportivos (Gym Kuro-Obi, UMA) y beca COBOL bancaria (Arrow/RSI).</li>
+            </ul>
+          </article>
+        </section>
+      </div>
+
+      <!-- Matriz de Habilidades Principales -->
+      <section style="margin-top: 1.5mm;">
+        <div class="main-section-title">
+          <span>🛠️</span> Matriz de Habilidades & Stack Core
+        </div>
+        <div class="skills-matrix">
+          <div class="skill-cat">
+            <strong>Arquitectura Backend & Core:</strong>
+            Java (6 a 21), Spring / Spring Boot 3, Arquitectura Hexagonal, ApiFirst (OpenAPI), Microservicios DDD, Hibernate / JPA, MyBatis.
+          </div>
+          <div class="skill-cat">
+            <strong>IA & Desarrollo de Vanguardia:</strong>
+            Devin AI, Claude Agents, Workflows agénticos, Skills personalizadas, Prompt Engineering, automatización de entrega.
+          </div>
+          <div class="skill-cat">
+            <strong>Cloud, Streaming & DevOps:</strong>
+            Microsoft Azure, AWS, RedHat OpenShift, Apache Kafka (Event-Driven), Docker, Kubernetes, CI/CD (Jenkins, GitHub Actions).
+          </div>
+          <div class="skill-cat">
+            <strong>Bases de Datos & Caché:</strong>
+            Oracle SQL, PostgreSQL, MySQL, IBM DB2, MongoDB (NoSQL), Redis, ElasticSearch.
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </div>
+
+</body>
+</html>
