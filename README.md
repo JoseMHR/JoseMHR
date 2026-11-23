@@ -38,65 +38,67 @@
 
 ---
 
+<a id="tech-matrix"></a>
 ### 🛠️ Core Technology Matrix
 
 <p align="left">
   <strong>AI-Driven Engineering & Autonomous Agents:</strong><br>
-  <img src="https://img.shields.io/badge/Devin_AI-Autonomous_Software_Engineer-000000?style=flat-square&logo=openai&logoColor=white" alt="Devin AI" />
-  <img src="https://img.shields.io/badge/Claude-Agentic_Workflows_%26_Skills-D97706?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
-  <img src="https://img.shields.io/badge/Workflows_%26_Skills-Custom_Agentic_Pipelines-6366f1?style=flat-square" alt="Workflows & Skills" />
-  <img src="https://img.shields.io/badge/Autonomous_Agents-Prompt_%26_Pipeline_Engineering-8b5cf6?style=flat-square" alt="Autonomous Agents" />
-  <img src="https://img.shields.io/badge/AI_Assisted_Modernization-Legacy_to_Cloud-0284c7?style=flat-square" alt="AI Assisted Modernization" />
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Devin_AI-Autonomous_Software_Engineer-000000?style=flat-square&logo=openai&logoColor=white" alt="Devin AI" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Claude-Agentic_Workflows_%26_Skills-D97706?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Workflows_%26_Skills-Custom_Agentic_Pipelines-6366f1?style=flat-square" alt="Workflows & Skills" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Autonomous_Agents-Prompt_%26_Pipeline_Engineering-8b5cf6?style=flat-square" alt="Autonomous Agents" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/AI_Assisted_Modernization-Legacy_to_Cloud-0284c7?style=flat-square" alt="AI Assisted Modernization" /></a>
 </p>
 
 <p align="left">
   <strong>Backend & Architecture:</strong><br>
-  <img src="https://img.shields.io/badge/Java-8%20%7C%2017%20%7C%2021-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring_Boot-2.x%20%7C%203.x-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Hexagonal_Architecture-Ports_%26_Adapters-0284c7?style=flat-square" alt="Hexagonal Architecture" />
-  <img src="https://img.shields.io/badge/ApiFirst-OpenAPI_%2F_Swagger-85EA2D?style=flat-square&logo=openapiinitiative&logoColor=black" alt="ApiFirst" />
-  <img src="https://img.shields.io/badge/Microservices-Resilience_%26_DDD-6366f1?style=flat-square" alt="Microservices" />
-  <img src="https://img.shields.io/badge/JPA_%2F_Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" alt="Hibernate" />
-  <img src="https://img.shields.io/badge/MyBatis-000000?style=flat-square" alt="MyBatis" />
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Java-6_%7C_7_%7C_8_%7C_17_%7C_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Spring_Boot-2.x%20%7C%203.x-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Hexagonal_Architecture-Ports_%26_Adapters-0284c7?style=flat-square" alt="Hexagonal Architecture" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/ApiFirst-OpenAPI_%2F_Swagger-85EA2D?style=flat-square&logo=openapiinitiative&logoColor=black" alt="ApiFirst" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Microservices-Resilience_%26_DDD-6366f1?style=flat-square" alt="Microservices" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/JPA_%2F_Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" alt="Hibernate" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/MyBatis-000000?style=flat-square" alt="MyBatis" /></a>
 </p>
 
 <p align="left">
   <strong>Mobile, Frontend & Legacy Fullstack Modernization:</strong><br>
-  <img src="https://img.shields.io/badge/Android_Native-Java_%26_SDK-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android Native" />
-  <img src="https://img.shields.io/badge/Node.js-Express_%26_APIs-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="NodeJS" />
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular" />
-  <img src="https://img.shields.io/badge/JavaScript_%2F_TypeScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Vaadin-7_%26_8-00B4F0?style=flat-square&logo=vaadin&logoColor=white" alt="Vaadin" />
-  <img src="https://img.shields.io/badge/GWT_%2F_GWTP-Legacy_Java_Web-EA2D2E?style=flat-square" alt="GWT" />
-  <img src="https://img.shields.io/badge/Drupal_%2F_PHP-Legacy_CMS-0678BE?style=flat-square&logo=drupal&logoColor=white" alt="Drupal" />
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Android_Native-Java_%26_SDK-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android Native" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Node.js-Express_%26_APIs-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="NodeJS" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/JavaScript_%2F_TypeScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Vaadin-7_%26_8-00B4F0?style=flat-square&logo=vaadin&logoColor=white" alt="Vaadin" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/GWT_%2F_GWTP-Legacy_Java_Web-EA2D2E?style=flat-square" alt="GWT" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Drupal_%2F_PHP-Legacy_CMS-0678BE?style=flat-square&logo=drupal&logoColor=white" alt="Drupal" /></a>
 </p>
 
 <p align="left">
   <strong>Cloud, Streaming & DevOps:</strong><br>
-  <img src="https://img.shields.io/badge/Apache_Kafka-Event_Driven-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka" />
-  <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure" />
-  <img src="https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white" alt="OpenShift" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins" />
-  <img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white" alt="SonarQube" />
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Apache_Kafka-Event_Driven-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white" alt="OpenShift" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white" alt="SonarQube" /></a>
 </p>
 
 <p align="left">
   <strong>Databases & Caching:</strong><br>
-  <img src="https://img.shields.io/badge/Oracle_SQL-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle SQL" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/IBM_DB2-052FAD?style=flat-square&logo=ibm&logoColor=white" alt="IBM DB2" />
-  <img src="https://img.shields.io/badge/ElasticSearch-005571?style=flat-square&logo=elasticsearch&logoColor=white" alt="ElasticSearch" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Oracle_SQL-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle SQL" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/IBM_DB2-052FAD?style=flat-square&logo=ibm&logoColor=white" alt="IBM DB2" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/ElasticSearch-005571?style=flat-square&logo=elasticsearch&logoColor=white" alt="ElasticSearch" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" /></a>
 </p>
 
 ---
 
+<a id="flagship-projects"></a>
 ### 🚀 Flagship Projects & Transmedia IP
 
 <table>
@@ -104,9 +106,9 @@
     <td width="50%" valign="top">
       <h3>⚔️ Taos Game Maker Engine</h3>
       <p>
-        <img src="https://img.shields.io/badge/Godot_Engine-4.3+-478CBF?style=flat-square&logo=godotengine&logoColor=white" alt="Godot 4.3+" />
-        <img src="https://img.shields.io/badge/C%23_%2F_GDScript-Architecture-239120?style=flat-square&logo=csharp&logoColor=white" alt="C# / GDScript" />
-        <img src="https://img.shields.io/badge/Web_Suite-45+_Tools-0284c7?style=flat-square&logo=googlechrome&logoColor=white" alt="45+ Web Tools" />
+        <a href="#flagship-projects"><img src="https://img.shields.io/badge/Godot_Engine-4.3+-478CBF?style=flat-square&logo=godotengine&logoColor=white" alt="Godot 4.3+" /></a>
+        <a href="#flagship-projects"><img src="https://img.shields.io/badge/C%23_%2F_GDScript-Architecture-239120?style=flat-square&logo=csharp&logoColor=white" alt="C# / GDScript" /></a>
+        <a href="#flagship-projects"><img src="https://img.shields.io/badge/Web_Suite-45+_Tools-0284c7?style=flat-square&logo=googlechrome&logoColor=white" alt="45+ Web Tools" /></a>
       </p>
       <p>
         Modular open-source framework and advanced architectural tooling suite for <strong>Godot Engine 4.3+</strong>. Engineered to accelerate 2D/3D Tactical RPG game development with decoupled ATB combat, inventory, branching dialogue systems, and an integrated <strong>Web Studio Suite</strong> featuring 45+ visual no-code authoring tools.
@@ -125,9 +127,9 @@
     <td width="50%" valign="top">
       <h3>📖 The Lazarus Saga (La Saga Lázaro)</h3>
       <p>
-        <img src="https://img.shields.io/badge/Editorial_Adarve-Spain_Release-e11d48?style=flat-square&logo=bookmeter&logoColor=white" alt="Editorial Adarve" />
-        <img src="https://img.shields.io/badge/Amazon-Worldwide-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon" />
-        <img src="https://img.shields.io/badge/Transmedia-IP_%26_Cosmology-8b5cf6?style=flat-square&logo=affinitydesigner&logoColor=white" alt="Transmedia Universe" />
+        <a href="#flagship-projects"><img src="https://img.shields.io/badge/Editorial_Adarve-Spain_Release-e11d48?style=flat-square&logo=bookmeter&logoColor=white" alt="Editorial Adarve" /></a>
+        <a href="#flagship-projects"><img src="https://img.shields.io/badge/Amazon-Worldwide-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon" /></a>
+        <a href="#flagship-projects"><img src="https://img.shields.io/badge/Transmedia-IP_%26_Cosmology-8b5cf6?style=flat-square&logo=affinitydesigner&logoColor=white" alt="Transmedia Universe" /></a>
       </p>
       <p>
         Transmedia dark fantasy literary universe and cosmology novels. Published in Spain through <strong>Editorial Adarve</strong> (<em>La Leyenda de las Esferas</em>) and distributed worldwide on <strong>Amazon</strong> in Spanish and English. Establishes the deep narrative worldbuilding, metaphysical cosmology, and lore inspiring the Taos interactive game ecosystem.
