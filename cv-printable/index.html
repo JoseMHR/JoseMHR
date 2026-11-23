@@ -67,7 +67,7 @@
 
     .avatar-wrapper {
       text-align: center;
-      margin-bottom: 5mm;
+      margin-bottom: 7.5mm;
     }
 
     .avatar-img {
@@ -81,18 +81,18 @@
     }
 
     .side-section {
-      margin-bottom: 5mm;
+      margin-bottom: 7mm;
     }
 
     .side-title {
-      font-size: 8pt;
+      font-size: 8.2pt;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       color: #38bdf8;
       border-bottom: 1px solid rgba(56, 189, 248, 0.35);
-      padding-bottom: 1mm;
-      margin-bottom: 2.2mm;
+      padding-bottom: 1.2mm;
+      margin-bottom: 2.8mm;
       display: flex;
       align-items: center;
       gap: 1.5mm;
@@ -101,8 +101,8 @@
     .side-item {
       font-size: 7.6pt;
       color: #cbd5e1;
-      margin-bottom: 1.6mm;
-      line-height: 1.3;
+      margin-bottom: 2.5mm;
+      line-height: 1.35;
     }
 
     .side-item strong {
@@ -124,7 +124,7 @@
       gap: 2mm;
       font-size: 7.4pt;
       color: #e2e8f0;
-      margin-bottom: 1.4mm;
+      margin-bottom: 2mm;
       word-break: break-all;
     }
 
@@ -267,7 +267,7 @@
 
     /* Jobs */
     .job-item {
-      margin-bottom: 1.9mm;
+      margin-bottom: 2.8mm;
       page-break-inside: avoid;
     }
 
@@ -380,7 +380,7 @@
 
     /* Compact 3-line Jobs */
     .job-compact {
-      margin-bottom: 2.5mm;
+      margin-bottom: 2.8mm;
       page-break-inside: avoid;
     }
 
@@ -461,6 +461,22 @@
     /* Skills Section & Cards */
     .skills-section {
       margin-top: 2.2mm;
+    }
+
+    .skills-principles {
+      display: flex;
+      justify-content: space-between;
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+      padding: 1.1mm 2.2mm;
+      margin-bottom: 2mm;
+      font-size: 6.8pt;
+      color: #334155;
+    }
+
+    .skills-principles span strong {
+      color: #0369a1;
     }
 
     .skills-grid {
@@ -641,7 +657,10 @@
               </div>
               <span class="job-compact-date">Ene. 2023 — Ene. 2025 (2 años)</span>
             </div>
-            <div class="job-compact-desc">Desarrollos bajo arquitectura hexagonal y contratos ApiFirst. Gestión de guardias críticas de alta disponibilidad y soporte en picos masivos de retail.</div>
+            <ul class="job-bullets" style="margin-top: 0.5mm;">
+              <li class="job-bullet">Desarrollo y modernización de microservicios backend en <strong>Java 17</strong> bajo <strong>Arquitectura Hexagonal</strong> y contratos <strong>ApiFirst</strong> (OpenAPI).</li>
+              <li class="job-bullet">Gestión de guardias críticas de alta disponibilidad y soporte continuo para picos masivos de retail (Rebajas, Black Friday).</li>
+            </ul>
             <div class="job-compact-tech"><strong>Stack:</strong> Java 17, Spring Boot, Arquitectura Hexagonal, ApiFirst (OpenAPI), Azure, OpenShift, Kafka, Redis, CI/CD.</div>
           </article>
 
@@ -653,7 +672,10 @@
               </div>
               <span class="job-compact-date">Ene. 2020 — Ene. 2023 (3 años)</span>
             </div>
-            <div class="job-compact-desc">Middleware financiero y core de créditos en BNP Paribas / Cetelem, y microservicios transaccionales bajo Arquitectura Hexagonal en ING Bank.</div>
+            <ul class="job-bullets" style="margin-top: 0.5mm;">
+              <li class="job-bullet"><strong>BNP Paribas / Cetelem:</strong> Middleware financiero y servicios de crédito de alta concurrencia en Java 8/11, Spring Boot y Oracle SQL.</li>
+              <li class="job-bullet"><strong>ING Bank:</strong> Microservicios bancarios transaccionales bajo Arquitectura Hexagonal, persistencia MyBatis y despliegues en Azure.</li>
+            </ul>
             <div class="job-compact-tech"><strong>Stack:</strong> Java 8/11, Spring Boot, Arquitectura Hexagonal, MyBatis, Oracle SQL, Microsoft Azure, Jenkins CI/CD.</div>
           </article>
 
@@ -697,7 +719,7 @@
           <article class="job-compact">
             <div class="job-compact-header">
               <div>
-                <span class="job-compact-client">Sector Público</span> <span class="job-compact-sep">—</span> <span class="job-compact-title">Ingeniero de Software</span> <span class="job-compact-company">[Ayto. Málaga / UMA]</span>
+                <span class="job-compact-client">Sector Público</span> <span class="job-compact-sep">—</span> <span class="job-compact-title">Ingeniero de Software</span> <span class="job-compact-company">[Ayto. Málaga]</span>
               </div>
               <span class="job-compact-date">Jun. 2013 — Sept. 2015 (2 años 4 m)</span>
             </div>
@@ -709,7 +731,7 @@
           <article class="job-compact">
             <div class="job-compact-header">
               <div>
-                <span class="job-compact-client">Trayectoria Inicial</span> <span class="job-compact-sep">—</span> <span class="job-compact-title">Desarrollador Software Junior</span> <span class="job-compact-company">[Pymes y Proyectos]</span>
+                <span class="job-compact-client">Trayectoria Inicial</span> <span class="job-compact-sep">—</span> <span class="job-compact-title">Desarrollador Software Junior</span> <span class="job-compact-company">[Pymes & Becas]</span>
               </div>
               <span class="job-compact-date">2008 — Jun. 2013 (~5 años)</span>
             </div>
@@ -723,6 +745,12 @@
       <section class="skills-section">
         <div class="main-section-title">
           <span>🛠️</span> Stack Tecnológico & Especialización Técnica
+        </div>
+        <div class="skills-principles">
+          <span>🏛️ <strong>Arquitectura:</strong> Hexagonal & DDD</span>
+          <span>🔌 <strong>Gobernanza:</strong> ApiFirst (OpenAPI)</span>
+          <span>⚡ <strong>Microservicios:</strong> Resiliencia & Escalabilidad</span>
+          <span>🔄 <strong>Streaming:</strong> Event-Driven (Kafka)</span>
         </div>
         <div class="skills-grid">
           <div class="skill-card">
