@@ -43,11 +43,14 @@ const translations = {
       title: "Resumen Ejecutivo",
       p1: `<strong>Ingeniero de Software y Máster de Postgrado INFTEL</strong> por la Universidad de Málaga con más de <strong>${expYears} años de trayectoria continuada</strong> (en activo desde 2008), forjada sobre una base sólida en desarrollo fullstack (tecnologías mobile nativas, web frontend y backend) y una profunda experiencia práctica modernizando y refactorizando sistemas legados hacia arquitecturas empresariales de vanguardia.`,
       p2: `Especializado en el <strong>ecosistema Java (desde Java 6 y 7 legacy hasta Java 8, 17 y 21)</strong>, frameworks <strong>Spring / Spring Boot</strong>, microservicios resilientes bajo <strong>Arquitectura Hexagonal</strong>, especificación y contratos <strong>ApiFirst</strong>, mensajería reactiva con <strong>Apache Kafka</strong> y entornos de nube híbrida (<strong>Azure, OpenShift, AWS</strong>).`,
-      p3: `Posicionado a la <strong>vanguardia de la ingeniería de software aumentada por Inteligencia Artificial</strong>, integrando agentes autónomos como <strong>Devin AI</strong> y <strong>Claude</strong> mediante <em>workflows</em>, <em>skills</em> especializadas y pipelines agénticos para acelerar el desarrollo con máxima velocidad y excelencia técnica. Amplio recorrido liderando desarrollos de misión crítica en grandes multinacionales: <strong>Banca & Fintech</strong> (Santander con Globant, ING con Sopra Steria, BNP Paribas / Cetelem con Sopra Steria), <strong>Retail global & E-Commerce</strong> (Inditex con Plexus), <strong>Asegurador</strong> (A.M.A. Seguros), <strong>Medios de Comunicación</strong> (RTVE con Everis, Atresmedia con atSistemas) y <strong>Sector Público</strong> (Ayuntamiento de Málaga, UMA). Certificado como <strong>Scrum Master</strong>.`,
+      p3: `Posicionado a la <strong>vanguardia de la ingeniería de software aumentada por Inteligencia Artificial</strong>, integrando agentes autónomos como <strong>Devin AI</strong> y <strong>Claude</strong> mediante <em>workflows</em>, <em>skills</em> especializadas y pipelines agénticos para acelerar el desarrollo con máxima velocidad y excelencia técnica.`,
       metricExp: "Años de Trayectoria",
-      metricCore: "Especialidad Core",
-      metricArch: "Arquitectura Limpia",
-      metricClients: "Grandes Clientes Liderados"
+      metricCoreVal: "Java & Spring",
+      metricCoreLbl: "Especialidad Core",
+      metricArchVal: "Hexagonal / Microservicios",
+      metricArchLbl: "Arquitectura Limpia & DDD",
+      metricAiVal: "Devin & Claude",
+      metricAiLbl: "Workflows & Agentes IA"
     },
     timeline: {
       tag: "Carrera Profesional",
@@ -70,7 +73,7 @@ const translations = {
       inditex: {
         role: "Desarrollador Senior Backend en Inditex",
         company: "Plexus Tech (para Inditex) · Jornada completa · Remoto",
-        date: "Ene. 2023 — Jul. 2025 (2 años 7 meses)",
+        date: "Ene. 2023 — Ene. 2025 (2 años)",
         b1: "Análisis y desarrollo integral de microservicios backend desde la toma de requisitos hasta su subida a producción en plataformas corporativas de Inditex.",
         b2: "<strong>Migraciones estratégicas:</strong> Transformación y modernización de servicios legados en NodeJS a Java 17 bajo <strong>Arquitectura Hexagonal</strong> y contratos <strong>ApiFirst</strong>.",
         b3: "Gestión de guardias críticas de alta disponibilidad y soporte continuo para picos de tráfico en eventos masivos de retail (Rebajas, Black Friday).",
@@ -79,7 +82,7 @@ const translations = {
       banca: {
         role: "Analista de Desarrollo Senior — Banca & Finanzas",
         company: "Sopra Steria · Proyectos ING Bank y BNP Paribas / Cetelem (con Sopra Steria) · Madrid / Remoto",
-        date: "Ene. 2020 — Ene. 2023 (3 años 1 mes)",
+        date: "Ene. 2020 — Ene. 2023 (3 años)",
         pBnpTitle: "BNP Paribas / Cetelem (Sept. 2021 — Ene. 2023 · 1 año 5 meses):",
         bBnp1: "Análisis, diseño e implementación de aplicaciones middleware y servicios financieros de alta concurrencia.",
         bBnp2: "Desarrollo de módulos bancarios con Java 8, Spring Boot, bases de datos Oracle SQL y frontends Angular/JS.",
@@ -99,36 +102,36 @@ const translations = {
       a3media: {
         role: "Analista de Programación en A3Media",
         company: "atSistemas (para Atresmedia) · Madrid",
-        date: "Jul. 2018 — Nov. 2018 (5 meses)",
-        b1: "Análisis y desarrollo de microservicios con Spring Boot y Java 8 para plataformas digitales de Atresmedia.",
-        b2: "Implementación de arquitecturas cloud nativas en Amazon Web Services (AWS) integradas con Docker y Kubernetes."
+        date: "Nov. 2017 — Nov. 2018 (1 año)",
+        b1: "Análisis y desarrollo integral de aplicaciones y microservicios con Spring Boot y Java GWT, abarcando todo el ciclo de vida del proyecto.",
+        b2: "Implementación de arquitecturas cloud en Amazon Web Services (AWS), despliegues con Jenkins, servidores WebLogic y persistencia con MongoDB, Hibernate y SQL."
       },
       rtve: {
-        role: "Analista Desarrollador Senior — RTVE",
+        role: "Analista Desarrollador & Scrum Master — RTVE",
         company: "Corporación RTVE (con 80 Soluciones / Everis Spain) · Pozuelo de Alarcón, Madrid",
-        date: "Ene. 2016 — Jul. 2018 (2 años 7 meses)",
-        b1: "<strong>Scrum Master & Analista Técnico:</strong> Liderazgo técnico y gestión ágil de proyectos clave para RTVE, incluyendo <em>RTVE Play / RTVE a la Carta</em>, Archivo Histórico de RTVE y rediseño de portales web corporativos.",
-        b2: "Migración integral del sistema de persistencia y consultas hacia motor de búsqueda distribuido <strong>ElasticSearch</strong>, acelerando radicalmente la recuperación de contenidos multimedia.",
-        b3: "Desarrollo backend en Java (J2EE), Spring Framework, Hibernate, JMS, Maven y servicios REST/SOAP.",
-        b4: "Implementación de pasarelas con CMS Adobe Day CQ5 (AEM), caching con Squid/Varnish y bases de datos Oracle."
+        date: "Sept. 2015 — Nov. 2017 (2 años 3 meses)",
+        b1: "Desarrollos backend y evolutivos en Java Spring y NodeJS (migración de APIs y nuevos módulos para portales y servicios de RTVE).",
+        b2: "Desarrollo de múltiples infografías interactivas y mapas de datos de gran cobertura nacional e internacional (Eurovisión, Lotería de Navidad, Premios Óscar, Juegos Olímpicos).",
+        b3: "Mantenimiento y gestión integral de despliegues de proyectos corporativos de RTVE (Spring, NodeJS, ElasticSearch, Oracle SQL).",
+        b4: "Formador técnico y rol de Scrum Master para el nuevo equipo junior de desarrollo y mantenimiento."
       },
       malaga: {
-        role: "Ingeniero de Software",
-        company: "Ayuntamiento de Málaga (CENEC) · Málaga",
-        date: "Ene. 2015 — Ene. 2016 (1 año 1 mes)",
-        b1: "Desarrollo y mantenimiento de aplicaciones web internas y de atención al ciudadano en Java con Spring Framework e Hibernate.",
-        b2: "Creación de componentes ricos de interfaz con Vaadin 7 y maquetación responsive en HTML5/CSS3.",
-        b3: "Modelado de bases de datos relacionales en MySQL y control de versiones con Git/SVN.",
-        b4: "Impartición de formación técnica especializada en desarrollo Java y Spring a personal municipal."
+        role: "Ingeniero de Software — Obras y Servicios",
+        company: "Sector Público & Consultoría Tecnológica (Ayto. Málaga, UMA, Ingenia, Intendia) · Málaga",
+        date: "Jun. 2013 — Sept. 2015 (2 años 4 meses)",
+        b1: "<strong>Ingenia (Jun. 2015 — Sept. 2015):</strong> Desarrollo frontend de aplicación web corporativa con JavaScript y Drupal-PHP para entidad bancaria suiza.",
+        b2: "<strong>Ayuntamiento de Málaga (Nov. 2014 — Jun. 2015):</strong> Scrum Master coordinando equipo de 4 personas. Análisis de requisitos y desarrollo desde cero de aplicaciones en Java y Spring para la gestión de licitaciones municipales.",
+        b3: "<strong>Universidad de Málaga (Feb. 2014 — Dic. 2014):</strong> Desarrollo desde cero de aplicación móvil Android nativa y plataforma web en Java para la gestión académica de profesorado y estudiantes.",
+        b4: "<strong>Intendia (Jun. 2013 — Feb. 2014):</strong> Mantenimiento y evolutivos en Java con GWT y GWTP para plataforma de geolocalización de flotas de vehículos. Desarrollo móvil híbrido en PhoneGap para iOS y Android."
       },
       early: {
         role: "Desarrollador de Software & Analista Técnico Junior",
         company: "Diversas Entidades · UMA, Pymes y Proyectos Propios · Málaga",
-        date: "2008 — 2014 (~6 años)",
-        b1: "Desarrollo de proyectos de software en C/C++, Java, Android nativo y plataformas web LAMP.",
-        b2: "Participación en proyectos académicos y de investigación en la Universidad de Málaga vinculados al Máster INFTEL.",
-        b3: "Consultoría y desarrollo freelance de soluciones informáticas a medida para empresas andaluzas.",
-        b4: "Bases de datos relacionales, administración de servidores Linux y arquitecturas de red."
+        date: "2008 — Jun. 2013 (~5 años)",
+        b1: "Desarrollos frontend y web: NMobe (Frontend, 6 meses) y DK-Innovations (Drupal CMS, 6 meses).",
+        b2: "Desarrollo de aplicaciones móviles Android nativas para centros deportivos (Gym Kuro-Obi, UMA Deportes) e iniciativas independientes.",
+        b3: "Becas de formación y prácticas tecnológicas: Arrow / RSI (Beca COBOL bancario), Coritel / Arelance (Prácticas SAP).",
+        b4: "Desarrollos freelance y proyectos de software en Java, C/C++, Android nativo y plataformas web LAMP para empresas andaluzas."
       }
     },
     skills: {
@@ -213,11 +216,14 @@ const translations = {
       title: "Executive Summary",
       p1: `<strong>Software Engineer and Master of Science INFTEL</strong> graduate from Universidad de Málaga with over <strong>${expYears} years of continuous professional trajectory</strong> (active since 2008), grounded in versatile fullstack foundations (native mobile, web frontend, and backend engineering) with extensive experience modernizing and refactoring legacy systems into modern high-scale architectures.`,
       p2: `Specialized across the <strong>Java ecosystem (from Java 6 & 7 legacy to modern Java 8, 17, and 21)</strong>, <strong>Spring / Spring Boot</strong> frameworks, resilient microservices under <strong>Hexagonal Architecture (Ports & Adapters)</strong>, contract-driven <strong>ApiFirst</strong> specifications, reactive streaming with <strong>Apache Kafka</strong>, and hybrid cloud environments (<strong>Azure, OpenShift, AWS</strong>).`,
-      p3: `Positioned at the <strong>vanguard of AI-augmented software engineering</strong>, integrating next-generation autonomous agents like <strong>Devin AI</strong> and <strong>Claude</strong> through specialized <em>workflows</em>, domain <em>skills</em>, and agentic pipelines to accelerate mission-critical delivery with peak architectural velocity and rigor. Extensive background leading tier-1 distributed projects: <strong>Banking & Fintech</strong> (Santander with Globant, ING with Sopra Steria, BNP Paribas / Cetelem with Sopra Steria), <strong>Global Retail & E-Commerce</strong> (Inditex with Plexus), <strong>Insurance</strong> (A.M.A. Seguros), <strong>Broadcast Media</strong> (RTVE with Everis, Atresmedia with atSistemas), and <strong>Public Sector</strong> (Málaga City Council, UMA). Certified <strong>Scrum Master</strong>.`,
+      p3: `Positioned at the <strong>vanguard of AI-augmented software engineering</strong>, integrating next-generation autonomous agents like <strong>Devin AI</strong> and <strong>Claude</strong> through specialized <em>workflows</em>, domain <em>skills</em>, and agentic pipelines to accelerate mission-critical delivery with peak velocity and architectural rigor.`,
       metricExp: "Years of Experience",
-      metricCore: "Core Expertise",
-      metricArch: "Clean Architecture",
-      metricClients: "Major Enterprise Clients"
+      metricCoreVal: "Java & Spring",
+      metricCoreLbl: "Core Specialization",
+      metricArchVal: "Hexagonal / Microservices",
+      metricArchLbl: "Clean Architecture & DDD",
+      metricAiVal: "Devin & Claude",
+      metricAiLbl: "AI Agentic Workflows"
     },
     timeline: {
       tag: "Career Trajectory",
@@ -240,7 +246,7 @@ const translations = {
       inditex: {
         role: "Senior Backend Engineer at Inditex",
         company: "Plexus Tech (for Inditex) · Full-time · Remote",
-        date: "Jan. 2023 — Jul. 2025 (2 yrs 7 mos)",
+        date: "Jan. 2023 — Jan. 2025 (2 yrs)",
         b1: "End-to-end backend microservice analysis and development from technical discovery to production release across Inditex corporate platforms.",
         b2: "<strong>Strategic Migrations:</strong> Re-architecting and modernizing legacy NodeJS backend services into Java 17 under <strong>Hexagonal Architecture</strong> and <strong>ApiFirst</strong> contracts.",
         b3: "High-availability on-call incident resolution and continuous operational support during massive global retail flash-sales (Black Friday, seasonal sales).",
@@ -249,7 +255,7 @@ const translations = {
       banca: {
         role: "Senior Software Analyst — Banking & Financial Services",
         company: "Sopra Steria · Projects for ING Bank & BNP Paribas / Cetelem (with Sopra Steria) · Madrid / Remote",
-        date: "Jan. 2020 — Jan. 2023 (3 yrs 1 mo)",
+        date: "Jan. 2020 — Jan. 2023 (3 yrs)",
         pBnpTitle: "BNP Paribas / Cetelem (Sept. 2021 — Jan. 2023 · 1 yr 5 mos):",
         bBnp1: "Architecture, design, and implementation of high-throughput financial middleware and core credit management services.",
         bBnp2: "Engineered banking modules using Java 8, Spring Boot, Oracle SQL databases, and Angular/JavaScript frontends.",
@@ -269,36 +275,36 @@ const translations = {
       a3media: {
         role: "Software Programming Analyst at Atresmedia",
         company: "atSistemas (for Atresmedia) · Madrid",
-        date: "Jul. 2018 — Nov. 2018 (5 mos)",
-        b1: "Analysis and development of microservices with Spring Boot and Java 8 for Atresmedia digital broadcasting platforms.",
-        b2: "Cloud-native architectures on Amazon Web Services (AWS) integrated with Docker and Kubernetes."
+        date: "Nov. 2017 — Nov. 2018 (1 yr)",
+        b1: "End-to-end analysis and development of applications and microservices with Spring Boot and Java GWT, spanning the entire project lifecycle.",
+        b2: "Cloud architecture implementation on Amazon Web Services (AWS), CI/CD deployments with Jenkins, WebLogic application servers, and persistence using MongoDB, Hibernate, and SQL."
       },
       rtve: {
-        role: "Senior Software Analyst & Scrum Master — RTVE",
+        role: "Software Analyst & Scrum Master — RTVE",
         company: "Corporación RTVE (with 80 Soluciones / Everis Spain) · Pozuelo de Alarcón, Madrid",
-        date: "Jan. 2016 — Jul. 2018 (2 yrs 7 mos)",
-        b1: "<strong>Scrum Master & Technical Analyst:</strong> Technical leadership and agile management of critical projects for RTVE, including <em>RTVE Play / RTVE a la Carta</em>, RTVE Historical Archive, and corporate digital portal redesigns.",
-        b2: "Complete migration of the persistence and query layer to distributed <strong>ElasticSearch</strong>, dramatically accelerating multimedia content retrieval.",
-        b3: "Backend development in Java (J2EE), Spring Framework, Hibernate, JMS, Maven, and REST/SOAP services.",
-        b4: "Integration gateways with CMS Adobe Day CQ5 (AEM), caching with Squid/Varnish, and Oracle relational databases."
+        date: "Sep. 2015 — Nov. 2017 (2 yrs 3 mos)",
+        b1: "Backend engineering and evolutive development in Java Spring and NodeJS (API migration and new modules for RTVE digital platforms and web services).",
+        b2: "Design and development of multiple high-visibility interactive infographics and national data maps (Eurovision Song Contest, Spanish Christmas Lottery, Academy Awards / Oscars, Olympic Games).",
+        b3: "Full lifecycle maintenance and deployment management of RTVE corporate projects (Spring, NodeJS, ElasticSearch, Oracle SQL).",
+        b4: "Technical trainer and Scrum Master for the incoming junior software development and maintenance team."
       },
       malaga: {
-        role: "Software Engineer",
-        company: "Málaga City Council (CENEC) · Málaga",
-        date: "Jan. 2015 — Jan. 2016 (1 yr 1 mo)",
-        b1: "Design and maintenance of internal and citizen-facing enterprise web applications in Java with Spring Framework and Hibernate.",
-        b2: "Rich interactive UI component development with Vaadin 7 and responsive layout in HTML5/CSS3.",
-        b3: "Relational data modeling in MySQL and version control management with Git/SVN.",
-        b4: "Delivery of advanced technical training in Java and Spring ecosystem to municipal engineering staff."
+        role: "Software Engineer — Projects & Consulting",
+        company: "Public Sector & Tech Consulting (Málaga City Council, UMA, Ingenia, Intendia) · Málaga",
+        date: "Jun. 2013 — Sep. 2015 (2 yrs 4 mos)",
+        b1: "<strong>Ingenia (Jun. 2015 — Sep. 2015):</strong> Frontend engineering of corporate web applications utilizing JavaScript and Drupal-PHP for a Swiss private banking entity.",
+        b2: "<strong>Málaga City Council (Nov. 2014 — Jun. 2015):</strong> Scrum Master coordinating a 4-developer engineering team. Requirements analysis and greenfield development of Java / Spring applications for municipal public procurement management.",
+        b3: "<strong>Universidad de Málaga (Feb. 2014 — Dec. 2014):</strong> Greenfield development of native Android mobile application and Java web management platform for faculty and students.",
+        b4: "<strong>Intendia (Jun. 2013 — Feb. 2014):</strong> Maintenance and evolutive engineering in Java with GWT and GWTP for a vehicle fleet geolocation platform. Cross-platform mobile development with PhoneGap (iOS/Android)."
       },
       early: {
         role: "Software Developer & Junior Technical Analyst",
-        company: "Various Entities · UMA, SMBs & Proprietary Initiatives · Málaga",
-        date: "2008 — 2014 (~6 yrs)",
-        b1: "Software engineering projects across C/C++, Java, native Android, and LAMP web platforms.",
-        b2: "Participation in academic and applied research initiatives at Universidad de Málaga linked to the INFTEL Master of Science program.",
-        b3: "Freelance technical consulting and bespoke software engineering for regional enterprises.",
-        b4: "Relational database modeling, Linux server administration, and network architecture configuration."
+        company: "Various Entities · UMA, SMBs & Independent Initiatives · Málaga",
+        date: "2008 — Jun. 2013 (~5 yrs)",
+        b1: "Frontend and web engineering: NMobe (Frontend developer, 6 mos) and DK-Innovations (Drupal CMS developer, 6 mos).",
+        b2: "Native Android mobile applications for sports centers (Gym Kuro-Obi, UMA Sports) and independent mobile initiatives.",
+        b3: "Technical training scholarships and corporate internships: Arrow / RSI (Core banking COBOL scholarship), Coritel / Arelance (Enterprise SAP internship).",
+        b4: "Freelance consulting and software solutions in Java, C/C++, native Android, and LAMP web platforms for Andalusian enterprises."
       }
     },
     skills: {
@@ -416,9 +422,12 @@ function setLanguage(lang) {
   setHtml('summary-p3', t.summary.p3);
   setText('metric-exp-val', `+${expYears}`);
   setText('metric-exp-lbl', t.summary.metricExp);
-  setText('metric-core-lbl', t.summary.metricCore);
-  setText('metric-arch-lbl', t.summary.metricArch);
-  setText('metric-clients-lbl', t.summary.metricClients);
+  setText('metric-core-val', t.summary.metricCoreVal);
+  setText('metric-core-lbl', t.summary.metricCoreLbl);
+  setText('metric-arch-val', t.summary.metricArchVal);
+  setText('metric-arch-lbl', t.summary.metricArchLbl);
+  setText('metric-ai-val', t.summary.metricAiVal);
+  setText('metric-ai-lbl', t.summary.metricAiLbl);
 
   // 4. Timeline
   setText('timeline-tag', t.timeline.tag);
