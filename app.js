@@ -25,7 +25,7 @@ const translations = {
       contact: "Contacto"
     },
     hero: {
-      role: "Senior Backend Architect & Java Specialist · Lead Software Engineer",
+      role: "Senior Backend Architect & Java Specialist · Software Engineer",
       status: "En activo · Globant",
       pillCompany: "🏢 Globant · Santander (Actualidad)",
       pillAi: "🤖 AI Vanguard · Devin & Claude Agents",
@@ -195,7 +195,7 @@ const translations = {
       contact: "Contact"
     },
     hero: {
-      role: "Senior Backend Architect & Java Specialist · Lead Software Engineer",
+      role: "Senior Backend Architect & Java Specialist · Software Engineer",
       status: "Active · Globant",
       pillCompany: "🏢 Globant · Santander (Present)",
       pillAi: "🤖 AI Vanguard · Devin & Claude Agents",

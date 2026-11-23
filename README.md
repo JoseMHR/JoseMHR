@@ -1,6 +1,6 @@
 # José Manuel Heredia Reyes ⚡
 
-> **Senior Backend Architect & Java Specialist | Lead Software Engineer at Globant**  
+> **Senior Backend Architect & Java Specialist · Software Engineer at Globant**  
 > **Software Engineer & Master INFTEL (Universidad de Málaga)** · **+18 Years of Experience** (Career started in 2008).  
 > Solid trajectory built on fullstack foundations across mobile, web frontend, and backend engineering, extensive experience modernizing legacy systems, and specialized in high-concurrency distributed architectures, Hexagonal microservices, and enterprise cloud ecosystems.
 
