@@ -28,7 +28,7 @@ const translations = {
       role: "Senior Backend Architect & Java Specialist · Software Engineer",
       status: "En activo · Globant",
       pillCompany: "🏢 Globant · Santander (Actualidad)",
-      pillAi: "🤖 AI Vanguard · Devin & Claude Agents",
+      pillAi: "🤖 Agentes Autónomos · Workflows & Skills (Devin & Claude)",
       pillLocation: "📍 Madrid / Málaga / Remoto (España)",
       pillEdu: "🎓 Ing. de Software & Máster INFTEL (UMA)",
       pillExp: `⚡ +${expYears} años de experiencia`,
@@ -43,7 +43,7 @@ const translations = {
       title: "Resumen Ejecutivo",
       p1: `<strong>Ingeniero de Software y Máster de Postgrado INFTEL</strong> por la Universidad de Málaga con más de <strong>${expYears} años de trayectoria continuada</strong> (en activo desde 2008), forjada sobre una base sólida en desarrollo fullstack (tecnologías mobile nativas, web frontend y backend) y una profunda experiencia práctica modernizando y refactorizando sistemas legados hacia arquitecturas empresariales de vanguardia.`,
       p2: `Especializado en el <strong>ecosistema Java (desde Java 6 y 7 legacy hasta Java 8, 17 y 21)</strong>, frameworks <strong>Spring / Spring Boot</strong>, microservicios resilientes bajo <strong>Arquitectura Hexagonal</strong>, especificación y contratos <strong>ApiFirst</strong>, mensajería reactiva con <strong>Apache Kafka</strong> y entornos de nube híbrida (<strong>Azure, OpenShift, AWS</strong>).`,
-      p3: `Posicionado a la <strong>vanguardia del desarrollo con Inteligencia Artificial</strong>, integrando agentes autónomos como <strong>Devin AI</strong> y <strong>Claude</strong> mediante <em>workflows</em>, <em>skills</em> especializadas y pipelines agénticos para acelerar el desarrollo con máxima velocidad y excelencia técnica.`,
+      p3: `Pionero en la adopción de ingeniería asistida por IA, implementando flujos de trabajo con <strong>Devin AI</strong> y <strong>Claude</strong> mediante <em>workflows</em>, <em>skills</em> especializadas y pipelines agénticos para automatizar migraciones legacy a Java 21, generación de contratos OpenAPI y suites completas de pruebas.`,
       metricExp: "Años de Trayectoria",
       metricCoreVal: "Java & Spring",
       metricCoreLbl: "Especialidad Core",
@@ -65,11 +65,11 @@ const translations = {
         inicial: "Trayectoria Inicial"
       },
       globant: {
-        role: "Software Application Analyst en Santander — Core Backend Architecture & AI Vanguard",
+        role: "Software Application Analyst en Santander — Core Backend Architecture & AI Engineering",
         company: "Globant · Jornada completa · Remoto",
         date: "Ene. 2025 — Actualidad",
-        b1: "<strong>Arquitectura Core Backend:</strong> Diseño e ingeniería de soluciones base estandarizadas, robustas y altamente escalables para su posterior despliegue, adaptación y extensión en los distintos países del grupo corporativo Santander.",
-        b2: "<strong>Vanguardia en Desarrollo con IA (AI-Driven Development):</strong> Adopción pionera y liderazgo en la integración de flujos de desarrollo con agentes autónomos de IA (<strong>Devin AI, Claude</strong>), diseñando <em>workflows</em> personalizados, <em>skills</em> modulares y pipelines agénticos para acelerar el desarrollo, refactorización y entrega de software con máxima eficiencia.",
+        b1: "<strong>Arquitectura Core Santander:</strong> Diseño e ingeniería de soluciones base estandarizadas, robustas y escalables para despliegue multientidad internacional en Banco Santander (millones de operaciones diarias).",
+        b2: "<strong>Automatización con Agentes IA:</strong> Integración de flujos de desarrollo con agentes autónomos (<strong>Devin AI, Claude</strong>), diseñando <em>workflows</em> personalizados y <em>skills</em> modulares para automatizar migraciones a Java 21, scaffolding OpenAPI/ApiFirst, suites de tests y pre-code review con máxima gobernanza.",
         b3: "<strong>Gobernanza enterprise y patrones de resiliencia:</strong> Definición de directrices de desarrollo, especificación y gobierno de contratos bajo enfoque <strong>ApiFirst</strong>, patrones de resiliencia en microservicios cloud y alineamiento con equipos internacionales para la gobernanza del código y buenas prácticas de ingeniería de software."
       },
       inditex: {
@@ -78,7 +78,7 @@ const translations = {
         date: "Ene. 2023 — Ene. 2025 (2 años)",
         b1: "Análisis y desarrollo integral de microservicios backend desde la toma de requisitos hasta su subida a producción en plataformas corporativas de Inditex.",
         b2: "<strong>Arquitectura Hexagonal & ApiFirst:</strong> Desarrollo y modernización de servicios backend en Java 17 bajo principios DDD, contratos OpenAPI y alta disponibilidad.",
-        b3: "Gestión de guardias críticas de alta disponibilidad y soporte continuo para picos de tráfico en eventos masivos de retail (Rebajas, Black Friday).",
+        b3: "Gestión de guardias críticas de alta disponibilidad y soporte continuo para picos de tráfico en retail global (Rebajas, Black Friday con millones req/min y 99.99% SLA).",
         b4: "Implementación de pipelines de integración y entrega continua (CI/CD) con SonarQube, GitHub Actions, OpenShift y Azure."
       },
       banca: {
@@ -86,7 +86,7 @@ const translations = {
         company: "Sopra Steria · Madrid / Remoto",
         date: "Ene. 2020 — Ene. 2023 (3 años)",
         pBnpTitle: "BNP Paribas / Cetelem (Sept. 2021 — Ene. 2023 · 1 año 5 meses):",
-        bBnp1: "Análisis, diseño e implementación de aplicaciones middleware y servicios financieros de alta concurrencia.",
+        bBnp1: "Análisis, diseño e implementación de middleware financiero y servicios de crédito de alta concurrencia (miles de operaciones diarias en tiempo real).",
         bBnp2: "Desarrollo de módulos bancarios con Java 8, Spring Boot, bases de datos Oracle SQL y frontends Angular/JS.",
         bBnp3: "Gestión de despliegues automatizados mediante Jenkins y metodologías GitFlow.",
         pIngTitle: "ING Bank (Ene. 2020 — Sept. 2021 · 1 año 9 meses):",
@@ -214,7 +214,7 @@ const translations = {
       role: "Senior Backend Architect & Java Specialist · Software Engineer",
       status: "Active · Globant",
       pillCompany: "🏢 Globant · Santander (Present)",
-      pillAi: "🤖 AI Vanguard · Devin & Claude Agents",
+      pillAi: "🤖 Autonomous Agents · Workflows & Skills (Devin & Claude)",
       pillLocation: "📍 Madrid / Málaga / Remote (Spain)",
       pillEdu: "🎓 Software Engineer & Master INFTEL (UMA)",
       pillExp: `⚡ +${expYears} Years of Experience`,
@@ -229,7 +229,7 @@ const translations = {
       title: "Executive Summary",
       p1: `<strong>Software Engineer and Master of Science INFTEL</strong> graduate from Universidad de Málaga with over <strong>${expYears} years of continuous professional trajectory</strong> (active since 2008), grounded in versatile fullstack foundations (native mobile, web frontend, and backend engineering) with extensive experience modernizing and refactoring legacy systems into modern high-scale architectures.`,
       p2: `Specialized across the <strong>Java ecosystem (from Java 6 & 7 legacy to modern Java 8, 17, and 21)</strong>, <strong>Spring / Spring Boot</strong> frameworks, resilient microservices under <strong>Hexagonal Architecture (Ports & Adapters)</strong>, contract-driven <strong>ApiFirst</strong> specifications, reactive streaming with <strong>Apache Kafka</strong>, and hybrid cloud environments (<strong>Azure, OpenShift, AWS</strong>).`,
-      p3: `Positioned at the <strong>vanguard of AI-driven software engineering</strong>, integrating next-generation autonomous agents like <strong>Devin AI</strong> and <strong>Claude</strong> through specialized <em>workflows</em>, domain <em>skills</em>, and agentic pipelines to accelerate mission-critical delivery with peak velocity and architectural rigor.`,
+      p3: `Pioneering the adoption of AI-assisted software engineering, integrating autonomous agents like <strong>Devin AI</strong> and <strong>Claude</strong> through customized <em>workflows</em>, domain <em>skills</em>, and agentic pipelines to automate legacy migrations to Java 21, OpenAPI contract scaffolding, and robust test suites.`,
       metricExp: "Years of Experience",
       metricCoreVal: "Java & Spring",
       metricCoreLbl: "Core Specialization",
@@ -251,11 +251,11 @@ const translations = {
         inicial: "Early Career"
       },
       globant: {
-        role: "Software Application Analyst at Santander — Core Backend Architecture & AI Vanguard",
+        role: "Software Application Analyst at Santander — Core Backend Architecture & AI Engineering",
         company: "Globant · Full-time · Remote",
         date: "Jan. 2025 — Present",
-        b1: "<strong>Core Backend Architecture:</strong> Architecture and engineering of standardized, robust, and highly scalable foundational solutions for international deployment, localization, and extension across Banco Santander's global entities.",
-        b2: "<strong>Vanguard in AI-Driven Development:</strong> Pioneering the adoption and integration of next-generation autonomous AI agents (<strong>Devin AI, Claude</strong>), architecting customized <em>workflows</em>, modular domain <em>skills</em>, and multi-agent pipelines to accelerate feature delivery, modernizations, and mission-critical code generation with peak velocity.",
+        b1: "<strong>Santander Core Architecture:</strong> Architecture and engineering of standardized, robust, and highly scalable foundational solutions for international multi-entity deployment across Banco Santander (millions of daily operations).",
+        b2: "<strong>Engineering Automation with AI Agents:</strong> Implementing development workflows with autonomous agents (<strong>Devin AI, Claude</strong>), architecting customized <em>workflows</em> and modular domain <em>skills</em> to automate Java 21 migrations, OpenAPI/ApiFirst scaffolding, comprehensive unit/integration test suites, and pre-code review under enterprise governance.",
         b3: "<strong>Enterprise Governance & Resilience Patterns:</strong> Defining development guidelines, <strong>ApiFirst</strong> contract governance and specifications, cloud microservices resilience patterns, and aligning global engineering squads under software craftsmanship best practices."
       },
       inditex: {
@@ -264,7 +264,7 @@ const translations = {
         date: "Jan. 2023 — Jan. 2025 (2 yrs)",
         b1: "End-to-end backend microservice analysis and development from technical discovery to production release across Inditex corporate platforms.",
         b2: "<strong>Hexagonal Architecture & ApiFirst:</strong> Modernizing and developing backend microservices in Java 17 under DDD principles, OpenAPI contracts, and high availability.",
-        b3: "High-availability on-call incident resolution and continuous operational support during massive global retail flash-sales (Black Friday, seasonal sales).",
+        b3: "High-availability on-call incident resolution and continuous operational support during massive global retail traffic surges (Black Friday and seasonal sales with millions req/min and 99.99% SLA).",
         b4: "Continuous Integration & Deployment (CI/CD) pipelines using SonarQube, GitHub Actions, OpenShift, and Microsoft Azure."
       },
       banca: {
@@ -272,7 +272,7 @@ const translations = {
         company: "Sopra Steria · Madrid / Remote",
         date: "Jan. 2020 — Jan. 2023 (3 yrs)",
         pBnpTitle: "BNP Paribas / Cetelem (Sept. 2021 — Jan. 2023 · 1 yr 5 mos):",
-        bBnp1: "Architecture, design, and implementation of high-throughput financial middleware and core credit management services.",
+        bBnp1: "Architecture, design, and implementation of high-concurrency financial middleware and credit management services (thousands of real-time daily operations).",
         bBnp2: "Engineered banking modules using Java 8, Spring Boot, Oracle SQL databases, and Angular/JavaScript frontends.",
         bBnp3: "Automated continuous delivery and deployment pipelines via Jenkins and GitFlow branching strategies.",
         pIngTitle: "ING Bank (Jan. 2020 — Sept. 2021 · 1 yr 9 mos):",

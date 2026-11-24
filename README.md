@@ -14,7 +14,7 @@
   <a href="https://www.linkedin.com/in/josemhr/">
     <img src="https://img.shields.io/badge/LinkedIn-JoseMHR-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:Jose.manuel.reyes.1986@gmail.com">
+  <a href="mailto:jose.manuel.reyes.1986@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Me-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
@@ -31,8 +31,8 @@
 | Metric / Indicator | Professional Detail |
 | :--- | :--- |
 | **Career Trajectory** | **+18 Years of Experience** in software engineering and core backend architecture (continuously active since **2008**). |
-| **Current Position** | **Software Application Analyst — Core Backend Architecture & AI Vanguard** at **Globant** (Enterprise scalable foundational frameworks & core banking services for **Santander**). <br> *Leading cutting-edge development workflows with Autonomous AI Agents (Claude & Devin AI): designing and orchestrating customized workflows, specialized skills, and agentic pipelines to accelerate mission-critical deliveries with the highest standards of code governance.* |
-| **Clients & Industry Sectors** | **Banking & Financial Services:** Santander (with Globant), ING Bank (with Sopra Steria), BNP Paribas / Cetelem (with Sopra Steria) <br> **Retail & Global E-Commerce:** Inditex (with Plexus) <br> **Insurance:** A.M.A. Seguros <br> **Broadcast Media:** Corporación RTVE (with Everis), Atresmedia (with atSistemas) <br> **Public Sector & Academia:** Málaga City Council, Universidad de Málaga (UMA) |
+| **Current Position** | **Software Application Analyst — Core Backend Architecture & AI Engineering** at **Globant** (Enterprise scalable foundational frameworks & core banking services for **Banco Santander**, supporting multi-entity banking with millions of daily transactions). <br> *Engineering workflows and custom skills with Autonomous AI Agents (Devin AI & Claude) to automate legacy Java migrations, OpenAPI contract scaffolding, comprehensive unit/integration test suites, and pre-commit code review pipelines under strict enterprise governance.* |
+| **Clients & Industry Sectors** | **Banking & Financial Services:** Santander (with Globant — global multi-entity core banking, millions of daily operations), ING Bank & BNP Paribas / Cetelem (with Sopra Steria — real-time credit middleware, thousands of concurrent operations) <br> **Retail & Global E-Commerce:** Inditex (with Plexus — high-throughput retail e-commerce, peaks of millions req/min during Black Friday/sales with 99.99% SLA) <br> **Insurance:** A.M.A. Seguros <br> **Broadcast Media:** Corporación RTVE (with Everis), Atresmedia (with atSistemas) <br> **Public Sector & Academia:** Málaga City Council, Universidad de Málaga (UMA) |
 | **Higher Education** | **Software Engineer** & **Master INFTEL** (Universidad de Málaga). |
 | **Agile Leadership** | **Scrum Master Certified** (European Scrum, 2017) · Technical leadership of cross-functional engineering squads. |
 | **Languages** | **Spanish:** Native · **English:** B2 (Cambridge Certified). |
@@ -43,15 +43,6 @@
 ### 🛠️ Core Technology Matrix
 
 <p align="left">
-  <strong>AI-Driven Engineering & Autonomous Agents:</strong><br>
-  <img src="https://img.shields.io/badge/Devin_AI-Autonomous_Software_Engineer-000000?style=flat-square" alt="Devin AI" />
-  <img src="https://img.shields.io/badge/Claude-Agentic_Workflows_%26_Skills-D97706?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
-  <img src="https://img.shields.io/badge/Workflows_%26_Skills-Custom_Agentic_Pipelines-6366f1?style=flat-square" alt="Workflows & Skills" />
-  <img src="https://img.shields.io/badge/Autonomous_Agents-Prompt_%26_Pipeline_Engineering-8b5cf6?style=flat-square" alt="Autonomous Agents" />
-  <img src="https://img.shields.io/badge/AI_Assisted_Modernization-Legacy_to_Cloud-0284c7?style=flat-square" alt="AI Assisted Modernization" />
-</p>
-
-<p align="left">
   <strong>Backend & Architecture:</strong><br>
   <img src="https://img.shields.io/badge/Java-6_%7C_7_%7C_8_%7C_17_%7C_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Spring_Boot-2.x%20%7C%203.x-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
@@ -60,6 +51,15 @@
   <img src="https://img.shields.io/badge/Microservices-Resilience_%26_DDD-6366f1?style=flat-square" alt="Microservices" />
   <img src="https://img.shields.io/badge/JPA_%2F_Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" alt="Hibernate" />
   <img src="https://img.shields.io/badge/MyBatis-000000?style=flat-square" alt="MyBatis" />
+</p>
+
+<p align="left">
+  <strong>AI-Driven Engineering & Autonomous Agents:</strong><br>
+  <img src="https://img.shields.io/badge/Devin_AI-Autonomous_Software_Engineer-000000?style=flat-square" alt="Devin AI" />
+  <img src="https://img.shields.io/badge/Claude-Agentic_Workflows_%26_Skills-D97706?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/Workflows_%26_Skills-Custom_Agentic_Pipelines-6366f1?style=flat-square" alt="Workflows & Skills" />
+  <img src="https://img.shields.io/badge/Autonomous_Agents-Prompt_%26_Pipeline_Engineering-8b5cf6?style=flat-square" alt="Autonomous Agents" />
+  <img src="https://img.shields.io/badge/AI_Assisted_Modernization-Legacy_to_Cloud-0284c7?style=flat-square" alt="AI Assisted Modernization" />
 </p>
 
 <p align="left">
@@ -163,6 +163,6 @@
 
 Interested in discussing distributed backend architectures, mission-critical Java/Spring systems, or technical squad leadership?
 
-- ✉️ **Direct Email:** [Jose.manuel.reyes.1986@gmail.com](mailto:Jose.manuel.reyes.1986@gmail.com)
+- ✉️ **Direct Email:** [jose.manuel.reyes.1986@gmail.com](mailto:jose.manuel.reyes.1986@gmail.com)
 - 💼 **LinkedIn:** [linkedin.com/in/josemhr](https://www.linkedin.com/in/josemhr/)
 - 🌐 **Web CV:** [josemhr.github.io/JoseMHR](https://josemhr.github.io/JoseMHR/)
