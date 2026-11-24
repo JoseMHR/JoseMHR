@@ -1,8 +1,6 @@
 # José Manuel Heredia Reyes ⚡
 
-> **Senior Backend Architect & Java Specialist · Software Engineer at Globant**  
-> **Software Engineer & Master INFTEL (Universidad de Málaga)** · **+18 Years of Experience** (Career started in 2008).  
-> Solid trajectory built on fullstack foundations across mobile, web frontend, and backend engineering, extensive experience modernizing legacy systems, and specialized in high-concurrency distributed architectures, Hexagonal microservices, and enterprise cloud ecosystems.
+I am a Software Engineer and Senior Backend Architect with **+18 years of continuous experience** (developing software since 2008), based in Spain. My career is built on solid fullstack foundations and deep specialization in backend engineering across the Java ecosystem — from maintaining and modernizing legacy codebases to architecting distributed microservices in Java 21.
 
 <p align="left">
   <a href="https://josemhr.github.io/JoseMHR/">
@@ -19,23 +17,71 @@
   </a>
 </p>
 
+- 💼 **Current Position:** Software Application Analyst — Core Backend Architecture at **Globant** (designing foundational frameworks and ApiFirst components for **Banco Santander** international entities).
+- ☕ **Core Focus:** Modern Java (17/21), Spring Boot, Hexagonal Architecture, ApiFirst REST contracts, Kafka, and pragmatic development automation with AI tools (Devin AI & Claude).
+- 🏢 **Clients & Sectors:** Banking (Santander, ING, BNP Paribas / Cetelem), Retail (Inditex), Insurance (A.M.A. Seguros), Broadcast Media (RTVE, Atresmedia), and Public Sector (Málaga City Council, UMA).
+- 🎓 **Education:** Software Engineer & Master of Science INFTEL (Universidad de Málaga).
+- 📜 **Certifications & Languages:** Scrum Master Certified (European Scrum) · Spanish (Native) · English (B2, Cambridge Certified).
+
 ---
 
-### 🌐 Online Interactive CV & Career Profile
-👉 **Explore my full interactive web CV for more details:** [**https://josemhr.github.io/JoseMHR/**](https://josemhr.github.io/JoseMHR/)
+### 🚀 Featured Projects
 
----
-
-### 💼 Executive Profile & Metrics
-
-| Metric / Indicator | Professional Detail |
-| :--- | :--- |
-| **Career Trajectory** | **+18 Years of Experience** in software engineering and core backend architecture (continuously active since **2008**). |
-| **Current Position** | **Software Application Analyst — Core Backend Architecture** at **Globant** (Foundational frameworks and core backend services for **Banco Santander** international entities). <br> *Leveraging AI tools and autonomous agents (Devin AI & Claude) to streamline legacy Java migrations, OpenAPI contract generation, automated test suites, and code quality reviews.* |
-| **Clients & Industry Sectors** | **Banking & Financial Services:** Santander (with Globant — global multi-entity core banking), ING Bank & BNP Paribas / Cetelem (with Sopra Steria — real-time credit middleware) <br> **Retail & Global E-Commerce:** Inditex (with Plexus — high-throughput retail e-commerce) <br> **Insurance:** A.M.A. Seguros <br> **Broadcast Media:** Corporación RTVE (with Everis), Atresmedia (with atSistemas) <br> **Public Sector & Academia:** Málaga City Council, Universidad de Málaga (UMA) |
-| **Higher Education** | **Software Engineer** & **Master INFTEL** (Universidad de Málaga). |
-| **Agile Leadership** | **Scrum Master Certified** (European Scrum, 2017) · Technical leadership of cross-functional engineering squads. |
-| **Languages** | **Spanish:** Native · **English:** B2 (Cambridge Certified). |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚔️ Taos Game Maker & Echoes of Truth</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Godot_4-GDScript-478CBF?style=flat-square&logo=godotengine&logoColor=white" alt="Godot 4" />
+        <img src="https://img.shields.io/badge/JSON-Data--Driven-F7DF1E?style=flat-square&logo=json&logoColor=black" alt="JSON" />
+        <img src="https://img.shields.io/badge/Web_Studio-Python_%2F_Vue_3-35495E?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue 3" />
+        <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT" />
+      </p>
+      <p>
+        Modular, data-driven framework for <strong>Godot 4</strong> decoupled via JSON schemas, featuring a local web studio suite of 45+ visual tools (Python / Vue 3). Engineered for tactical turn-based RPGs with dialogue and inventory systems, validated with the full playable game <strong>Echoes of Truth</strong>.
+      </p>
+      <hr>
+      <p>
+        <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/badge/Itch.io-Play_Demo-FA5C5C?style=flat-square&logo=itchdotio&logoColor=white" alt="Play Demo on Itch.io" />
+        </a>
+        &nbsp;
+        <a href="https://josemhr.github.io/TaosGameMaker/" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/badge/Docs_%26_Web-Explore_Portal-0284c7?style=flat-square&logo=googlechrome&logoColor=white" alt="Documentation & Web" />
+        </a>
+        &nbsp;
+        <a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/badge/GitHub-Repository-24292e?style=flat-square&logo=github&logoColor=white" alt="GitHub Repo" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📖 The Lazarus Saga (La Saga Lázaro)</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Fantasy_%2F_Sci--Fi-Dark_Universe-8b5cf6?style=flat-square" alt="Genre" />
+        <img src="https://img.shields.io/badge/Published-2_Novels-e11d48?style=flat-square" alt="2 Novels" />
+        <img src="https://img.shields.io/badge/Amazon-Worldwide_(ES_%2F_EN)-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon" />
+      </p>
+      <p>
+        Original dark fantasy and sci-fi literary universe. Two novels published independently in Spanish and English on Amazon establishing the narrative lore, worldbuilding, and metaphysical cosmology behind <em>Echoes of Truth</em> and the Taos game ecosystem.
+      </p>
+      <hr>
+      <p>
+        <a href="https://sites.google.com/view/the-lazarus-saga/home" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/badge/Universe-Official_Site-6366f1?style=flat-square&logo=googleearth&logoColor=white" alt="Official Web" />
+        </a>
+        &nbsp;
+        <a href="https://www.amazon.com/dp/B0HMFQVSF2" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/badge/Amazon-Book_1_(EN)-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon Book 1" />
+        </a>
+        &nbsp;
+        <a href="https://www.amazon.com/dp/B0HMF7GWZD" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/badge/Amazon-Book_2_(EN)-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon Book 2" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -95,66 +141,6 @@
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
 </p>
-
----
-
-<a id="flagship-projects"></a>
-### 🚀 Flagship Projects & Transmedia IP
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚔️ Taos Game Maker Engine</h3>
-      <p>
-        <a href="#flagship-projects"><img src="https://img.shields.io/badge/Godot_Engine-4.3+-478CBF?style=flat-square&logo=godotengine&logoColor=white" alt="Godot 4.3+" /></a>
-        <a href="#flagship-projects"><img src="https://img.shields.io/badge/C%23_%2F_GDScript-Architecture-239120?style=flat-square&logo=csharp&logoColor=white" alt="C# / GDScript" /></a>
-        <a href="#flagship-projects"><img src="https://img.shields.io/badge/Web_Suite-45+_Tools-0284c7?style=flat-square&logo=googlechrome&logoColor=white" alt="45+ Web Tools" /></a>
-      </p>
-      <p>
-        Modular open-source framework and advanced architectural tooling suite for <strong>Godot Engine 4.3+</strong>. Engineered to accelerate 2D/3D Tactical RPG game development with decoupled ATB combat, inventory, branching dialogue systems, and an integrated <strong>Web Studio Suite</strong> featuring 45+ visual no-code authoring tools.
-      </p>
-      <hr>
-      <p>
-        <a href="https://josemhr.github.io/TaosGameMaker/">
-          <img src="https://img.shields.io/badge/Documentation_&_Web-Explore_Portal-0284c7?style=flat-square&logo=googlechrome&logoColor=white" alt="View Documentation" />
-        </a>
-        &nbsp;
-        <a href="https://github.com/JoseMHR/TaosGameMaker">
-          <img src="https://img.shields.io/badge/GitHub-Source_Repository-24292e?style=flat-square&logo=github&logoColor=white" alt="GitHub Repository" />
-        </a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📖 The Lazarus Saga (La Saga Lázaro)</h3>
-      <p>
-        <a href="#flagship-projects"><img src="https://img.shields.io/badge/Editorial_Adarve-Spain_Release-e11d48?style=flat-square&logo=bookmeter&logoColor=white" alt="Editorial Adarve" /></a>
-        <a href="#flagship-projects"><img src="https://img.shields.io/badge/Amazon-Worldwide-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon" /></a>
-        <a href="#flagship-projects"><img src="https://img.shields.io/badge/Transmedia-IP_%26_Cosmology-8b5cf6?style=flat-square&logo=affinitydesigner&logoColor=white" alt="Transmedia Universe" /></a>
-      </p>
-      <p>
-        Transmedia dark fantasy literary universe and cosmology novels. Published in Spain through <strong>Editorial Adarve</strong> (<em>La Leyenda de las Esferas</em>) and distributed worldwide on <strong>Amazon</strong> in Spanish and English. Establishes the deep narrative worldbuilding, metaphysical cosmology, and lore inspiring the Taos interactive game ecosystem.
-      </p>
-      <hr>
-      <p>
-        <a href="https://sites.google.com/view/the-lazarus-saga/home">
-          <img src="https://img.shields.io/badge/Universe-Official_Site-6366f1?style=flat-square&logo=googleearth&logoColor=white" alt="Official Web" />
-        </a>
-        &nbsp;
-        <a href="https://www.amazon.es/dp/B0HLSQKMR1">
-          <img src="https://img.shields.io/badge/Amazon-Novela_(ES)-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon Español" />
-        </a>
-        &nbsp;
-        <a href="https://www.amazon.es/dp/B0HMFQVSF2">
-          <img src="https://img.shields.io/badge/Amazon-Novel_(EN)-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon English" />
-        </a>
-        &nbsp;
-        <a href="https://editorial-adarve.com/entrevista-a-jose-manuel-heredia-autor-del-libro-la-leyenda-de-las-esferas/">
-          <img src="https://img.shields.io/badge/Editorial_Adarve-Author_Interview-e11d48?style=flat-square&logo=readme&logoColor=white" alt="Adarve Interview" />
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
 
 ---
 

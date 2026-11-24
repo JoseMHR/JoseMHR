@@ -29,6 +29,7 @@ const translations = {
       status: "En activo · Globant",
       pillCompany: "🏢 Globant · Santander (Actualidad)",
       pillAi: "🤖 Herramientas de IA · Devin & Claude",
+      pillProjects: "🚀 Proyectos propios: Taos Game Maker & La Saga Lázaro ↓",
       pillLocation: "📍 Madrid / Málaga / Remoto (España)",
       pillEdu: "🎓 Ing. de Software & Máster INFTEL (UMA)",
       pillExp: `⚡ +${expYears} años de experiencia`,
@@ -41,9 +42,9 @@ const translations = {
     summary: {
       tag: "Perfil Profesional",
       title: "Resumen Ejecutivo",
-      p1: `<strong>Ingeniero de Software y Máster de Postgrado INFTEL</strong> por la Universidad de Málaga con más de <strong>${expYears} años de trayectoria continuada</strong> (en activo desde 2008), forjada sobre una base sólida en desarrollo fullstack (móvil, frontend y backend) y amplia experiencia modernizando sistemas hacia arquitecturas de microservicios modernas y escalables.`,
-      p2: `Especializado en el <strong>ecosistema Java (desde versiones 6 y 7 hasta Java 8, 17 y 21)</strong>, <strong>Spring / Spring Boot</strong>, microservicios bajo <strong>Arquitectura Hexagonal</strong>, diseño de APIs con enfoque <strong>ApiFirst</strong>, mensajería con <strong>Kafka</strong> y despliegues en la nube (<strong>Azure, OpenShift, AWS</strong>).`,
-      p3: `Integración práctica de herramientas de IA como <strong>Devin AI</strong> y <strong>Claude</strong> para agilizar tareas complejas de desarrollo: migraciones a Java 21, generación de contratos OpenAPI y creación de pruebas automatizadas.`,
+      p1: `Llevo desarrollando software desde 2008 (+18 años de experiencia), con base fullstack y especialización en arquitectura backend y ecosistema Java. Estudié Ingeniería de Software y el Máster INFTEL en la Universidad de Málaga, y a lo largo de mi carrera he pasado por todo el espectro: desde mantener y modernizar sistemas en Java 6 hasta diseñar microservicios distribuidos en Java 21.`,
+      p2: `Actualmente trabajo en Globant para Banco Santander en el equipo de arquitectura core backend, construyendo componentes base y estándares ApiFirst que luego adoptan distintas entidades del grupo. En el día a día también integro herramientas de IA como Devin y Claude para automatizar tareas reales: migraciones a Java 21, generación de contratos OpenAPI y suites de pruebas.`,
+      p3: ``,
       metricExp: "Años de Trayectoria",
       metricCoreVal: "Java & Spring",
       metricCoreLbl: "Especialidad Core",
@@ -123,7 +124,7 @@ const translations = {
         date: "Jun. 2013 — Sept. 2015 (2 años 4 meses)",
         b1: "<strong>Ingenia (Jun. 2015 — Sept. 2015):</strong> Desarrollo frontend de aplicación web corporativa con JavaScript y Drupal-PHP para entidad bancaria suiza.",
         b2: "<strong>Ayuntamiento de Málaga (Nov. 2014 — Jun. 2015):</strong> Scrum Master coordinando equipo de 4 personas. Análisis de requisitos y desarrollo desde cero de aplicaciones en Java y Spring para la gestión de licitaciones municipales.",
-        b3: "<strong>Universidad de Málaga (Feb. 2014 — Dic. 2014):</strong> Desarrollo desde cero de aplicación móvil Android nativa y plataforma web en Java para la gestión académica de profesorado y estudiantes.",
+        b3: "<strong>Universidad de Málaga (Feb. 2014 — Dic. 2014):</strong> Desarrollo desde cero de aplicación móvil Android nativa y plataforma web en Java para la gestión académica de profesorado y estudiantes (compaginado en sus últimos dos meses con el inicio en el Ayuntamiento de Málaga).",
         b4: "<strong>Intendia (Jun. 2013 — Feb. 2014):</strong> Mantenimiento y evolutivos en Java con GWT y GWTP para plataforma de geolocalización de flotas de vehículos. Desarrollo móvil híbrido en PhoneGap para iOS y Android."
       },
       early: {
@@ -153,46 +154,50 @@ const translations = {
       title: "Estudios y Certificaciones",
       masterTitle: "Máster de Postgrado INFTEL",
       masterInst: "Universidad de Málaga (UMA) · 2012 — 2014",
-      masterDesc: "Especialidad en <strong>'Informática aplicada a las tecnologías móviles y web'</strong>. Formación avanzada en desarrollo móvil nativo, arquitecturas web distribuidas, patrones de diseño empresarial y computación en la nube.",
+      masterDesc: "Máster de postgrado enfocado en desarrollo de software avanzado, arquitecturas web y tecnologías móviles.",
       degreeTitle: "Ingeniería de Software",
       degreeInst: "Universidad de Málaga (UMA) · 2004 — 2011",
-      degreeDesc: "Formación universitaria integral en ingeniería del software, diseño y arquitectura de sistemas, algoritmia avanzada, estructuras de datos, concurrencia, sistemas operativos y redes telemáticas.",
+      degreeDesc: "Titulación universitaria superior en arquitectura de software, algoritmia, sistemas distribuidos y redes.",
       certsHeading: "Certificaciones & Formación Continua",
       scrumBadge: "Metodologías Ágiles",
       scrumTitle: "Certificación Oficial Scrum Master",
       scrumInst: "European Scrum · 2017",
-      scrumDesc: "Acreditación profesional oficial en gestión ágil de proyectos (Scrum, Kanban), facilitación de ceremonias, resolución de impedimentos y optimización del flujo de entrega continua en equipos de ingeniería.",
+      scrumDesc: "Certificación oficial en metodologías ágiles Scrum y gestión de entregas en equipos de ingeniería.",
       scrumBtn: "Ver Credencial en LinkedIn ↗",
       langBadge: "Competencia Lingüística",
       langTitle: "Certificación de Inglés (B2)",
       langInst: "University of Cambridge · ESOL Examinations",
-      langDesc: "Acreditación oficial internacional de nivel profesional y técnico en lengua inglesa: lectura avanzada de documentación, especificaciones de arquitectura y comunicación fluida en equipos multiculturales.",
+      langDesc: "Certificación internacional de nivel profesional: fluidez en comunicación técnica y documentación en inglés.",
       langBtn: "Ver Credencial en LinkedIn ↗",
       coursesBadge: "Aprendizaje Continuo",
       coursesTitle: "+80 Cursos Técnicos Certificados",
       coursesInst: "Udemy · Coursera · edX · OpenWebinars",
-      coursesDesc: "Historial continuado de más de 80 cursos técnicos acreditados: microservicios, cloud (AWS, Azure), mensajería con Kafka, Java moderno (17/21) y herramientas de Inteligencia Artificial.",
+      coursesDesc: "Más de 80 cursos acreditados en microservicios, cloud (AWS, Azure), Kafka, Java moderno (17/21) e IA.",
       coursesBtn: "Ver Todas en LinkedIn ↗"
     },
     projects: {
       tag: "Innovación & Creación Propia",
-      title: "Proyectos Transmedia y Software",
+      title: "Proyectos Destacados",
       tgmTitle: "Taos Game Maker Engine",
       tgmSub: "Framework Modular para Godot 4 · Creador y Lead Developer",
-      tgmDesc: "Framework de arquitectura avanzada y herramientas de nivel profesional para Godot Engine. Diseñado para acelerar la creación de videojuegos tácticos 2D y 3D con sistemas desacoplados de combate ATB, diálogos, inventario, eventos y una suite web con más de 45 herramientas visuales.",
+      tgmDesc: "Framework data-driven modular para Godot 4 desacoplado mediante esquemas JSON, con un estudio web local de herramientas visuales (Python / Vue 3). Diseñado para crear RPGs tácticos con combate por turnos, diálogos e inventario, validado con el juego completo Echoes of Truth.",
+      tgmDemoBtn: "Jugar Demo: Echoes of Truth ↗",
       tgmDocBtn: "Ver Documentación & Web ↗",
+      tgmGhBtn: "Repositorio GitHub ↗",
       lazarusTitle: "La Saga Lázaro (The Lazarus Saga)",
       lazarusSub: "Universo Literario de Fantasía Oscura · Autor & Creador de IP",
-      lazarusDesc: "Obra literaria y universo de novelas publicadas en España a través de Editorial Adarve ('La Leyenda de las Esferas') y mundialmente en Amazon (español e inglés), estableciendo las bases del universo transmedia Taos, fusionando cosmología, narrativa épica y filosofía con los videojuegos del ecosistema.",
+      lazarusDesc: "Dos novelas publicadas de forma independiente en español e inglés en Amazon (La Leyenda de las Esferas y su secuela) que dan origen al universo, lore y trasfondo narrativo de Echoes of Truth.",
       lazarusWebBtn: "Web Oficial del Universo ↗",
-      lazarusAmzEsBtn: "Amazon (ES) ↗",
-      lazarusAmzEnBtn: "Amazon (EN) ↗",
-      lazarusInterviewBtn: "Entrevista Editorial Adarve ↗"
+      lazarusWebUrl: "https://sites.google.com/view/sagalazaro",
+      lazarusAmz1Btn: "Libro 1 (ES) ↗",
+      lazarusAmz1Url: "https://www.amazon.es/dp/B0HLSQKMR1",
+      lazarusAmz2Btn: "Libro 2 (ES) ↗",
+      lazarusAmz2Url: "https://www.amazon.es/dp/B0HLSTMRWC"
     },
     contact: {
       tag: "Contacto Directo",
-      title: "¿Interesado en mi perfil? Hablemos",
-      desc: "Disponible para intercambiar ideas sobre arquitecturas backend, ingeniería de software en Java/Spring, liderazgo técnico o proyectos de alta escala.",
+      title: "¿Hablamos?",
+      desc: "Si quieres comentar algo sobre arquitectura Java/Spring, algún proyecto técnico o una propuesta, escríbeme directamente.",
       btnLinkedIn: "Conectar en LinkedIn"
     },
     footer: {
@@ -215,6 +220,7 @@ const translations = {
       status: "Active · Globant",
       pillCompany: "🏢 Globant · Santander (Present)",
       pillAi: "🤖 AI Tools · Devin & Claude",
+      pillProjects: "🚀 Personal Projects: Taos Game Maker & The Lazarus Saga ↓",
       pillLocation: "📍 Madrid / Málaga / Remote (Spain)",
       pillEdu: "🎓 Software Engineer & Master INFTEL (UMA)",
       pillExp: `⚡ +${expYears} Years of Experience`,
@@ -227,9 +233,9 @@ const translations = {
     summary: {
       tag: "Professional Profile",
       title: "Executive Summary",
-      p1: `<strong>Software Engineer and Master of Science INFTEL</strong> graduate from Universidad de Málaga with over <strong>${expYears} years of continuous professional trajectory</strong> (active since 2008), grounded in versatile fullstack foundations (mobile, web frontend, and backend engineering) with extensive experience modernizing legacy systems into modern and scalable microservices architectures.`,
-      p2: `Specialized across the <strong>Java ecosystem (from Java 6 & 7 to modern Java 8, 17, and 21)</strong>, <strong>Spring / Spring Boot</strong>, microservices under <strong>Hexagonal Architecture (Ports & Adapters)</strong>, API design with an <strong>ApiFirst</strong> approach, messaging with <strong>Kafka</strong>, and cloud environments (<strong>Azure, OpenShift, AWS</strong>).`,
-      p3: `Practical adoption of AI tools such as <strong>Devin AI</strong> and <strong>Claude</strong> to accelerate complex development tasks: Java 21 migrations, OpenAPI contract scaffolding, and automated test creation.`,
+      p1: `I have been developing software since 2008 (+18 years of experience), with a fullstack foundation and specialization in backend architecture and the Java ecosystem. I studied Software Engineering and the INFTEL Master's degree at Universidad de Málaga, and throughout my career I have worked across the entire spectrum: from maintaining and modernizing legacy systems in Java 6 to designing distributed microservices in Java 21.`,
+      p2: `I currently work at Globant for Banco Santander in the core backend architecture team, building foundational components and ApiFirst standards adopted across the group's global entities. Day to day, I also integrate AI tools like Devin and Claude to automate real engineering tasks: Java 21 migrations, OpenAPI contract generation, and automated test suites.`,
+      p3: ``,
       metricExp: "Years of Experience",
       metricCoreVal: "Java & Spring",
       metricCoreLbl: "Core Specialization",
@@ -309,7 +315,7 @@ const translations = {
         date: "Jun. 2013 — Sep. 2015 (2 yrs 4 mos)",
         b1: "<strong>Ingenia (Jun. 2015 — Sep. 2015):</strong> Frontend engineering of corporate web applications utilizing JavaScript and Drupal-PHP for a Swiss private banking entity.",
         b2: "<strong>Málaga City Council (Nov. 2014 — Jun. 2015):</strong> Scrum Master coordinating a 4-developer engineering team. Requirements analysis and greenfield development of Java / Spring applications for municipal public procurement management.",
-        b3: "<strong>Universidad de Málaga (Feb. 2014 — Dec. 2014):</strong> Greenfield development of native Android mobile application and Java web management platform for faculty and students.",
+        b3: "<strong>Universidad de Málaga (Feb. 2014 — Dec. 2014):</strong> Greenfield development of native Android mobile application and Java web management platform for faculty and students (overlapped in its final two months with the start at Málaga City Council).",
         b4: "<strong>Intendia (Jun. 2013 — Feb. 2014):</strong> Maintenance and evolutive engineering in Java with GWT and GWTP for a vehicle fleet geolocation platform. Cross-platform mobile development with PhoneGap (iOS/Android)."
       },
       early: {
@@ -339,46 +345,50 @@ const translations = {
       title: "Education & Certifications",
       masterTitle: "Master of Science INFTEL",
       masterInst: "Universidad de Málaga (UMA) · 2012 — 2014",
-      masterDesc: "Specialization in <strong>'Applied Computer Science for Mobile and Web Technologies'</strong>. Advanced coursework in distributed web architectures, enterprise design patterns, cloud computing, and native mobile development.",
+      masterDesc: "Master's degree focused on advanced software engineering, web architectures, and mobile technologies.",
       degreeTitle: "Software Engineer",
       degreeInst: "Universidad de Málaga (UMA) · 2004 — 2011",
-      degreeDesc: "Comprehensive university degree in software engineering, system architecture, advanced algorithms, concurrent programming, distributed systems, operating systems, and computer networks.",
+      degreeDesc: "University degree in software architecture, algorithm design, distributed systems, and computer networks.",
       certsHeading: "Certifications & Continuous Learning",
       scrumBadge: "Agile Frameworks",
       scrumTitle: "Official Scrum Master Certification",
       scrumInst: "European Scrum · 2017",
-      scrumDesc: "Official professional credential in agile frameworks (Scrum, Kanban), ceremony facilitation, impedance removal, and continuous delivery optimization across engineering squads.",
+      scrumDesc: "Official certification in Scrum agile methodologies and continuous delivery across engineering teams.",
       scrumBtn: "View Credential on LinkedIn ↗",
       langBadge: "Language Proficiency",
       langTitle: "Official English Certification (B2)",
       langInst: "University of Cambridge · ESOL Examinations",
-      langDesc: "Official international credential verifying professional working proficiency in English: advanced technical documentation, API specifications, and fluent cross-border team collaboration.",
+      langDesc: "International professional certification: fluent technical communication and documentation in English.",
       langBtn: "View Credential on LinkedIn ↗",
       coursesBadge: "Lifelong Learning",
       coursesTitle: "+80 Verified Technical Courses",
       coursesInst: "Udemy · Coursera · edX · OpenWebinars",
-      coursesDesc: "Continuous learning track with over 80 verified technical courses: microservices, cloud (AWS, Azure), messaging with Kafka, modern Java (17/21), and AI development tools.",
+      coursesDesc: "Over 80 accredited courses covering microservices, cloud (AWS, Azure), Kafka, modern Java (17/21), and AI.",
       coursesBtn: "View All on LinkedIn ↗"
     },
     projects: {
       tag: "Innovation & Personal Creation",
-      title: "Transmedia & Software Projects",
+      title: "Featured Projects",
       tgmTitle: "Taos Game Maker Engine",
       tgmSub: "Modular Framework for Godot 4 · Creator & Lead Developer",
-      tgmDesc: "Advanced architectural framework and professional tooling suite for Godot Engine. Designed to accelerate hybrid 2D/3D Tactical RPG game development with decoupled ATB combat, dialogues, inventory, events, and a web studio suite with 45+ visual no-code tools.",
+      tgmDesc: "Modular data-driven framework for Godot 4 decoupled through JSON schemas, featuring a local web studio suite of visual tools (Python / Vue 3). Designed for tactical turn-based RPGs with dialogue and inventory systems, validated with the full playable game Echoes of Truth.",
+      tgmDemoBtn: "Play Demo: Echoes of Truth ↗",
       tgmDocBtn: "View Documentation & Web ↗",
+      tgmGhBtn: "GitHub Repository ↗",
       lazarusTitle: "The Lazarus Saga (La Saga Lázaro)",
       lazarusSub: "Dark Fantasy Literary Universe · Author & IP Creator",
-      lazarusDesc: "Dark fantasy literary universe and cosmology novels published in Spain through Editorial Adarve ('La Leyenda de las Esferas') and globally on Amazon (Spanish & English), establishing the narrative worldbuilding and philosophical lore inspiring the Taos game ecosystem.",
-      lazarusWebBtn: "Official Universe Website ↗",
-      lazarusAmzEsBtn: "Amazon (Spanish Ed.) ↗",
-      lazarusAmzEnBtn: "Amazon (English Ed.) ↗",
-      lazarusInterviewBtn: "Editorial Adarve Interview ↗"
+      lazarusDesc: "Two novels independently published in Spanish and English on Amazon (The Legend of the Spheres and its sequel) that establish the universe, lore, and narrative worldbuilding behind Echoes of Truth.",
+      lazarusWebBtn: "Official Website ↗",
+      lazarusWebUrl: "https://sites.google.com/view/the-lazarus-saga/",
+      lazarusAmz1Btn: "Book 1 (EN) ↗",
+      lazarusAmz1Url: "https://www.amazon.com/dp/B0HMFQVSF2",
+      lazarusAmz2Btn: "Book 2 (EN) ↗",
+      lazarusAmz2Url: "https://www.amazon.com/dp/B0HMF7GWZD"
     },
     contact: {
       tag: "Direct Contact",
-      title: "Interested in My Profile? Let's Talk",
-      desc: "Available to discuss backend architectures, Java/Spring engineering, technical leadership, or high-scale distributed systems.",
+      title: "Let's Talk",
+      desc: "If you'd like to discuss Java/Spring architecture, a technical project, or an opportunity, feel free to reach out directly.",
       btnLinkedIn: "Connect on LinkedIn"
     },
     footer: {
@@ -432,6 +442,7 @@ function setLanguage(lang) {
   setText('hero-status', t.hero.status);
   setText('pill-company', t.hero.pillCompany);
   setText('pill-ai', t.hero.pillAi);
+  setText('pill-projects', t.hero.pillProjects);
   setText('pill-location', t.hero.pillLocation);
   setText('pill-edu', t.hero.pillEdu);
   setText('pill-exp', t.hero.pillExp);
@@ -445,7 +456,6 @@ function setLanguage(lang) {
   setText('summary-title', t.summary.title);
   setHtml('summary-p1', t.summary.p1);
   setHtml('summary-p2', t.summary.p2);
-  setHtml('summary-p3', t.summary.p3);
   setText('metric-exp-val', `+${expYears}`);
   setText('metric-exp-lbl', t.summary.metricExp);
   setText('metric-core-val', t.summary.metricCoreVal);
@@ -581,18 +591,26 @@ function setLanguage(lang) {
   setText('tgm-title', t.projects.tgmTitle);
   setText('tgm-sub', t.projects.tgmSub);
   setText('tgm-desc', t.projects.tgmDesc);
+  setHtml('tgm-demo-btn', `<span>🎮</span> ${t.projects.tgmDemoBtn}`);
   setHtml('tgm-doc-btn', `<span>🌐</span> ${t.projects.tgmDocBtn}`);
   setText('lazarus-title', t.projects.lazarusTitle);
   setText('lazarus-sub', t.projects.lazarusSub);
   setText('lazarus-desc', t.projects.lazarusDesc);
-  setHtml('lazarus-web-btn', `<span>📖</span> ${t.projects.lazarusWebBtn}`);
-  setHtml('lazarus-amz-es-btn', `<span>📦</span> ${t.projects.lazarusAmzEsBtn}`);
-  setHtml('lazarus-amz-en-btn', `<span>📦</span> ${t.projects.lazarusAmzEnBtn}`);
-  setHtml('lazarus-interview-btn', `<span>🎙️</span> ${t.projects.lazarusInterviewBtn}`);
-  setText('personal-title', t.projects.personalTitle);
-  setText('personal-sub', t.projects.personalSub);
-  setText('personal-desc', t.projects.personalDesc);
-  setText('personal-btn', t.projects.personalBtn);
+  const lazarusWeb = document.getElementById('lazarus-web-btn');
+  if (lazarusWeb) {
+    lazarusWeb.href = t.projects.lazarusWebUrl;
+    lazarusWeb.innerHTML = `<span>📖</span> ${t.projects.lazarusWebBtn}`;
+  }
+  const lazarusAmz1 = document.getElementById('lazarus-amz-1-btn');
+  if (lazarusAmz1) {
+    lazarusAmz1.href = t.projects.lazarusAmz1Url;
+    lazarusAmz1.innerHTML = `<span>📦</span> ${t.projects.lazarusAmz1Btn}`;
+  }
+  const lazarusAmz2 = document.getElementById('lazarus-amz-2-btn');
+  if (lazarusAmz2) {
+    lazarusAmz2.href = t.projects.lazarusAmz2Url;
+    lazarusAmz2.innerHTML = `<span>📦</span> ${t.projects.lazarusAmz2Btn}`;
+  }
 
   // 8. Contact
   setText('contact-tag', t.contact.tag);
