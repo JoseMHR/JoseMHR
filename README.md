@@ -31,7 +31,7 @@
 | Metric / Indicator | Professional Detail |
 | :--- | :--- |
 | **Career Trajectory** | **+18 Years of Experience** in software engineering and core backend architecture (continuously active since **2008**). |
-| **Current Position** | **Software Application Analyst — Core Backend Architecture & AI Engineering** at **Globant** (Enterprise scalable foundational frameworks & core banking services for **Banco Santander**, supporting multi-entity banking). <br> *Engineering workflows and custom skills with Autonomous AI Agents (Devin AI & Claude) to automate legacy Java migrations, OpenAPI contract scaffolding, comprehensive unit/integration test suites, and pre-commit code review pipelines under strict enterprise governance.* |
+| **Current Position** | **Software Application Analyst — Core Backend Architecture** at **Globant** (Foundational frameworks and core backend services for **Banco Santander** international entities). <br> *Leveraging AI tools and autonomous agents (Devin AI & Claude) to streamline legacy Java migrations, OpenAPI contract generation, automated test suites, and code quality reviews.* |
 | **Clients & Industry Sectors** | **Banking & Financial Services:** Santander (with Globant — global multi-entity core banking), ING Bank & BNP Paribas / Cetelem (with Sopra Steria — real-time credit middleware) <br> **Retail & Global E-Commerce:** Inditex (with Plexus — high-throughput retail e-commerce) <br> **Insurance:** A.M.A. Seguros <br> **Broadcast Media:** Corporación RTVE (with Everis), Atresmedia (with atSistemas) <br> **Public Sector & Academia:** Málaga City Council, Universidad de Málaga (UMA) |
 | **Higher Education** | **Software Engineer** & **Master INFTEL** (Universidad de Málaga). |
 | **Agile Leadership** | **Scrum Master Certified** (European Scrum, 2017) · Technical leadership of cross-functional engineering squads. |
@@ -48,18 +48,17 @@
   <img src="https://img.shields.io/badge/Spring_Boot-2.x%20%7C%203.x-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/Hexagonal_Architecture-Ports_%26_Adapters-0284c7?style=flat-square&logoColor=white" alt="Hexagonal Architecture" />
   <img src="https://img.shields.io/badge/ApiFirst-OpenAPI_%2F_Swagger-85EA2D?style=flat-square&logo=openapiinitiative&logoColor=black" alt="ApiFirst" />
-  <img src="https://img.shields.io/badge/Microservices-Resilience_%26_DDD-6366f1?style=flat-square" alt="Microservices" />
+  <img src="https://img.shields.io/badge/Microservices-Domain_Driven_Design-6366f1?style=flat-square" alt="Microservices" />
   <img src="https://img.shields.io/badge/JPA_%2F_Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" alt="Hibernate" />
   <img src="https://img.shields.io/badge/MyBatis-000000?style=flat-square" alt="MyBatis" />
 </p>
 
 <p align="left">
-  <strong>AI-Driven Engineering & Autonomous Agents:</strong><br>
-  <img src="https://img.shields.io/badge/Devin_AI-Autonomous_Software_Engineer-000000?style=flat-square" alt="Devin AI" />
-  <img src="https://img.shields.io/badge/Claude-Agentic_Workflows_%26_Skills-D97706?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
-  <img src="https://img.shields.io/badge/Workflows_%26_Skills-Custom_Agentic_Pipelines-6366f1?style=flat-square" alt="Workflows & Skills" />
-  <img src="https://img.shields.io/badge/Autonomous_Agents-Prompt_%26_Pipeline_Engineering-8b5cf6?style=flat-square" alt="Autonomous Agents" />
-  <img src="https://img.shields.io/badge/AI_Assisted_Modernization-Legacy_to_Cloud-0284c7?style=flat-square" alt="AI Assisted Modernization" />
+  <strong>AI & Development Automation:</strong><br>
+  <img src="https://img.shields.io/badge/Devin_AI-AI_Software_Engineer-000000?style=flat-square" alt="Devin AI" />
+  <img src="https://img.shields.io/badge/Claude-Workflows_%26_Skills-D97706?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/AI_Assisted_Development-Automation-6366f1?style=flat-square" alt="AI Assisted Development" />
+  <img src="https://img.shields.io/badge/Prompt_Engineering-Advanced-8b5cf6?style=flat-square" alt="Prompt Engineering" />
 </p>
 
 <p align="left">

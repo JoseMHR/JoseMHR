@@ -28,7 +28,7 @@ const translations = {
       role: "Senior Backend Architect & Java Specialist · Software Engineer",
       status: "En activo · Globant",
       pillCompany: "🏢 Globant · Santander (Actualidad)",
-      pillAi: "🤖 Agentes Autónomos · Workflows & Skills (Devin & Claude)",
+      pillAi: "🤖 Herramientas de IA · Devin & Claude",
       pillLocation: "📍 Madrid / Málaga / Remoto (España)",
       pillEdu: "🎓 Ing. de Software & Máster INFTEL (UMA)",
       pillExp: `⚡ +${expYears} años de experiencia`,
@@ -41,16 +41,16 @@ const translations = {
     summary: {
       tag: "Perfil Profesional",
       title: "Resumen Ejecutivo",
-      p1: `<strong>Ingeniero de Software y Máster de Postgrado INFTEL</strong> por la Universidad de Málaga con más de <strong>${expYears} años de trayectoria continuada</strong> (en activo desde 2008), forjada sobre una base sólida en desarrollo fullstack (tecnologías mobile nativas, web frontend y backend) y una profunda experiencia práctica modernizando y refactorizando sistemas legados hacia arquitecturas empresariales de vanguardia.`,
-      p2: `Especializado en el <strong>ecosistema Java (desde Java 6 y 7 legacy hasta Java 8, 17 y 21)</strong>, frameworks <strong>Spring / Spring Boot</strong>, microservicios resilientes bajo <strong>Arquitectura Hexagonal</strong>, especificación y contratos <strong>ApiFirst</strong>, mensajería reactiva con <strong>Apache Kafka</strong> y entornos de nube híbrida (<strong>Azure, OpenShift, AWS</strong>).`,
-      p3: `Pionero en la adopción de ingeniería asistida por IA, implementando flujos de trabajo con <strong>Devin AI</strong> y <strong>Claude</strong> mediante <em>workflows</em>, <em>skills</em> especializadas y pipelines agénticos para automatizar migraciones legacy a Java 21, generación de contratos OpenAPI y suites completas de pruebas.`,
+      p1: `<strong>Ingeniero de Software y Máster de Postgrado INFTEL</strong> por la Universidad de Málaga con más de <strong>${expYears} años de trayectoria continuada</strong> (en activo desde 2008), forjada sobre una base sólida en desarrollo fullstack (móvil, frontend y backend) y amplia experiencia modernizando sistemas hacia arquitecturas de microservicios modernas y escalables.`,
+      p2: `Especializado en el <strong>ecosistema Java (desde versiones 6 y 7 hasta Java 8, 17 y 21)</strong>, <strong>Spring / Spring Boot</strong>, microservicios bajo <strong>Arquitectura Hexagonal</strong>, diseño de APIs con enfoque <strong>ApiFirst</strong>, mensajería con <strong>Kafka</strong> y despliegues en la nube (<strong>Azure, OpenShift, AWS</strong>).`,
+      p3: `Integración práctica de herramientas de IA como <strong>Devin AI</strong> y <strong>Claude</strong> para agilizar tareas complejas de desarrollo: migraciones a Java 21, generación de contratos OpenAPI y creación de pruebas automatizadas.`,
       metricExp: "Años de Trayectoria",
       metricCoreVal: "Java & Spring",
       metricCoreLbl: "Especialidad Core",
       metricArchVal: "Hexagonal / Microservicios",
       metricArchLbl: "Arquitectura Limpia & DDD",
       metricAiVal: "Devin & Claude",
-      metricAiLbl: "Workflows & Skills"
+      metricAiLbl: "Herramientas & Automatización"
     },
     timeline: {
       tag: "Carrera Profesional",
@@ -65,12 +65,12 @@ const translations = {
         inicial: "Trayectoria Inicial"
       },
       globant: {
-        role: "Software Application Analyst en Santander — Core Backend Architecture & AI Engineering",
+        role: "Software Application Analyst en Santander — Core Backend Architecture",
         company: "Globant · Jornada completa · Remoto",
         date: "Ene. 2025 — Actualidad",
-        b1: "<strong>Arquitectura Core Santander:</strong> Diseño e ingeniería de soluciones base estandarizadas, robustas y escalables para despliegue multientidad internacional en Banco Santander.",
-        b2: "<strong>Automatización con Agentes IA:</strong> Integración de flujos de desarrollo con agentes autónomos (<strong>Devin AI, Claude</strong>), diseñando <em>workflows</em> personalizados y <em>skills</em> modulares para automatizar migraciones a Java 21, scaffolding OpenAPI/ApiFirst, suites de tests y pre-code review con máxima gobernanza.",
-        b3: "<strong>Gobernanza enterprise y patrones de resiliencia:</strong> Definición de directrices de desarrollo, especificación y gobierno de contratos bajo enfoque <strong>ApiFirst</strong>, patrones de resiliencia en microservicios cloud y alineamiento con equipos internacionales para la gobernanza del código y buenas prácticas de ingeniería de software."
+        b1: "<strong>Arquitectura Core Santander:</strong> Diseño y desarrollo de componentes base y servicios comunes para su despliegue y adaptación en las diferentes entidades del banco a nivel internacional.",
+        b2: "<strong>Automatización con IA:</strong> Uso de <strong>Devin AI y Claude</strong> para agilizar migraciones a Java 21, generación de contratos OpenAPI y creación de pruebas automáticas.",
+        b3: "<strong>Estándares y calidad de código:</strong> Definición de pautas de arquitectura, diseño de APIs con enfoque <strong>ApiFirst</strong> y microservicios robustos en la nube, coordinando buenas prácticas con equipos internacionales."
       },
       inditex: {
         role: "Desarrollador Senior Backend en Inditex",
@@ -139,7 +139,7 @@ const translations = {
     skills: {
       tag: "Competencias Técnicas",
       title: "Habilidades y Stack Tecnológico",
-      catAi: "🤖 AI-Driven Engineering & Vanguardia Tecnológica",
+      catAi: "🤖 Inteligencia Artificial & Automatización",
       catBackend: "Backend & Arquitectura Java",
       catCloud: "Cloud, DevOps & Contenedores",
       catData: "Bases de Datos & Mensajería",
@@ -171,7 +171,7 @@ const translations = {
       coursesBadge: "Aprendizaje Continuo",
       coursesTitle: "+80 Cursos Técnicos Certificados",
       coursesInst: "Udemy · Coursera · edX · OpenWebinars",
-      coursesDesc: "Historial continuado de más de 80 especializaciones técnicas acreditadas: microservicios avanzados, cloud (AWS, Azure), mensajería reactiva con Kafka, Java moderno (17/21) y herramientas de Inteligencia Artificial.",
+      coursesDesc: "Historial continuado de más de 80 cursos técnicos acreditados: microservicios, cloud (AWS, Azure), mensajería con Kafka, Java moderno (17/21) y herramientas de Inteligencia Artificial.",
       coursesBtn: "Ver Todas en LinkedIn ↗"
     },
     projects: {
@@ -214,7 +214,7 @@ const translations = {
       role: "Senior Backend Architect & Java Specialist · Software Engineer",
       status: "Active · Globant",
       pillCompany: "🏢 Globant · Santander (Present)",
-      pillAi: "🤖 Autonomous Agents · Workflows & Skills (Devin & Claude)",
+      pillAi: "🤖 AI Tools · Devin & Claude",
       pillLocation: "📍 Madrid / Málaga / Remote (Spain)",
       pillEdu: "🎓 Software Engineer & Master INFTEL (UMA)",
       pillExp: `⚡ +${expYears} Years of Experience`,
@@ -227,16 +227,16 @@ const translations = {
     summary: {
       tag: "Professional Profile",
       title: "Executive Summary",
-      p1: `<strong>Software Engineer and Master of Science INFTEL</strong> graduate from Universidad de Málaga with over <strong>${expYears} years of continuous professional trajectory</strong> (active since 2008), grounded in versatile fullstack foundations (native mobile, web frontend, and backend engineering) with extensive experience modernizing and refactoring legacy systems into modern high-scale architectures.`,
-      p2: `Specialized across the <strong>Java ecosystem (from Java 6 & 7 legacy to modern Java 8, 17, and 21)</strong>, <strong>Spring / Spring Boot</strong> frameworks, resilient microservices under <strong>Hexagonal Architecture (Ports & Adapters)</strong>, contract-driven <strong>ApiFirst</strong> specifications, reactive streaming with <strong>Apache Kafka</strong>, and hybrid cloud environments (<strong>Azure, OpenShift, AWS</strong>).`,
-      p3: `Pioneering the adoption of AI-assisted software engineering, integrating autonomous agents like <strong>Devin AI</strong> and <strong>Claude</strong> through customized <em>workflows</em>, domain <em>skills</em>, and agentic pipelines to automate legacy migrations to Java 21, OpenAPI contract scaffolding, and robust test suites.`,
+      p1: `<strong>Software Engineer and Master of Science INFTEL</strong> graduate from Universidad de Málaga with over <strong>${expYears} years of continuous professional trajectory</strong> (active since 2008), grounded in versatile fullstack foundations (mobile, web frontend, and backend engineering) with extensive experience modernizing legacy systems into modern and scalable microservices architectures.`,
+      p2: `Specialized across the <strong>Java ecosystem (from Java 6 & 7 to modern Java 8, 17, and 21)</strong>, <strong>Spring / Spring Boot</strong>, microservices under <strong>Hexagonal Architecture (Ports & Adapters)</strong>, API design with an <strong>ApiFirst</strong> approach, messaging with <strong>Kafka</strong>, and cloud environments (<strong>Azure, OpenShift, AWS</strong>).`,
+      p3: `Practical adoption of AI tools such as <strong>Devin AI</strong> and <strong>Claude</strong> to accelerate complex development tasks: Java 21 migrations, OpenAPI contract scaffolding, and automated test creation.`,
       metricExp: "Years of Experience",
       metricCoreVal: "Java & Spring",
       metricCoreLbl: "Core Specialization",
       metricArchVal: "Hexagonal / Microservices",
       metricArchLbl: "Clean Architecture & DDD",
       metricAiVal: "Devin & Claude",
-      metricAiLbl: "Workflows & Skills"
+      metricAiLbl: "Tools & Automation"
     },
     timeline: {
       tag: "Career Trajectory",
@@ -251,12 +251,12 @@ const translations = {
         inicial: "Early Career"
       },
       globant: {
-        role: "Software Application Analyst at Santander — Core Backend Architecture & AI Engineering",
+        role: "Software Application Analyst at Santander — Core Backend Architecture",
         company: "Globant · Full-time · Remote",
         date: "Jan. 2025 — Present",
-        b1: "<strong>Santander Core Architecture:</strong> Architecture and engineering of standardized, robust, and highly scalable foundational solutions for international multi-entity deployment across Banco Santander.",
-        b2: "<strong>Engineering Automation with AI Agents:</strong> Implementing development workflows with autonomous agents (<strong>Devin AI, Claude</strong>), architecting customized <em>workflows</em> and modular domain <em>skills</em> to automate Java 21 migrations, OpenAPI/ApiFirst scaffolding, comprehensive unit/integration test suites, and pre-code review under enterprise governance.",
-        b3: "<strong>Enterprise Governance & Resilience Patterns:</strong> Defining development guidelines, <strong>ApiFirst</strong> contract governance and specifications, cloud microservices resilience patterns, and aligning global engineering squads under software craftsmanship best practices."
+        b1: "<strong>Santander Core Architecture:</strong> Design and engineering of foundational components and common services for international deployment and localization across Banco Santander entities.",
+        b2: "<strong>AI-Assisted Automation:</strong> Leveraging <strong>Devin AI and Claude</strong> to streamline Java 21 migrations, OpenAPI contract generation, and automated test suites.",
+        b3: "<strong>Standards & Code Quality:</strong> Defining architecture guidelines, <strong>ApiFirst</strong> API design, and robust cloud microservices, aligning software best practices across global teams."
       },
       inditex: {
         role: "Senior Backend Engineer at Inditex",
@@ -325,7 +325,7 @@ const translations = {
     skills: {
       tag: "Technical Stack",
       title: "Core Skills & Technology Matrix",
-      catAi: "🤖 AI-Driven Engineering & Autonomous Agents",
+      catAi: "🤖 Artificial Intelligence & Automation",
       catBackend: "Backend & Java Architecture",
       catCloud: "Cloud, DevOps & Containers",
       catData: "Databases & Messaging",
@@ -357,7 +357,7 @@ const translations = {
       coursesBadge: "Lifelong Learning",
       coursesTitle: "+80 Verified Technical Courses",
       coursesInst: "Udemy · Coursera · edX · OpenWebinars",
-      coursesDesc: "Continuous learning track with over 80 verified technical courses: cloud architectures (AWS, Azure), resilient microservices, reactive streaming with Kafka, modern Java (17/21), and AI-driven development.",
+      coursesDesc: "Continuous learning track with over 80 verified technical courses: microservices, cloud (AWS, Azure), messaging with Kafka, modern Java (17/21), and AI development tools.",
       coursesBtn: "View All on LinkedIn ↗"
     },
     projects: {
