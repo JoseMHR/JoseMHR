@@ -37,7 +37,9 @@ const translations = {
       btnEmail: "Contactar por Email",
       btnLinkedIn: "Perfil de LinkedIn",
       btnGitHub: "GitHub (@JoseMHR)",
-      btnPrint: "Descargar CV (PDF)"
+      btnPrint: "Descargar CV (PDF)",
+      cvPdfPath: "assets/docs/CV_Jose_Manuel_Heredia_Reyes.pdf",
+      cvPdfName: "CV_Jose_Manuel_Heredia_Reyes.pdf"
     },
     summary: {
       tag: "Perfil Profesional",
@@ -186,7 +188,7 @@ const translations = {
       tgmGhBtn: "Repositorio GitHub ↗",
       lazarusTitle: "La Saga Lázaro (The Lazarus Saga)",
       lazarusSub: "Universo Literario de Fantasía Oscura · Autor & Creador de IP",
-      lazarusDesc: "Dos novelas publicadas de forma independiente en español e inglés en Amazon (La Leyenda de las Esferas y su secuela) que dan origen al universo, lore y trasfondo narrativo de Echoes of Truth.",
+      lazarusDesc: "Dos novelas publicadas de forma independiente en español e inglés en Amazon (Saga Lázaro: El Secreto de Lázaro y La Senda de Lázaro) que dan origen al universo, lore y trasfondo narrativo de Echoes of Truth.",
       lazarusWebBtn: "Web Oficial del Universo ↗",
       lazarusWebUrl: "https://sites.google.com/view/sagalazaro",
       lazarusAmz1Btn: "Libro 1 (ES) ↗",
@@ -228,7 +230,9 @@ const translations = {
       btnEmail: "Email Me",
       btnLinkedIn: "LinkedIn Profile",
       btnGitHub: "GitHub (@JoseMHR)",
-      btnPrint: "Download CV (PDF)"
+      btnPrint: "Download CV (PDF)",
+      cvPdfPath: "assets/docs/CV_Jose_Manuel_Heredia_Reyes_EN.pdf",
+      cvPdfName: "CV_Jose_Manuel_Heredia_Reyes_EN.pdf"
     },
     summary: {
       tag: "Professional Profile",
@@ -377,7 +381,7 @@ const translations = {
       tgmGhBtn: "GitHub Repository ↗",
       lazarusTitle: "The Lazarus Saga (La Saga Lázaro)",
       lazarusSub: "Dark Fantasy Literary Universe · Author & IP Creator",
-      lazarusDesc: "Two novels independently published in Spanish and English on Amazon (The Legend of the Spheres and its sequel) that establish the universe, lore, and narrative worldbuilding behind Echoes of Truth.",
+      lazarusDesc: "Two novels independently published in Spanish and English on Amazon (The Lazarus Saga: The Secret of Lazarus and The Path of Lazarus) that establish the universe, lore, and narrative worldbuilding behind Echoes of Truth.",
       lazarusWebBtn: "Official Website ↗",
       lazarusWebUrl: "https://sites.google.com/view/the-lazarus-saga/",
       lazarusAmz1Btn: "Book 1 (EN) ↗",
@@ -449,7 +453,14 @@ function setLanguage(lang) {
   setText('pill-lang', t.hero.pillLang);
   setText('btn-hero-email', t.hero.btnEmail);
   setText('btn-hero-linkedin', t.hero.btnLinkedIn);
-  setHtml('btn-hero-print', `<span>📥</span> ${t.hero.btnPrint}`);
+  const printBtn = document.getElementById('btn-hero-print');
+  if (printBtn) {
+    setHtml('btn-hero-print', `<span>📥</span> ${t.hero.btnPrint}`);
+    if (t.hero.cvPdfPath) {
+      printBtn.setAttribute('href', t.hero.cvPdfPath);
+      printBtn.setAttribute('download', t.hero.cvPdfName);
+    }
+  }
 
   // 3. Summary
   setText('summary-tag', t.summary.tag);
