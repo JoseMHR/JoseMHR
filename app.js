@@ -68,7 +68,7 @@ const translations = {
         role: "Software Application Analyst en Santander — Core Backend Architecture & AI Engineering",
         company: "Globant · Jornada completa · Remoto",
         date: "Ene. 2025 — Actualidad",
-        b1: "<strong>Arquitectura Core Santander:</strong> Diseño e ingeniería de soluciones base estandarizadas, robustas y escalables para despliegue multientidad internacional en Banco Santander (millones de operaciones diarias).",
+        b1: "<strong>Arquitectura Core Santander:</strong> Diseño e ingeniería de soluciones base estandarizadas, robustas y escalables para despliegue multientidad internacional en Banco Santander.",
         b2: "<strong>Automatización con Agentes IA:</strong> Integración de flujos de desarrollo con agentes autónomos (<strong>Devin AI, Claude</strong>), diseñando <em>workflows</em> personalizados y <em>skills</em> modulares para automatizar migraciones a Java 21, scaffolding OpenAPI/ApiFirst, suites de tests y pre-code review con máxima gobernanza.",
         b3: "<strong>Gobernanza enterprise y patrones de resiliencia:</strong> Definición de directrices de desarrollo, especificación y gobierno de contratos bajo enfoque <strong>ApiFirst</strong>, patrones de resiliencia en microservicios cloud y alineamiento con equipos internacionales para la gobernanza del código y buenas prácticas de ingeniería de software."
       },
@@ -78,7 +78,7 @@ const translations = {
         date: "Ene. 2023 — Ene. 2025 (2 años)",
         b1: "Análisis y desarrollo integral de microservicios backend desde la toma de requisitos hasta su subida a producción en plataformas corporativas de Inditex.",
         b2: "<strong>Arquitectura Hexagonal & ApiFirst:</strong> Desarrollo y modernización de servicios backend en Java 17 bajo principios DDD, contratos OpenAPI y alta disponibilidad.",
-        b3: "Gestión de guardias críticas de alta disponibilidad y soporte continuo para picos de tráfico en retail global (Rebajas, Black Friday con millones req/min y 99.99% SLA).",
+        b3: "Gestión de guardias críticas de alta disponibilidad y soporte continuo para picos de tráfico en eventos masivos de retail.",
         b4: "Implementación de pipelines de integración y entrega continua (CI/CD) con SonarQube, GitHub Actions, OpenShift y Azure."
       },
       banca: {
@@ -86,7 +86,7 @@ const translations = {
         company: "Sopra Steria · Madrid / Remoto",
         date: "Ene. 2020 — Ene. 2023 (3 años)",
         pBnpTitle: "BNP Paribas / Cetelem (Sept. 2021 — Ene. 2023 · 1 año 5 meses):",
-        bBnp1: "Análisis, diseño e implementación de middleware financiero y servicios de crédito de alta concurrencia (miles de operaciones diarias en tiempo real).",
+        bBnp1: "Análisis, diseño e implementación de middleware financiero y servicios de crédito de alta concurrencia.",
         bBnp2: "Desarrollo de módulos bancarios con Java 8, Spring Boot, bases de datos Oracle SQL y frontends Angular/JS.",
         bBnp3: "Gestión de despliegues automatizados mediante Jenkins y metodologías GitFlow.",
         pIngTitle: "ING Bank (Ene. 2020 — Sept. 2021 · 1 año 9 meses):",
@@ -254,7 +254,7 @@ const translations = {
         role: "Software Application Analyst at Santander — Core Backend Architecture & AI Engineering",
         company: "Globant · Full-time · Remote",
         date: "Jan. 2025 — Present",
-        b1: "<strong>Santander Core Architecture:</strong> Architecture and engineering of standardized, robust, and highly scalable foundational solutions for international multi-entity deployment across Banco Santander (millions of daily operations).",
+        b1: "<strong>Santander Core Architecture:</strong> Architecture and engineering of standardized, robust, and highly scalable foundational solutions for international multi-entity deployment across Banco Santander.",
         b2: "<strong>Engineering Automation with AI Agents:</strong> Implementing development workflows with autonomous agents (<strong>Devin AI, Claude</strong>), architecting customized <em>workflows</em> and modular domain <em>skills</em> to automate Java 21 migrations, OpenAPI/ApiFirst scaffolding, comprehensive unit/integration test suites, and pre-code review under enterprise governance.",
         b3: "<strong>Enterprise Governance & Resilience Patterns:</strong> Defining development guidelines, <strong>ApiFirst</strong> contract governance and specifications, cloud microservices resilience patterns, and aligning global engineering squads under software craftsmanship best practices."
       },
@@ -264,7 +264,7 @@ const translations = {
         date: "Jan. 2023 — Jan. 2025 (2 yrs)",
         b1: "End-to-end backend microservice analysis and development from technical discovery to production release across Inditex corporate platforms.",
         b2: "<strong>Hexagonal Architecture & ApiFirst:</strong> Modernizing and developing backend microservices in Java 17 under DDD principles, OpenAPI contracts, and high availability.",
-        b3: "High-availability on-call incident resolution and continuous operational support during massive global retail traffic surges (Black Friday and seasonal sales with millions req/min and 99.99% SLA).",
+        b3: "High-availability on-call incident resolution and continuous operational support during massive retail traffic peaks.",
         b4: "Continuous Integration & Deployment (CI/CD) pipelines using SonarQube, GitHub Actions, OpenShift, and Microsoft Azure."
       },
       banca: {
@@ -272,7 +272,7 @@ const translations = {
         company: "Sopra Steria · Madrid / Remote",
         date: "Jan. 2020 — Jan. 2023 (3 yrs)",
         pBnpTitle: "BNP Paribas / Cetelem (Sept. 2021 — Jan. 2023 · 1 yr 5 mos):",
-        bBnp1: "Architecture, design, and implementation of high-concurrency financial middleware and credit management services (thousands of real-time daily operations).",
+        bBnp1: "Architecture, design, and implementation of high-concurrency financial middleware and credit management services.",
         bBnp2: "Engineered banking modules using Java 8, Spring Boot, Oracle SQL databases, and Angular/JavaScript frontends.",
         bBnp3: "Automated continuous delivery and deployment pipelines via Jenkins and GitFlow branching strategies.",
         pIngTitle: "ING Bank (Jan. 2020 — Sept. 2021 · 1 yr 9 mos):",
