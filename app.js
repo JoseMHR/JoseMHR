@@ -60,7 +60,9 @@ const translations = {
         globant: "Globant (Santander)",
         inditex: "Inditex",
         banca: "Banca (ING / BNP)",
-        medios: "Medios & Seguros"
+        medios: "Medios & Seguros",
+        publico: "Sector Público & Consultoría",
+        inicial: "Trayectoria Inicial"
       },
       globant: {
         role: "Software Application Analyst en Santander — Core Backend Architecture & AI Vanguard",
@@ -96,7 +98,7 @@ const translations = {
         company: "A.M.A. Seguros · Madrid",
         date: "Nov. 2018 — Ene. 2020 (1 año 3 meses)",
         b1: "Análisis y desarrollo integral de aplicaciones corporativas aseguradoras utilizando Vaadin 8, MyBatis, Java 8 y Spring Boot.",
-        b2: "Abarcamiento del ciclo de vida del software completo: diseño, desarrollo, pruebas, optimización y puesta en producción.",
+        b2: "Responsabilidad integral del ciclo de vida del software: diseño, desarrollo, pruebas, optimización y puesta en producción.",
         b3: "Optimización y refactorización de rendimiento de aplicaciones existentes sobre JBoss, Tomcat, DB2 y MySQL."
       },
       a3media: {
@@ -244,7 +246,9 @@ const translations = {
         globant: "Globant (Santander)",
         inditex: "Inditex",
         banca: "Banking (ING / BNP)",
-        medios: "Media & Insurance"
+        medios: "Media & Insurance",
+        publico: "Public Sector & Consulting",
+        inicial: "Early Career"
       },
       globant: {
         role: "Software Application Analyst at Santander — Core Backend Architecture & AI Vanguard",
@@ -459,6 +463,8 @@ function setLanguage(lang) {
   setText('filter-inditex', t.timeline.filters.inditex);
   setText('filter-banca', t.timeline.filters.banca);
   setText('filter-medios', t.timeline.filters.medios);
+  setText('filter-publico', t.timeline.filters.publico);
+  setText('filter-inicial', t.timeline.filters.inicial);
 
   // Globant
   setText('globant-role', t.timeline.globant.role);
