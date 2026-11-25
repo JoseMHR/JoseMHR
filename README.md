@@ -71,7 +71,7 @@ I am a Software Engineer and Senior Backend Architect with **+18 years of contin
       </p>
       <hr>
       <p>
-        <a href="https://sites.google.com/view/the-lazarus-saga/home" target="_blank" rel="noopener">
+        <a href="https://josemhr.github.io/SagaLazaro/" target="_blank" rel="noopener">
           <img src="https://img.shields.io/badge/Universe-Official_Site-6366f1?style=flat-square&logo=googleearth&logoColor=white" alt="Official Web" />
         </a>
         &nbsp;
