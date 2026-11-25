@@ -63,11 +63,11 @@ I am a Software Engineer and Senior Backend Architect with **+18 years of contin
       <h3>📖 The Lazarus Saga (La Saga Lázaro)</h3>
       <p>
         <img src="https://img.shields.io/badge/Fantasy_%2F_Sci--Fi-Dark_Universe-8b5cf6?style=flat-square" alt="Genre" />
-        <img src="https://img.shields.io/badge/Published-2_Novels-e11d48?style=flat-square" alt="2 Novels" />
+        <img src="https://img.shields.io/badge/Publisher-Editorial_Adarve-0284c7?style=flat-square" alt="Editorial Adarve" />
         <img src="https://img.shields.io/badge/Amazon-Worldwide_(ES_%2F_EN)-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon" />
       </p>
       <p>
-        Original dark fantasy and sci-fi literary universe. Two novels published independently in Spanish and English on Amazon establishing the narrative lore, worldbuilding, and metaphysical cosmology behind <em>Echoes of Truth</em> and the Taos game ecosystem.
+        Original dark fantasy and sci-fi literary universe. Two novels published by Spanish publishing house Editorial Adarve and on Amazon (ES / EN) establishing the narrative lore, worldbuilding, and metaphysical cosmology behind <em>Echoes of Truth</em> and the Taos game ecosystem.
       </p>
       <hr>
       <p>
