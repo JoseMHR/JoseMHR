@@ -154,4 +154,9 @@ Interested in discussing distributed backend architectures, mission-critical Jav
 
 - ✉️ **Direct Email:** [jose.manuel.reyes.1986@gmail.com](mailto:jose.manuel.reyes.1986@gmail.com)
 - 💼 **LinkedIn:** [linkedin.com/in/josemhr](https://www.linkedin.com/in/josemhr/)
-- 🌐 **Web CV:** [josemhr.github.io/JoseMHR](https://josemhr.github.io/JoseMHR/)
+- 🌐 **Web CV:** [https://josemhr.github.io/JoseMHR/](https://josemhr.github.io/JoseMHR/)
+
+---
+
+## 🌐 Web Oficial & CV Online
+👉 **[https://josemhr.github.io/JoseMHR/](https://josemhr.github.io/JoseMHR/)**
