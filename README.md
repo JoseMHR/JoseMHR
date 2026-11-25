@@ -42,6 +42,10 @@ I am a Software Engineer and Senior Backend Architect with **+18 years of contin
       </p>
       <hr>
       <p>
+        <a href="https://store.godotengine.org/asset/taos/taos-game-maker/" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/badge/Godot_Store-Asset_Library-478CBF?style=flat-square&logo=godotengine&logoColor=white" alt="Godot Asset Store" />
+        </a>
+        &nbsp;
         <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener">
           <img src="https://img.shields.io/badge/Itch.io-Play_Demo-FA5C5C?style=flat-square&logo=itchdotio&logoColor=white" alt="Play Demo on Itch.io" />
         </a>

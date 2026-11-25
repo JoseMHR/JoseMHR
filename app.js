@@ -183,6 +183,7 @@ const translations = {
       tgmTitle: "Taos Game Maker Engine",
       tgmSub: "Framework Modular para Godot 4 · Creador y Lead Developer",
       tgmDesc: "Framework data-driven modular para Godot 4 desacoplado mediante esquemas JSON, con un estudio web local de herramientas visuales (Python / Vue 3). Diseñado para crear RPGs tácticos con combate por turnos, diálogos e inventario, validado con el juego completo Echoes of Truth.",
+      tgmStoreBtn: "Godot Asset Store ↗",
       tgmDemoBtn: "Jugar Demo: Echoes of Truth ↗",
       tgmDocBtn: "Ver Documentación & Web ↗",
       tgmGhBtn: "Repositorio GitHub ↗",
@@ -376,6 +377,7 @@ const translations = {
       tgmTitle: "Taos Game Maker Engine",
       tgmSub: "Modular Framework for Godot 4 · Creator & Lead Developer",
       tgmDesc: "Modular data-driven framework for Godot 4 decoupled through JSON schemas, featuring a local web studio suite of visual tools (Python / Vue 3). Designed for tactical turn-based RPGs with dialogue and inventory systems, validated with the full playable game Echoes of Truth.",
+      tgmStoreBtn: "Godot Asset Store ↗",
       tgmDemoBtn: "Play Demo: Echoes of Truth ↗",
       tgmDocBtn: "View Documentation & Web ↗",
       tgmGhBtn: "GitHub Repository ↗",
@@ -602,6 +604,7 @@ function setLanguage(lang) {
   setText('tgm-title', t.projects.tgmTitle);
   setText('tgm-sub', t.projects.tgmSub);
   setText('tgm-desc', t.projects.tgmDesc);
+  setHtml('tgm-store-btn', `<span>🏪</span> ${t.projects.tgmStoreBtn}`);
   setHtml('tgm-demo-btn', `<span>🎮</span> ${t.projects.tgmDemoBtn}`);
   setHtml('tgm-doc-btn', `<span>🌐</span> ${t.projects.tgmDocBtn}`);
   setText('lazarus-title', t.projects.lazarusTitle);
