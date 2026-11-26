@@ -182,11 +182,16 @@ const translations = {
       title: "Proyectos Destacados",
       tgmTitle: "Taos Game Maker Engine",
       tgmSub: "Framework Modular para Godot 4 · Creador y Lead Developer",
-      tgmDesc: "Framework data-driven modular para Godot 4 desacoplado mediante esquemas JSON, con un estudio web local de herramientas visuales (Python / Vue 3). Diseñado para crear RPGs tácticos con combate por turnos, diálogos e inventario, validado con el juego completo Echoes of Truth.",
+      tgmDesc: "Framework data-driven modular para Godot 4 desacoplado mediante esquemas JSON, con un estudio web local de más de 45 herramientas visuales (Python / Vue 3). Diseñado para crear RPGs tácticos con combate por turnos, diálogos e inventario con total control técnico.",
       tgmStoreBtn: "Godot Asset Store ↗",
-      tgmDemoBtn: "Jugar Demo: Echoes of Truth ↗",
       tgmDocBtn: "Ver Documentación & Web ↗",
       tgmGhBtn: "Repositorio GitHub ↗",
+      gameTitle: "Ecos de la Verdad (Echoes of Truth)",
+      gameSub: "Videojuego JRPG Táctico · Diseñador, Guionista y Programador",
+      gameDesc: "JRPG táctico por turnos y exploración en cuadrícula en primera persona ambientado en el universo de la Saga Lázaro. Desarrollado como showcase completo del motor Taos Game Maker. Disponible oficialmente en Google Play Store para dispositivos Android, y en Itch.io para jugar en PC, Windows, macOS y Linux.",
+      gamePlayStoreBtn: "Google Play Store (Android) ↗",
+      gameItchBtn: "Jugar en Itch.io (PC / Mac) ↗",
+      gameTrailerBtn: "Ver Tráiler Oficial ↗",
       lazarusTitle: "La Saga Lázaro (The Lazarus Saga)",
       lazarusSub: "Universo Literario de Fantasía Oscura · Autor & Creador de IP",
       lazarusDesc: "Dos novelas publicadas tanto por la editorial española Adarve como en Amazon en español e inglés (Saga Lázaro: El Secreto de Lázaro y La Senda de Lázaro), que dan origen al universo, lore y trasfondo narrativo de Echoes of Truth.",
@@ -376,11 +381,16 @@ const translations = {
       title: "Featured Projects",
       tgmTitle: "Taos Game Maker Engine",
       tgmSub: "Modular Framework for Godot 4 · Creator & Lead Developer",
-      tgmDesc: "Modular data-driven framework for Godot 4 decoupled through JSON schemas, featuring a local web studio suite of visual tools (Python / Vue 3). Designed for tactical turn-based RPGs with dialogue and inventory systems, validated with the full playable game Echoes of Truth.",
+      tgmDesc: "Modular data-driven framework for Godot 4 decoupled through JSON schemas, featuring a local web studio suite of 45+ visual tools (Python / Vue 3). Designed for tactical turn-based RPGs with dialogue and inventory systems and full engineering control.",
       tgmStoreBtn: "Godot Asset Store ↗",
-      tgmDemoBtn: "Play Demo: Echoes of Truth ↗",
       tgmDocBtn: "View Documentation & Web ↗",
       tgmGhBtn: "GitHub Repository ↗",
+      gameTitle: "Echoes of Truth (Ecos de la Verdad)",
+      gameSub: "Tactical JRPG Video Game · Designer, Writer & Programmer",
+      gameDesc: "Turn-based tactical JRPG and first-person grid crawler set in The Lazarus Saga universe, developed as the full flagship showcase for Taos Game Maker. Officially available on Google Play Store for Android devices, and on Itch.io for PC, Windows, macOS, and Linux.",
+      gamePlayStoreBtn: "Google Play Store (Android) ↗",
+      gameItchBtn: "Play on Itch.io (PC / Mac) ↗",
+      gameTrailerBtn: "Watch Official Trailer ↗",
       lazarusTitle: "The Lazarus Saga (La Saga Lázaro)",
       lazarusSub: "Dark Fantasy Literary Universe · Author & IP Creator",
       lazarusDesc: "Two novels published by Spanish publishing house Editorial Adarve and on Amazon in Spanish and English (The Lazarus Saga: The Secret of Lazarus and The Path of Lazarus), establishing the universe, lore, and narrative worldbuilding behind Echoes of Truth.",
@@ -601,12 +611,21 @@ function setLanguage(lang) {
   // 7. Projects
   setText('projects-tag', t.projects.tag);
   setText('projects-title', t.projects.title);
+  // Engine
   setText('tgm-title', t.projects.tgmTitle);
   setText('tgm-sub', t.projects.tgmSub);
   setText('tgm-desc', t.projects.tgmDesc);
   setHtml('tgm-store-btn', `<span>🏪</span> ${t.projects.tgmStoreBtn}`);
-  setHtml('tgm-demo-btn', `<span>🎮</span> ${t.projects.tgmDemoBtn}`);
   setHtml('tgm-doc-btn', `<span>🌐</span> ${t.projects.tgmDocBtn}`);
+  setHtml('tgm-gh-btn', `<span>🐙</span> ${t.projects.tgmGhBtn}`);
+  // Game
+  setText('game-title', t.projects.gameTitle);
+  setText('game-sub', t.projects.gameSub);
+  setText('game-desc', t.projects.gameDesc);
+  setHtml('game-playstore-btn', `<span>📱</span> ${t.projects.gamePlayStoreBtn}`);
+  setHtml('game-itch-btn', `<span>🎮</span> ${t.projects.gameItchBtn}`);
+  setHtml('game-trailer-btn', `<span>🎬</span> ${t.projects.gameTrailerBtn}`);
+  // Books
   setText('lazarus-title', t.projects.lazarusTitle);
   setText('lazarus-sub', t.projects.lazarusSub);
   setText('lazarus-desc', t.projects.lazarusDesc);

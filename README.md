@@ -29,8 +29,8 @@ I am a Software Engineer and Senior Backend Architect with **+18 years of contin
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>⚔️ Taos Game Maker & Echoes of Truth</h3>
+    <td width="33%" valign="top">
+      <h3>⚔️ Taos Game Maker</h3>
       <p>
         <img src="https://img.shields.io/badge/Godot_4-GDScript-478CBF?style=flat-square&logo=godotengine&logoColor=white" alt="Godot 4" />
         <img src="https://img.shields.io/badge/JSON-Data--Driven-F7DF1E?style=flat-square&logo=json&logoColor=black" alt="JSON" />
@@ -38,28 +38,49 @@ I am a Software Engineer and Senior Backend Architect with **+18 years of contin
         <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT" />
       </p>
       <p>
-        Modular, data-driven framework for <strong>Godot 4</strong> decoupled via JSON schemas, featuring a local web studio suite of 45+ visual tools (Python / Vue 3). Engineered for tactical turn-based RPGs with dialogue and inventory systems, validated with the full playable game <strong>Echoes of Truth</strong>.
+        Modular, data-driven framework for <strong>Godot 4</strong> decoupled via JSON schemas, featuring a local web studio suite of 45+ visual tools (Python / Vue 3). Engineered for tactical turn-based RPGs with dialogue and inventory systems.
       </p>
       <hr>
       <p>
         <a href="https://store.godotengine.org/asset/taos/taos-game-maker/" target="_blank" rel="noopener">
           <img src="https://img.shields.io/badge/Godot_Store-Asset_Library-478CBF?style=flat-square&logo=godotengine&logoColor=white" alt="Godot Asset Store" />
         </a>
-        &nbsp;
-        <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener">
-          <img src="https://img.shields.io/badge/Itch.io-Play_Demo-FA5C5C?style=flat-square&logo=itchdotio&logoColor=white" alt="Play Demo on Itch.io" />
-        </a>
-        &nbsp;
+        <br/>
         <a href="https://josemhr.github.io/TaosGameMaker/" target="_blank" rel="noopener">
           <img src="https://img.shields.io/badge/Docs_%26_Web-Explore_Portal-0284c7?style=flat-square&logo=googlechrome&logoColor=white" alt="Documentation & Web" />
         </a>
-        &nbsp;
+        <br/>
         <a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener">
           <img src="https://img.shields.io/badge/GitHub-Repository-24292e?style=flat-square&logo=github&logoColor=white" alt="GitHub Repo" />
         </a>
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
+      <h3>🎮 Ecos de la Verdad (Echoes of Truth)</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Genre-Tactical_JRPG-e11d48?style=flat-square" alt="Tactical JRPG" />
+        <img src="https://img.shields.io/badge/Google_Play-Android-34A853?style=flat-square&logo=googleplay&logoColor=white" alt="Google Play" />
+        <img src="https://img.shields.io/badge/Itch.io-PC_%2F_Mac-FA5C5C?style=flat-square&logo=itchdotio&logoColor=white" alt="Itch.io" />
+      </p>
+      <p>
+        Full-length tactical JRPG and dungeon crawler set in the Lazarus Saga universe, built 100% on Taos Game Maker. Playable on mobile devices via Google Play Store and on desktop (Windows, Mac, Linux) via itch.io.
+      </p>
+      <hr>
+      <p>
+        <a href="https://play.google.com/store/apps/details?id=com.taosworld.ecosdelaverdad" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/badge/Google_Play-Play_on_Android-34A853?style=flat-square&logo=googleplay&logoColor=white" alt="Play on Google Play" />
+        </a>
+        <br/>
+        <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/badge/Itch.io-Play_PC_%2F_Mac-FA5C5C?style=flat-square&logo=itchdotio&logoColor=white" alt="Play on Itch.io" />
+        </a>
+        <br/>
+        <a href="https://www.youtube.com/watch?v=xNsCNHatSUI" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/badge/Trailer-Official_Video-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="Official Trailer" />
+        </a>
+      </p>
+    </td>
+    <td width="33%" valign="top">
       <h3>📖 The Lazarus Saga (La Saga Lázaro)</h3>
       <p>
         <img src="https://img.shields.io/badge/Fantasy_%2F_Sci--Fi-Dark_Universe-8b5cf6?style=flat-square" alt="Genre" />
@@ -67,18 +88,18 @@ I am a Software Engineer and Senior Backend Architect with **+18 years of contin
         <img src="https://img.shields.io/badge/Amazon-Worldwide_(ES_%2F_EN)-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon" />
       </p>
       <p>
-        Original dark fantasy and sci-fi literary universe. Two novels published by Spanish publishing house Editorial Adarve and on Amazon (ES / EN) establishing the narrative lore, worldbuilding, and metaphysical cosmology behind <em>Echoes of Truth</em> and the Taos game ecosystem.
+        Original dark fantasy and sci-fi literary universe. Two novels published by Spanish publishing house Editorial Adarve and on Amazon (ES / EN) establishing the narrative lore, worldbuilding, and metaphysical cosmology behind <em>Echoes of Truth</em>.
       </p>
       <hr>
       <p>
         <a href="https://josemhr.github.io/SagaLazaro/" target="_blank" rel="noopener">
           <img src="https://img.shields.io/badge/Universe-Official_Site-6366f1?style=flat-square&logo=googleearth&logoColor=white" alt="Official Web" />
         </a>
-        &nbsp;
+        <br/>
         <a href="https://www.amazon.com/dp/B0HMFQVSF2" target="_blank" rel="noopener">
           <img src="https://img.shields.io/badge/Amazon-Book_1_(EN)-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon Book 1" />
         </a>
-        &nbsp;
+        <br/>
         <a href="https://www.amazon.com/dp/B0HMF7GWZD" target="_blank" rel="noopener">
           <img src="https://img.shields.io/badge/Amazon-Book_2_(EN)-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon Book 2" />
         </a>
